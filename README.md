@@ -1,5 +1,12 @@
 # playlists
 
+## Dependencies
+
+- mpd with a library
+- mpc
+- python
+- bash
+
 ## MPD matching
 
 Create a file `files/00-favorites.txt` containing:
@@ -16,8 +23,8 @@ Run the `mplaylist.sh` script:
 ./mplaylist.sh files/00-favorites.txt
 ```
 
-- `files/01-result_mplaylist.txt` : tracks matched in mpc
-- `files/01-result_mplaylist_missing.txt` : tracks not matched in mpc
+- `files/01-result_mplaylist.txt` : tracks matched with mpc
+- `files/01-result_mplaylist_missing.txt` : tracks not matched with mpc
 
 ## Playlist creation
 
