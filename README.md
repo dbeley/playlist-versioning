@@ -2,10 +2,15 @@
 
 ## Dependencies
 
-- mpd with a library
-- mpc
-- python
-- bash
+- mpd/mpc
+- python/bash
+- a list of your favorite tracks
+- a list of artists linked to a playlist
+
+Limitations:
+- every track of an artist will be added to the same playlist
+- for now an artist can't be added to several playlists
+- mpc query language is quite limited and only support exact matches
 
 The script assume the library is organized using `ARTIST/ALBUM/TRACK` folder structure.
 
