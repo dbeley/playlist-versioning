@@ -18,6 +18,8 @@ ARTIST3 - FAVORITE_TRACK4
 ...
 ```
 
+I personnaly export all my favorite tracks on last.fm with [this script](https://github.com/dbeley/lastfm-scraper/blob/master/lastfm-all_favorite_tracks.py).
+
 Run the `mplaylist.sh` script:
 ```
 ./mplaylist.sh files/00-favorites.txt
