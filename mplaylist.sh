@@ -13,9 +13,7 @@ fi
 FILE=$1
 
 while read name; do
-	# artist="$(cut -d' - ' -f1 <<<$name)"
 	artist="$(awk -F " - " '{printf $1}' <<<$name)"
-	# track="$(cut -d' - ' -f2- <<<$name)"
 	track="$(awk -F " - " '{printf $2}' <<<$name)"
 
     artist="${artist#"${artist%%[![:space:]]*}"}"
