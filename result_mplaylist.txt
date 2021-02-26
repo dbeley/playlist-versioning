@@ -1,0 +1,2090 @@
+mpc search '((artist == "Sugar") AND (title == "Hoover Dam"))'
+Sugar/Copper Blue/05 Hoover Dam.mp3
+mpc search '((artist == "Sugar") AND (title == "Fortune Teller"))'
+Sugar/Copper Blue/08 Fortune Teller.mp3
+mpc search '((artist == "Sugar") AND (title == "Changes"))'
+Sugar/Copper Blue/03 Changes.mp3
+mpc search '((artist == "Sugar") AND (title == "A Good Idea"))'
+Sugar/Copper Blue/02 A Good Idea.mp3
+mpc search '((artist == "Glass Beach") AND (title == "glass beach"))'
+glass beach/the first glass beach album/08 glass beach.mp3
+mpc search '((artist == "Glass Beach") AND (title == "cold weather"))'
+glass beach/the first glass beach album/06 cold weather.mp3
+mpc search '((artist == "Hoodoo Gurus") AND (title == "Tojo"))'
+Hoodoo Gurus/Stoneage Romeos/09 Tojo.mp3
+mpc search '((artist == "Donovan") AND (title == "Sunshine Superman"))'
+Donovan/Sunshine Superman/01 Sunshine Superman.mp3
+mpc search '((artist == "Donovan") AND (title == "Wear Your Love Like Heaven"))'
+Donovan/A Gift From a Flower to a Garden/01 Wear Your Love Like Heaven.mp3
+mpc search '((artist == "The Avalanches Feat. Cola Boyy & Mick Jones") AND (title == "We Go On"))'
+The Avalanches/We Will Always Love You/11 We Go On.mp3
+mpc search '((artist == "The Avalanches Feat. Mgmt & Johnny Marr") AND (title == "The Divine Chord"))'
+The Avalanches/We Will Always Love You/04 The Divine Chord.mp3
+mpc search '((artist == "The Avalanches") AND (title == "Frontier Psychiatrist"))'
+The Avalanches/Since I Left You/13 Frontier Psychiatrist.mp3
+mpc search '((artist == "The Avalanches") AND (title == "Electricity"))'
+The Avalanches/Since I Left You/10 Electricity.mp3
+mpc search '((artist == "The Avalanches") AND (title == "Close to You"))'
+The Avalanches/Since I Left You/07 Close to You.mp3
+mpc search '((artist == "Beulah") AND (title == "A Good Man Is Easy to Kill"))'
+Beulah/The Coast Is Never Clear/02 A Good Man Is Easy to Kill.mp3
+mpc search '((artist == "Beulah") AND (title == "If We Can Land A Man On The Moon, Surely I Can Win Your Heart"))'
+Beulah/When Your Heartstrings Break/11 If We Can Land a Man on the Moon, Surely I Can Win Your Heart.mp3
+mpc search '((artist == "Beulah") AND (title == "Score From Augusta"))'
+Beulah/When Your Heartstrings Break/01 Score From Augusta.mp3
+mpc search '((artist == "Rilo Kiley") AND (title == "Does He Love You?"))'
+Rilo Kiley/More Adventurous/02 Does He Love You_.mp3
+mpc search '((artist == "Rilo Kiley") AND (title == "Paint's Peeling"))'
+Rilo Kiley/The Execution of All Things/02 Paint's Peeling.mp3
+mpc search '((artist == "Spoon") AND (title == "Inside Out"))'
+Spoon/They Want My Soul/02 Inside Out.mp3
+mpc search '((artist == "Spoon") AND (title == "I Turn My Camera On"))'
+Spoon/Gimme Fiction/03 I Turn My Camera On.mp3
+mpc search '((artist == "Spoon") AND (title == "The Beast and Dragon, Adored"))'
+Spoon/Gimme Fiction/01 The Beast and Dragon, Adored.mp3
+mpc search '((artist == "Spoon") AND (title == "Something to Look Forward To"))'
+Spoon/Kill the Moonlight/03 Something to Look Forward to.mp3
+mpc search '((artist == "Spoon") AND (title == "Stay Don't Go"))'
+Spoon/Kill the Moonlight/04 Stay Don't Go.mp3
+mpc search '((artist == "Blondie") AND (title == "X Offender"))'
+Blondie/Blondie/01 X Offender.mp3
+mpc search '((artist == "Blondie") AND (title == "Atomic"))'
+Blondie/Eat to the Beat/09 Atomic.mp3
+mpc search '((artist == "Blondie") AND (title == "One Way or Another"))'
+Blondie/Parallel Lines/02 One Way or Another.mp3
+mpc search '((artist == "The Avalanches") AND (title == "Since I Left You"))'
+The Avalanches/Since I Left You/01 Since I Left You.mp3
+mpc search '((artist == "Calum Bowen") AND (title == "Lovely City"))'
+Calum Bowen/Lovely Planet Original Soundtrack/02 Lovely City.mp3
+mpc search '((artist == "Rilo Kiley") AND (title == "The Good That Won't Come Out"))'
+Rilo Kiley/The Execution of All Things/01 The Good That Won't Come Out.mp3
+mpc search '((artist == "Nits") AND (title == "House on the Hill"))'
+Nits/Ting/05 House on the Hill.flac
+mpc search '((artist == "Nits") AND (title == "Fire in My Head"))'
+Nits/Ting/04 Fire in My Head.flac
+mpc search '((artist == "Nits") AND (title == "Soap Bubble Box"))'
+Nits/Nits_/33 Soap Bubble Box.mp3
+Nits/Ting/03 Soap Bubble Box.flac
+mpc search '((artist == "The Strokes") AND (title == "Selfless"))'
+The Strokes/The New Abnormal/02 Selfless.mp3
+mpc search '((artist == "Tuxedomoon") AND (title == "No Tears"))'
+Tuxedomoon/Desire _ No Tears/11 No Tears.mp3
+mpc search '((artist == "Tuxedomoon") AND (title == "In A Manner Of Speaking"))'
+Tuxedomoon/Holy Wars/05 In a Manner of Speaking.mp3
+mpc search '((artist == "The Beatles") AND (title == "Penny Lane"))'
+The Beatles/Magical Mystery Tour/09 Penny Lane.flac
+mpc search '((artist == "The Beatles") AND (title == "Ticket to Ride"))'
+The Beatles/Help!/07 Ticket to Ride.flac
+mpc search '((artist == "The Waterboys") AND (title == "The Whole of the Moon"))'
+The Waterboys/This Is the Sea/02 The Whole of the Moon.mp3
+mpc search '((artist == "Tori Amos") AND (title == "Silent All These Years"))'
+Tori Amos/Little Earthquakes/03 Silent All These Years.mp3
+Tori Amos/Tales of a Librarian/03 Silent All These Years.mp3
+mpc search '((artist == "Tori Amos") AND (title == "Crucify"))'
+Tori Amos/Little Earthquakes/01 Crucify.mp3
+Tori Amos/Tales of a Librarian/12 Crucify.mp3
+mpc search '((artist == "The Lemonheads") AND (title == "It's a Shame about Ray"))'
+The Lemonheads/It's a Shame About Ray/03 It's a Shame About Ray.mp3
+mpc search '((artist == "Sugar") AND (title == "If I Can't Change Your Mind"))'
+Sugar/Copper Blue/07 If I Can't Change Your Mind.mp3
+mpc search '((artist == "Sugar") AND (title == "Helpless"))'
+Sugar/Copper Blue/04 Helpless.mp3
+mpc search '((artist == "Georges Brassens") AND (title == "Ballade Des Dames Du Temps Jadis"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/12 Ballade des dames du temps jadis.mp3
+Georges Brassens/Les 100 plus belles chansons/11 Ballade des dames du temps jadis.mp3
+Georges Brassens/Volume 1_ La Mauvaise Réputation/05 Ballade des dames du temps jadis.flac
+mpc search '((artist == "Georges Brassens") AND (title == "La Cane de Jeanne"))'
+Georges Brassens/Les 100 plus belles chansons/16 La Cane de Jeanne.mp3
+Georges Brassens/Volume 2_ Les Amoureux des bancs publics/05 La Cane de Jeanne.flac
+Georges Brassens/Volume 5 _ Le Pornographe/15 La Cane de Jeanne.flac
+mpc search '((artist == "Paul Simon") AND (title == "Mother and Child Reunion"))'
+Paul Simon/Paul Simon/01 Mother and Child Reunion.mp3
+Paul Simon/Paul Simon In Concert Live Rhymin'/07 Mother And Child Reunion.mp3
+mpc search '((artist == "Shai Maestro") AND (title == "Brave Ones"))'
+Shai Maestro/Shai Maestro Trio/03 Brave Ones.flac
+mpc search '((artist == "Shai Maestro Trio") AND (title == "Gal"))'
+Shai Maestro/Live at Umeå Jazzstudio 2013/01 Gal.m4a
+Shai Maestro Trio/The Road to Ithaca/01 Gal.flac
+mpc search '((artist == "Deerhunter") AND (title == "Nothing Ever Happened"))'
+Deerhunter/Microcastle _ Weird Era Cont_/09 Nothing Ever Happened.mp3
+mpc search '((artist == "Animal Collective") AND (title == "Bluish"))'
+Animal Collective/Merriweather Post Pavilion/06 Bluish.mp3
+mpc search '((artist == "Animal Collective") AND (title == "Did You See the Words"))'
+Animal Collective/Feels/01 Did You See the Words.mp3
+Animal Collective/Feels/12 Did You See the Words.mp3
+mpc search '((artist == "Animal Collective") AND (title == "Summertime Clothes"))'
+Animal Collective/Merriweather Post Pavilion/04 Summertime Clothes.mp3
+mpc search '((artist == "Animal Collective") AND (title == "Peacebone"))'
+Animal Collective/Strawberry Jam/01 Peacebone.mp3
+mpc search '((artist == "Panda Bear") AND (title == "Bros"))'
+Panda Bear/Person Pitch/03 Bros.mp3
+mpc search '((artist == "Panda Bear") AND (title == "Comfy in Nautica"))'
+Panda Bear/Person Pitch/01 Comfy in Nautica.mp3
+mpc search '((artist == "Beach House") AND (title == "Wishes"))'
+Beach House/Bloom/08 Wishes.mp3
+mpc search '((artist == "Beach House") AND (title == "Lazuli"))'
+Beach House/Bloom/03 Lazuli.mp3
+mpc search '((artist == "Beach House") AND (title == "Wild"))'
+Beach House/Bloom/02 Wild.mp3
+mpc search '((artist == "Beach House") AND (title == "Other People"))'
+Beach House/Bloom/04 Other People.mp3
+mpc search '((artist == "Beach House") AND (title == "Myth"))'
+Beach House/Bloom/01 Myth.mp3
+mpc search '((artist == "Beach House") AND (title == "Silver Soul"))'
+Beach House/Teen Dream/02 Silver Soul.mp3
+mpc search '((artist == "Animal Collective") AND (title == "My Girls"))'
+Animal Collective/Merriweather Post Pavilion/02 My Girls.mp3
+mpc search '((artist == "Deerhunter") AND (title == "Agoraphobia"))'
+Deerhunter/Microcastle _ Weird Era Cont_/02 Agoraphobia.mp3
+mpc search '((artist == "Kero Kero Bonito") AND (title == "Heard A Song"))'
+Kero Kero Bonito/Bonito Generation/02 Heard a Song.mp3
+mpc search '((artist == "Kero Kero Bonito") AND (title == "Fish Bowl"))'
+Kero Kero Bonito/Bonito Generation/04 Fish Bowl.mp3
+mpc search '((artist == "Kero Kero Bonito") AND (title == "Waking Up"))'
+Kero Kero Bonito/Bonito Generation/01 Waking Up.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "Comeback"))'
+Carly Rae Jepsen/Dedicated Side B/10 Comeback.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "Fake Mona Lisa"))'
+Carly Rae Jepsen/Dedicated Side B/08 Fake Mona Lisa.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "When I Needed You"))'
+Carly Rae Jepsen/E•MO•TION/12 When I Needed You.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "Warm Blood"))'
+Carly Rae Jepsen/E•MO•TION/11 Warm Blood.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "LA Hallucinations"))'
+Carly Rae Jepsen/E•MO•TION/10 LA Hallucinations.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "Your Type"))'
+Carly Rae Jepsen/E•MO•TION/08 Your Type.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "Making the Most of the Night"))'
+Carly Rae Jepsen/E•MO•TION/07 Making the Most of the Night.mp3
+mpc search '((artist == "Life Without Buildings") AND (title == "The Leanover"))'
+Life Without Buildings/Any Other City/04 The Leanover.mp3
+mpc search '((artist == "Kate Bush") AND (title == "Suspended in Gaffa"))'
+Kate Bush/The Dreaming/04 Suspended in Gaffa.mp3
+mpc search '((artist == "Kate Bush") AND (title == "The Man With the Child in His Eyes"))'
+Kate Bush/The Kick Inside/05 The Man With the Child in His Eyes.mp3
+mpc search '((artist == "Kate Bush") AND (title == "Pull Out the Pin"))'
+Kate Bush/The Dreaming/03 Pull Out the Pin.mp3
+mpc search '((artist == "Kate Bush") AND (title == "Running Up That Hill (A Deal With God)"))'
+Kate Bush/Hounds of Love/01 Running Up That Hill (A Deal With God).mp3
+mpc search '((artist == "Kate Bush") AND (title == "Babooshka"))'
+Kate Bush/Never for Ever/01 Babooshka.mp3
+mpc search '((artist == "The Microphones") AND (title == "The Moon"))'
+The Microphones/The Glow, Part 2/03 The Moon.mp3
+mpc search '((artist == "American Football ft. Elizabeth Powell") AND (title == "Every Wave to Ever Rise"))'
+American Football/American Football [2019]/02 Every Wave to Ever Rise.mp3
+mpc search '((artist == "American Football ft. Hayley Williams") AND (title == "Uncomfortably Numb"))'
+American Football/American Football [2019]/03 Uncomfortably Numb.mp3
+mpc search '((artist == "American Football") AND (title == "Silhouettes"))'
+American Football/American Football [2019]/01 Silhouettes.mp3
+mpc search '((artist == "Wonder Girls") AND (title == "Baby Don't Play"))'
+Wonder Girls/REBOOT/01 Baby Don't Play.mp3
+mpc search '((artist == "Arcade Fire") AND (title == "Sprawl II (Mountains Beyond Mountains)"))'
+Arcade Fire/The Suburbs/15 Sprawl II (Mountains Beyond Mountains).mp3
+mpc search '((artist == "Arcade Fire") AND (title == "We Used to Wait"))'
+Arcade Fire/The Suburbs/13 We Used to Wait.mp3
+mpc search '((artist == "Arcade Fire") AND (title == "Ready to Start"))'
+Arcade Fire/The Suburbs/02 Ready to Start.mp3
+mpc search '((artist == "Arcade Fire") AND (title == "The Suburbs"))'
+Arcade Fire/The Suburbs/01 The Suburbs.mp3
+mpc search '((artist == "Deerhunter") AND (title == "Revival"))'
+Deerhunter/Halcyon Digest/03 Revival.mp3
+mpc search '((artist == "Deerhunter") AND (title == "Earthquake"))'
+Deerhunter/Halcyon Digest/01 Earthquake.mp3
+mpc search '((artist == "Parquet Courts") AND (title == "Tenderness"))'
+Parquet Courts/Wide Awake!/13 Tenderness.mp3
+mpc search '((artist == "Parquet Courts") AND (title == "Total Football"))'
+Parquet Courts/Wide Awake!/01 Total Football.mp3
+mpc search '((artist == "Big Thief") AND (title == "Mythological Beauty"))'
+Big Thief/Capacity/07 Mythological Beauty.mp3
+mpc search '((artist == "Glass Beach") AND (title == "classic j dies and goes to hell part 1"))'
+glass beach/the first glass beach album/01 classic j dies and goes to hell part 1.mp3
+mpc search '((artist == "Glass Beach") AND (title == "bedroom community"))'
+glass beach/the first glass beach album/02 bedroom community.mp3
+mpc search '((artist == "Gorillaz feat. Peter Hook & Georgia") AND (title == "Aries"))'
+Gorillaz/Song Machine, Season One_ Strange Timez/07 Aries.mp3
+mpc search '((artist == "Yves Tumor") AND (title == "Gospel for a New Century"))'
+Yves Tumor/Heaven to a Tortured Mind/01 Gospel for a New Century.mp3
+mpc search '((artist == "Adrianne Lenker") AND (title == "anything"))'
+Adrianne Lenker/songs/03 anything.flac
+mpc search '((artist == "Charli XCX feat. Lizzo") AND (title == "Blame it on Your Love"))'
+Charli XCX/Charli/08 Blame It on Your Love.mp3
+mpc search '((artist == "Charli XCX & Troye Sivan") AND (title == "1999"))'
+Charli XCX/Charli/04 1999.mp3
+mpc search '((artist == "Lianne La Havas") AND (title == "Weird Fishes"))'
+Lianne La Havas/Lianne La Havas/07 Weird Fishes.mp3
+mpc search '((artist == "Charli XCX") AND (title == "Backseat (feat. Carly Rae Jepsen)"))'
+Charli XCX/Pop 2 [Explicit]/01 Backseat (feat. Carly Rae Jepsen).mp3
+mpc search '((artist == "Charli XCX") AND (title == "detonate"))'
+Charli XCX/how i’m feeling now/05 detonate.mp3
+mpc search '((artist == "Charli XCX") AND (title == "forever"))'
+Charli XCX/how i’m feeling now/02 forever.mp3
+mpc search '((artist == "Charli XCX") AND (title == "claws"))'
+Charli XCX/how i’m feeling now/03 claws.mp3
+mpc search '((artist == "The Strokes") AND (title == "Eternal Summer"))'
+The Strokes/The New Abnormal/05 Eternal Summer.mp3
+mpc search '((artist == "The Strokes") AND (title == "The Adults Are Talking"))'
+The Strokes/The New Abnormal/01 The Adults Are Talking.mp3
+mpc search '((artist == "Avishai Cohen") AND (title == "Come Together"))'
+Avishai Cohen/Lyla/08 Come Together.mp3
+mpc search '((artist == "Avishai Cohen") AND (title == "Eleven Wives"))'
+Avishai Cohen Trio/Gently Disturbed/06 Eleven Wives.flac
+mpc search '((artist == "Avishai Cohen") AND (title == "Pinzin Kinzin"))'
+Avishai Cohen Trio/Gently Disturbed/04 Pinzin Kinzin.flac
+mpc search '((artist == "Avishai Cohen") AND (title == "Lo Baiom Velo Balyla"))'
+Avishai Cohen Trio/Gently Disturbed/03 Lo Baiom Velo Balyla.flac
+mpc search '((artist == "Avishai Cohen") AND (title == "Chutzpan"))'
+Avishai Cohen Trio/Gently Disturbed/02 Chutzpan.flac
+mpc search '((artist == "Avishai Cohen") AND (title == "Continuo"))'
+Avishai Cohen/Continuo/10 Continuo.flac
+mpc search '((artist == "Avishai Cohen") AND (title == "One for Mark"))'
+Avishai Cohen/Continuo/03 One for Mark.flac
+mpc search '((artist == "Avishai Cohen") AND (title == "Elli"))'
+Avishai Cohen/As Is… Live at the Blue Note/02 Elli.flac
+Avishai Cohen/Continuo/02 Elli.flac
+mpc search '((artist == "Avishai Cohen") AND (title == "Seattle"))'
+Avishai Cohen Trio/Gently Disturbed/01 Seattle.flac
+mpc search '((artist == "Avishai Cohen") AND (title == "Nu Nu"))'
+Avishai Cohen/Continuo/01 Nu Nu.flac
+mpc search '((artist == "Children of Bodom") AND (title == "Downfall"))'
+Children of Bodom/Hatebreeder/09 Downfall.mp3
+mpc search '((artist == "Children of Bodom") AND (title == "Children of Bodom"))'
+Children of Bodom/Bestbreeder From 1997 to 2000/07 Children of Bodom.mp3
+Children of Bodom/Hatebreeder/08 Children of Bodom.mp3
+mpc search '((artist == "Children of Bodom") AND (title == "Kissing the Shadows"))'
+Children of Bodom/Bestbreeder From 1997 to 2000/17 Kissing the Shadows.mp3
+Children of Bodom/Follow the Reaper/09 Kissing the Shadows.mp3
+mpc search '((artist == "Children of Bodom") AND (title == "Everytime I Die"))'
+Children of Bodom/Bestbreeder From 1997 to 2000/14 Everytime I Die.mp3
+Children of Bodom/Follow the Reaper/04 Everytime I Die.mp3
+mpc search '((artist == "Children of Bodom") AND (title == "Don't Stop At The Top"))'
+Children of Bodom/Follow the Reaper/10 Don't Stop at the Top.mp3
+Children of Bodom/Skeletons in the Closet/05 Don't Stop at the Top.mp3
+mpc search '((artist == "Children of Bodom") AND (title == "Bodom After Midnight"))'
+Children of Bodom/Bestbreeder From 1997 to 2000/13 Bodom After Midnight.mp3
+Children of Bodom/Follow the Reaper/02 Bodom After Midnight.mp3
+mpc search '((artist == "Children of Bodom") AND (title == "Silent Night, Bodom Night"))'
+Children of Bodom/Bestbreeder From 1997 to 2000/05 Silent Night, Bodom Night.mp3
+Children of Bodom/Hatebreeder/02 Silent Night, Bodom Night.mp3
+mpc search '((artist == "Georges Brassens") AND (title == "Grand"))'
+mpc search '((artist == "Gene Clark") AND (title == "With Tomorrow"))'
+Gene Clark/Gene Clark/02 With Tomorrow.mp3
+mpc search '((artist == "Fiona Apple") AND (title == "I Want You to Love Me"))'
+Fiona Apple/Fetch the Bolt Cutters/01 I Want You to Love Me.mp3
+mpc search '((artist == "Between the Buried and Me") AND (title == "Prequel to the Sequel"))'
+Between the Buried and Me/Colors/06 Prequel to the Sequel.mp3
+mpc search '((artist == "Gene Clark") AND (title == "Life’s Greatest Fool"))'
+Gene Clark/No Other/01 Life’s Greatest Fool.mp3
+mpc search '((artist == "The Band") AND (title == "Chest Fever"))'
+The Band/Music From Big Pink/08 Chest Fever.mp3
+The Band/Rock of Ages/16 Chest Fever.mp3
+mpc search '((artist == "Fugazi") AND (title == "Ex"))'
+mpc search '((artist == "Christopher Larkin") AND (title == "Greenpath"))'
+Christopher Larkin/Hollow Knight/05 Greenpath.flac
+mpc search '((artist == "Christopher Larkin") AND (title == "City of Tears"))'
+Christopher Larkin/Hollow Knight/09 City of Tears.flac
+mpc search '((artist == "Christopher Larkin") AND (title == "Dirtmouth"))'
+Christopher Larkin/Hollow Knight/02 Dirtmouth.flac
+mpc search '((artist == "Christopher Larkin") AND (title == "Resting Grounds"))'
+Christopher Larkin/Hollow Knight/15 Resting Grounds.flac
+mpc search '((artist == "Belle and Sebastian") AND (title == "Dirty Dream Number Two"))'
+Belle and Sebastian/The Boy With the Arab Strap/08 Dirty Dream Number Two.mp3
+mpc search '((artist == "Belle and Sebastian") AND (title == "Get Me Away From Here, I’m Dying"))'
+Belle and Sebastian/If You’re Feeling Sinister/06 Get Me Away From Here, I’m Dying.mp3
+mpc search '((artist == "Belle and Sebastian") AND (title == "Mayfly"))'
+Belle and Sebastian/If You’re Feeling Sinister/08 Mayfly.mp3
+mpc search '((artist == "Belle and Sebastian") AND (title == "Seeing Other People"))'
+Belle and Sebastian/If You’re Feeling Sinister/02 Seeing Other People.mp3
+mpc search '((artist == "Serge Gainsbourg") AND (title == "Melody"))'
+Serge Gainsbourg/Histoire de Melody Nelson/01 Melody.flac
+mpc search '((artist == "Serge Gainsbourg") AND (title == "Comic Strip"))'
+Serge Gainsbourg/Initials B.B_/02 Comic Strip.flac
+Serge Gainsbourg/Initials B.B_/14 Comic Strip.flac
+mpc search '((artist == "Serge Gainsbourg") AND (title == "Docteur Jekyll et Monsieur Hyde"))'
+Serge Gainsbourg/Initials B.B_/04 Docteur Jekyll et Monsieur Hyde.flac
+mpc search '((artist == "Serge Gainsbourg") AND (title == "Hold Up"))'
+Serge Gainsbourg/Initials B.B_/11 Hold Up.flac
+Serge Gainsbourg/Initials B.B_/16 Hold Up.flac
+mpc search '((artist == "Serge Gainsbourg") AND (title == "Initials B.B."))'
+Serge Gainsbourg/Initials B.B_/01 Initials B.B_.flac
+mpc search '((artist == "Serge Gainsbourg") AND (title == "Bonnie and Clyde"))'
+Serge Gainsbourg/Initials B.B_/08 Bonnie and Clyde.flac
+mpc search '((artist == "Michel Fugain") AND (title == "Attention mesdames et messieurs"))'
+Michel Fugain/Les Plus Grands Succès/08 Attention mesdames et messieurs.flac
+mpc search '((artist == "Michel Fugain") AND (title == "Une belle histoire"))'
+Michel Fugain/Les Plus Grands Succès/02 Une belle histoire.flac
+mpc search '((artist == "Michel Fugain") AND (title == "Je N’aurai Pas Le Temps"))'
+Michel Fugain/Les Plus Grands Succès/01 Je n’aurai pas le temps.flac
+mpc search '((artist == "Michel Fugain") AND (title == "fais comme l’oiseau"))'
+Michel Fugain/Les Plus Grands Succès/03 Fais comme l’oiseau.flac
+mpc search '((artist == "David Bowie") AND (title == "Speed of Life"))'
+David Bowie/Low/01 Speed of Life.mp3
+mpc search '((artist == "David Bowie") AND (title == "Sound and Vision"))'
+David Bowie/Low/04 Sound and Vision.mp3
+mpc search '((artist == "The Kinks") AND (title == "Victoria"))'
+The Kinks/Arthur (or The Decline and Fall of the British Empire)/01 Victoria.mp3
+The Kinks/Arthur (or The Decline and Fall of the British Empire)/22 Victoria.mp3
+mpc search '((artist == "The Kinks") AND (title == "Picture Book"))'
+The Kinks/The Kinks Are the Village Green Preservation Society/03 Picture Book.mp3
+The Kinks/The Kinks Are the Village Green Preservation Society/22 Picture Book.mp3
+mpc search '((artist == "The Kinks") AND (title == "Johnny Thunder"))'
+The Kinks/The Kinks Are the Village Green Preservation Society/04 Johnny Thunder.mp3
+The Kinks/The Kinks Are the Village Green Preservation Society/23 Johnny Thunder.mp3
+mpc search '((artist == "The Kinks") AND (title == "The Village Green Preservation Society"))'
+The Kinks/The Kinks Are the Village Green Preservation Society/01 The Village Green Preservation Society.mp3
+The Kinks/The Kinks Are the Village Green Preservation Society/20 The Village Green Preservation Society.mp3
+mpc search '((artist == "The Kinks") AND (title == "David Watts"))'
+The Kinks/Something Else by The Kinks/01 David Watts.mp3
+The Kinks/Something Else by The Kinks/31 David Watts.mp3
+mpc search '((artist == "Chico Buarque") AND (title == "Deus Lhe Pague"))'
+Chico Buarque/Construção/01 Deus lhe pague.mp3
+mpc search '((artist == "Have a Nice Life") AND (title == "Bloodhail"))'
+Have a Nice Life/Deathconsciousness/02 Bloodhail.mp3
+mpc search '((artist == "Sweet Trip") AND (title == "Milk"))'
+Sweet Trip/You Will Never Know Why/05 Milk.mp3
+mpc search '((artist == "Björk") AND (title == "Jóga"))'
+Björk/Greatest Hits/04 Jóga.mp3
+Björk/Homogenic/02 Jóga.m4a
+mpc search '((artist == "Sweet Trip") AND (title == "Dsco"))'
+Sweet Trip/Velocity _ Design _ Comfort/02 Dsco.flac
+mpc search '((artist == "Belle and Sebastian") AND (title == "If You’re Feeling Sinister"))'
+Belle and Sebastian/If You’re Feeling Sinister/07 If You’re Feeling Sinister.mp3
+mpc search '((artist == "Belle and Sebastian") AND (title == "She’s Losing It"))'
+Belle and Sebastian/Tigermilk/03 She’s Losing It.mp3
+mpc search '((artist == "Belle and Sebastian") AND (title == "The Boy With the Arab Strap"))'
+Belle and Sebastian/The Boy With the Arab Strap/09 The Boy With the Arab Strap.mp3
+mpc search '((artist == "Georges Brassens") AND (title == "Le Roi"))'
+Georges Brassens/Fernande/10 Le Roi.flac
+Georges Brassens/Les 100 plus belles chansons/94 Le Roi.mp3
+mpc search '((artist == "Georges Brassens") AND (title == "Le parapluie"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/06 Le parapluie.mp3
+Georges Brassens/Les 100 plus belles chansons/18 Le Parapluie.mp3
+Georges Brassens/Volume 1_ La Mauvaise Réputation/08 Le Parapluie.flac
+Georges Brassens/Volume 13_ Inédits_ Archives 1953-1980/03 Le Parapluie.flac
+Georges Brassens/Volume 3_ Chanson pour l'Auvergnat/14 Le Parapluie.flac
+mpc search '((artist == "Georges Brassens") AND (title == "Le Mauvais Sujet Repenti"))'
+Georges Brassens/Les 100 plus belles chansons/30 Le Mauvais Sujet repenti.mp3
+Georges Brassens/Volume 1_ La Mauvaise Réputation/14 Le Mauvais Sujet repenti.flac
+Georges Brassens/Volume 13_ Inédits_ Archives 1953-1980/02 Le Mauvais Sujet repenti.flac
+Georges Brassens/Volume 2_ Les Amoureux des bancs publics/11 Le Mauvais Sujet repenti.flac
+mpc search '((artist == "Georges Brassens") AND (title == "Les Sabots d'Hélène"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/17 Les sabots d'Hélène.mp3
+Georges Brassens/Les 100 plus belles chansons/23 Les Sabots d'Hélène.mp3
+Georges Brassens/Volume 3_ Chanson pour l'Auvergnat/02 Les Sabots d'Hélène.flac
+mpc search '((artist == "Georges Brassens") AND (title == "Le Fossoyeur"))'
+Georges Brassens/Les 100 plus belles chansons/03 Le Fossoyeur.mp3
+Georges Brassens/Volume 1_ La Mauvaise Réputation/02 Le Fossoyeur.flac
+Georges Brassens/Volume 3_ Chanson pour l'Auvergnat/16 Le Fossoyeur.flac
+mpc search '((artist == "Renaud") AND (title == "Miss Maggie"))'
+Renaud/Mistral gagnant/01 Miss Maggie.flac
+mpc search '((artist == "Renaud") AND (title == "Mistral gagnant"))'
+Renaud/Mistral gagnant/04 Mistral gagnant.flac
+mpc search '((artist == "Georges Brassens") AND (title == "P... De Toi"))'
+Georges Brassens/Les 100 plus belles chansons/31 P... de toi.mp3
+Georges Brassens/Volume 13_ Inédits_ Archives 1953-1980/08 P... de toi.flac
+Georges Brassens/Volume 2_ Les Amoureux des bancs publics/12 P... de toi.flac
+mpc search '((artist == "Georges Brassens") AND (title == "La chasse aux papillons"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/13 La chasse aux papillons.mp3
+Georges Brassens/Les 100 plus belles chansons/06 La Chasse aux papillons.mp3
+Georges Brassens/Volume 1_ La Mauvaise Réputation/07 La Chasse aux papillons.flac
+Georges Brassens/Volume 13_ Inédits_ Archives 1953-1980/05 La Chasse aux papillons.flac
+Georges Brassens/Volume 3_ Chanson pour l'Auvergnat/19 La Chasse aux papillons.flac
+mpc search '((artist == "Georges Brassens") AND (title == "Hécatombe"))'
+Georges Brassens/Les 100 plus belles chansons/07 Hécatombe.mp3
+Georges Brassens/Volume 1_ La Mauvaise Réputation/06 Hécatombe.flac
+Georges Brassens/Volume 13_ Inédits_ Archives 1953-1980/04 Hécatombe.flac
+Georges Brassens/Volume 3_ Chanson pour l'Auvergnat/20 Hécatombe.flac
+Georges Brassens/Volume 5 _ Le Pornographe/14 Hécatombe.flac
+mpc search '((artist == "Georges Brassens") AND (title == "Je me suis fait tout petit"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/08 Je me suis fait tout petit.mp3
+Georges Brassens/Les 100 plus belles chansons/32 Je me suis fait tout petit.mp3
+Georges Brassens/Volume 4_ Je me suis fait tout petit/01 Je me suis fait tout petit.flac
+mpc search '((artist == "Georges Brassens") AND (title == "Quatre"))'
+mpc search '((artist == "Georges Brassens") AND (title == "Corne d'auroch"))'
+Georges Brassens/Les 100 plus belles chansons/05 Corne d'Auroch.mp3
+Georges Brassens/Volume 1_ La Mauvaise Réputation/10 Corne d'Auroch.flac
+Georges Brassens/Volume 3_ Chanson pour l'Auvergnat/18 Corne d'Auroch.flac
+mpc search '((artist == "Georges Brassens") AND (title == "Brave Margot"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/10 Brave Margot.mp3
+Georges Brassens/Les 100 plus belles chansons/14 Brave Margot.mp3
+Georges Brassens/Volume 13_ Inédits_ Archives 1953-1980/09 Brave Margot.flac
+Georges Brassens/Volume 2_ Les Amoureux des bancs publics/02 Brave Margot.flac
+mpc search '((artist == "Georges Brassens") AND (title == "Les Amoureux des Bancs Publics"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/16 Les amoureux des bancs publics.mp3
+Georges Brassens/Les 100 plus belles chansons/22 Les Amoureux des bancs publics.mp3
+Georges Brassens/Volume 13_ Inédits_ Archives 1953-1980/07 Les Amoureux des bancs publics.flac
+Georges Brassens/Volume 2_ Les Amoureux des bancs publics/01 Les Amoureux des bancs publics.flac
+mpc search '((artist == "Georges Brassens") AND (title == "Le petit cheval"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/19 Le petit cheval.mp3
+Georges Brassens/Les 100 plus belles chansons/02 Le Petit Cheval.mp3
+Georges Brassens/Volume 1_ La Mauvaise Réputation/04 Le Petit Cheval.flac
+Georges Brassens/Volume 3_ Chanson pour l'Auvergnat/15 Le Petit Cheval.flac
+mpc search '((artist == "Georges Brassens") AND (title == "La mauvaise réputation"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/14 La mauvaise réputation.mp3
+Georges Brassens/Les 100 plus belles chansons/01 La Mauvaise Réputation.mp3
+Georges Brassens/Volume 1_ La Mauvaise Réputation/01 La Mauvaise Réputation.flac
+Georges Brassens/Volume 13_ Inédits_ Archives 1953-1980/01 La Mauvaise Réputation.flac
+Georges Brassens/Volume 3_ Chanson pour l'Auvergnat/13 La Mauvaise Réputation.flac
+Georges Brassens/Volume 5 _ Le Pornographe/12 La Mauvaise Réputation.flac
+mpc search '((artist == "Georges Brassens") AND (title == "Le gorille"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/15 Le gorille.mp3
+Georges Brassens/Les 100 plus belles chansons/04 Le Gorille.mp3
+Georges Brassens/Volume 1_ La Mauvaise Réputation/03 Le Gorille.flac
+Georges Brassens/Volume 13_ Inédits_ Archives 1953-1980/06 Le Gorille.flac
+Georges Brassens/Volume 3_ Chanson pour l'Auvergnat/17 Le Gorille.flac
+mpc search '((artist == "Georges Brassens") AND (title == "Les copains d'abord"))'
+Georges Brassens/Les 100 plus belles chansons/80 Les Copains d'abord.mp3
+Georges Brassens/Les Copains d'abord/01 Les Copains d'abord.flac
+Georges Brassens/Volume 12_ Don Juan/15 Les Copains d'abord.flac
+mpc search '((artist == "Georges Brassens") AND (title == "Les Passantes"))'
+Georges Brassens/Fernande/09 Les Passantes.flac
+Georges Brassens/Les 100 plus belles chansons/93 Les Passantes.mp3
+mpc search '((artist == "Georges Brassens") AND (title == "Chanson Pour L'Auvergnat"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/20 Chanson pour l'auvergnat.mp3
+Georges Brassens/Les 100 plus belles chansons/41 Chanson pour l'Auvergnat.mp3
+Georges Brassens/Volume 3_ Chanson pour l'Auvergnat/01 Chanson pour l'Auvergnat.flac
+mpc search '((artist == "Claude Nougaro") AND (title == "Tu verras (o que sera)"))'
+Claude Nougaro/Les 100 plus belles chansons/62 Tu verras (O que sera).flac
+mpc search '((artist == "Claude Nougaro") AND (title == "Le Jazz Et La Java"))'
+Claude Nougaro/Les 100 plus belles chansons/03 Le Jazz et la Java.flac
+Claude Nougaro/Les 100 plus belles chansons/92 Le Jazz et la Java.flac
+mpc search '((artist == "Claude Nougaro") AND (title == "Armstrong (Let my people go)"))'
+Claude Nougaro/Les 100 plus belles chansons/20 Armstrong (Let My People Go).flac
+Claude Nougaro/Les 100 plus belles chansons/90 Armstrong (Let My People Go).flac
+mpc search '((artist == "Maxime Le Forestier") AND (title == "San Francisco"))'
+Maxime Le Forestier/Maxime Le Forestier/10 San Francisco.flac
+mpc search '((artist == "Murray Head") AND (title == "Say It Ain't So Joe"))'
+Murray Head/Say It Ain't So/01 Say It Ain't So Joe.mp3
+mpc search '((artist == "Charles Aznavour") AND (title == "Emmenez‐moi"))'
+Charles Aznavour/40 chansons d’or/17 Emmenez‐moi.mp3
+Charles Aznavour/Entre deux rêves/01 Emmenez‐moi.mp3
+mpc search '((artist == "Michel Berger") AND (title == "La Groupie Du Pianiste"))'
+Michel Berger/Beauséjour/01 La Groupie du pianiste.mp3
+mpc search '((artist == "Charles Aznavour") AND (title == "La bohème"))'
+Charles Aznavour/40 chansons d’or/08 La Bohème.mp3
+Charles Aznavour/La Bohème/01 La Bohème.mp3
+mpc search '((artist == "Michel Berger") AND (title == "Le paradis blanc"))'
+Michel Berger/Ça ne tient pas debout/05 Le Paradis blanc.mp3
+mpc search '((artist == "The Clash") AND (title == "Train in Vain"))'
+The Clash/From Here to Eternity_ Live/12 Train in Vain.mp3
+The Clash/London Calling/19 Train in Vain.mp3
+mpc search '((artist == "The Clash") AND (title == "Spanish Bombs"))'
+The Clash/London Calling/06 Spanish Bombs.mp3
+mpc search '((artist == "The Clash") AND (title == "Lost in the Supermarket"))'
+The Clash/London Calling/08 Lost in the Supermarket.mp3
+mpc search '((artist == "Massive Attack") AND (title == "Teardrop"))'
+Massive Attack/Mezzanine/03 Teardrop.mp3
+mpc search '((artist == "The Clash") AND (title == "London Calling"))'
+The Clash/From Here to Eternity_ Live/10 London Calling.mp3
+The Clash/London Calling/01 London Calling.mp3
+mpc search '((artist == "The Clash") AND (title == "Rudie Can’t Fail"))'
+The Clash/London Calling/05 Rudie Can’t Fail.mp3
+mpc search '((artist == "Vince Guaraldi") AND (title == "The Christmas Song"))'
+Vince Guaraldi/A Charlie Brown Christmas/11 The Christmas Song.flac
+mpc search '((artist == "Vince Guaraldi") AND (title == "Christmas Is Coming"))'
+Vince Guaraldi/A Charlie Brown Christmas/09 Christmas Is Coming.flac
+mpc search '((artist == "Vince Guaraldi") AND (title == "Skating"))'
+Vince Guaraldi/A Charlie Brown Christmas/07 Skating.flac
+mpc search '((artist == "Vince Guaraldi") AND (title == "Linus and Lucy"))'
+Vince Guaraldi/A Charlie Brown Christmas/04 Linus and Lucy.flac
+mpc search '((artist == "Vince Guaraldi") AND (title == "O Tannenbaum"))'
+Vince Guaraldi/A Charlie Brown Christmas/01 O Tannenbaum.flac
+mpc search '((artist == "Vince Guaraldi") AND (title == "My Little Drum"))'
+Vince Guaraldi/A Charlie Brown Christmas/03 My Little Drum.flac
+mpc search '((artist == "Camera Obscura") AND (title == "Lloyd, I’m ready to be heartbroken"))'
+Camera Obscura/Let’s Get Out of This Country/01 Lloyd, I’m Ready to Be Heartbroken.mp3
+mpc search '((artist == "The Beach Boys") AND (title == "Good Vibrations"))'
+The Beach Boys/Endless Summer/21 Good Vibrations.mp3
+The Beach Boys/Smile/12 Good Vibrations.mp3
+The Beach Boys/Smile - A STEREO Reconstruction/17 Good Vibrations.mp3
+The Beach Boys/Smiley Smile/06 Good Vibrations.mp3
+The Beach Boys/Sounds of Summer_ The Very Best of the Beach Boys/30 Good Vibrations.mp3
+mpc search '((artist == "The Beach Boys") AND (title == "Heroes and Villains"))'
+The Beach Boys/Smiley Smile/01 Heroes and Villains.mp3
+The Beach Boys/Sounds of Summer_ The Very Best of the Beach Boys/23 Heroes and Villains.mp3
+mpc search '((artist == "Cocteau Twins") AND (title == "Lorelei"))'
+Cocteau Twins/Treasure/02 Lorelei.mp3
+mpc search '((artist == "Cocteau Twins") AND (title == "Cherry"))'
+mpc search '((artist == "Rahsaan Roland Kirk") AND (title == "Volunteered Slavery"))'
+Rahsaan Roland Kirk/Volunteered Slavery/01 Volunteered Slavery.mp3
+mpc search '((artist == "Violent Femmes") AND (title == "Blister In The Sun"))'
+Violent Femmes/Violent Femmes/01 Blister in the Sun.mp3
+mpc search '((artist == "Violent Femmes") AND (title == "Never Tell"))'
+Violent Femmes/Hallowed Ground/03 Never Tell.mp3
+mpc search '((artist == "Myrath") AND (title == "Dance"))'
+Myrath/Shehili/04 Dance.mp3
+mpc search '((artist == "Myrath") AND (title == "You've Lost Yourself"))'
+Myrath/Shehili/03 You've Lost Yourself.mp3
+mpc search '((artist == "Myrath") AND (title == "Beyond the Stars"))'
+Myrath/Tales of the Sands/09 Beyond the Stars.mp3
+mpc search '((artist == "Frost*") AND (title == "Hyperventilate"))'
+Frost_/Milliontown/01 Hyperventilate.mp3
+mpc search '((artist == "The Go") AND (title == "Betweens"))'
+mpc search '((artist == "Cloud Nothings") AND (title == "Cut You"))'
+Cloud Nothings/Attack on Memory/08 Cut You.mp3
+mpc search '((artist == "Cloud Nothings") AND (title == "Our Plans"))'
+Cloud Nothings/Attack on Memory/07 Our Plans.mp3
+mpc search '((artist == "Cloud Nothings") AND (title == "Fall In"))'
+Cloud Nothings/Attack on Memory/03 Fall In.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "Nowhere Now"))'
+Steven Wilson/To the Bone/02 Nowhere Now.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "Happiness III"))'
+Steven Wilson/4 ½/03 Happiness III.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "Postcard"))'
+Steven Wilson/Grace for Drowning [5669]/05 Postcard.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "Harmony Korine"))'
+Steven Wilson/Insurgentes/01 Harmony Korine.mp3
+mpc search '((artist == "Neil Young & Crazy Horse") AND (title == "Over and Over"))'
+Neil Young & Crazy Horse/Ragged Glory/04 Over and Over.mp3
+mpc search '((artist == "UFO") AND (title == "Doctor Doctor"))'
+UFO/Phenomenon/03 Doctor Doctor.mp3
+UFO/Strangers in the Night/04 Doctor Doctor.mp3
+UFO/The Best of UFO/01 Doctor Doctor.mp3
+mpc search '((artist == "Andrew Bird") AND (title == "Measuring Cups"))'
+Andrew Bird/The Mysterious Production of Eggs/05 Measuring Cups.mp3
+mpc search '((artist == "Chico Buarque") AND (title == "Minha história (Gesùbambino)"))'
+Chico Buarque/Construção/09 Minha história (Gesùbambino).mp3
+mpc search '((artist == "Phoenix") AND (title == "Lasso"))'
+Phoenix/Wolfgang Amadeus Phoenix/06 Lasso.mp3
+mpc search '((artist == "Phoenix") AND (title == "Girlfriend"))'
+Phoenix/Wolfgang Amadeus Phoenix/09 Girlfriend.mp3
+mpc search '((artist == "Idles") AND (title == "Danny Nedelko"))'
+IDLES/Joy as an Act of Resistance_/04 Danny Nedelko.mp3
+mpc search '((artist == "Weezer") AND (title == "Surf Wax America"))'
+Weezer/Weezer Blue/06 Surf Wax America.mp3
+mpc search '((artist == "Weezer") AND (title == "Undone – The Sweater Song"))'
+Weezer/Weezer Blue/05 Undone – The Sweater Song.mp3
+mpc search '((artist == "Weezer") AND (title == "Buddy Holly"))'
+Weezer/Weezer Blue/04 Buddy Holly.mp3
+Weezer/Weezer Teal/04 Buddy Holly.mp3
+mpc search '((artist == "Weezer") AND (title == "The World Has Turned and Left Me Here"))'
+Weezer/Weezer Blue/03 The World Has Turned and Left Me Here.mp3
+mpc search '((artist == "Blur") AND (title == "End of a Century"))'
+Blur/Parklife/03 End of a Century.mp3
+mpc search '((artist == "The Go! Team") AND (title == "Panther Dash"))'
+The Go! Team/Thunder, Lightning, Strike/01 Panther Dash.mp3
+mpc search '((artist == "Rilo Kiley") AND (title == "Portions For Foxes"))'
+Rilo Kiley/More Adventurous/03 Portions for Foxes.mp3
+mpc search '((artist == "Rilo Kiley") AND (title == "It's A Hit"))'
+Rilo Kiley/More Adventurous/01 It's a Hit.mp3
+mpc search '((artist == "The Velvet Underground") AND (title == "Femme Fatale"))'
+The Velvet Underground/The Velvet Underground & Nico/03 Femme Fatale.mp3
+mpc search '((artist == "The Velvet Underground") AND (title == "I’m Waiting for the Man"))'
+The Velvet Underground/The Velvet Underground & Nico/02 I’m Waiting for the Man.mp3
+mpc search '((artist == "The Velvet Underground") AND (title == "Venus in Furs"))'
+The Velvet Underground/The Velvet Underground & Nico/04 Venus in Furs.mp3
+mpc search '((artist == "The Velvet Underground") AND (title == "Heroin"))'
+The Velvet Underground/The Velvet Underground & Nico/07 Heroin.mp3
+mpc search '((artist == "My Dad Is Dead") AND (title == "Boundaries"))'
+My Dad Is Dead/The Taller You Are, the Shorter You Get/06 Boundaries.mp3
+mpc search '((artist == "The Monkees") AND (title == "The Door Into Summer"))'
+The Monkees/Pisces, Aquarius, Capricorn & Jones Ltd_/03 The Door Into Summer.mp3
+mpc search '((artist == "Black Sabbath") AND (title == "Never Say Die"))'
+Black Sabbath/Greatest Hits 1970–1978/15 Never Say Die.mp3
+Black Sabbath/Never Say Die!/01 Never Say Die.mp3
+mpc search '((artist == "Scorpions") AND (title == "Dynamite"))'
+Scorpions/Blackout/06 Dynamite.mp3
+Scorpions/World Wide Live/15 Dynamite.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Did I Tell You"))'
+Yo La Tengo/Fakebook/15 Did I Tell You.mp3
+Yo La Tengo/President Yo La Tengo _ New Wave Hot Dogs/09 Did I Tell You.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Upside"))'
+mpc search '((artist == "Yo La Tengo") AND (title == "The Summer"))'
+Yo La Tengo/Fakebook/10 The Summer.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Speeding Motorcycle"))'
+Yo La Tengo/Fakebook/08 Speeding Motorcycle.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "Want You In My Room"))'
+Carly Rae Jepsen/Dedicated/04 Want You in My Room.mp3
+mpc search '((artist == "MC Solaar") AND (title == "Nouveau western"))'
+MC Solaar/Prose Combat/03 Nouveau western.mp3
+mpc search '((artist == "Fleet Foxes") AND (title == "White Winter Hymnal"))'
+Fleet Foxes/Fleet Foxes/02 White Winter Hymnal.mp3
+mpc search '((artist == "Everything Everything") AND (title == "In Birdsong"))'
+Everything Everything/Re-Animator/09 In Birdsong.mp3
+mpc search '((artist == "Everything Everything") AND (title == "Violent Sun"))'
+Everything Everything/Re-Animator/11 Violent Sun.mp3
+mpc search '((artist == "Everything Everything") AND (title == "Arch Enemy"))'
+Everything Everything/Re-Animator/06 Arch Enemy.mp3
+mpc search '((artist == "Everything Everything") AND (title == "Big Climb"))'
+Everything Everything/Re-Animator/02 Big Climb.mp3
+mpc search '((artist == "Porcupine Tree") AND (title == "Collapse the Light Into Earth"))'
+Porcupine Tree/In Absentia/12 Collapse the Light Into Earth.mp3
+mpc search '((artist == "Porcupine Tree") AND (title == "Shesmovedon"))'
+Porcupine Tree/Lightbulb Sun/04 Shesmovedon.mp3
+Porcupine Tree/Warszawa/03 Shesmovedon.mp3
+mpc search '((artist == "Porcupine Tree") AND (title == "Pure Narcotic"))'
+Porcupine Tree/Deadwing [2006]/12 Pure Narcotic.mp3
+Porcupine Tree/Lightbulb Sun/12 Pure Narcotic.mp3
+Porcupine Tree/Stupid Dream/04 Pure Narcotic.mp3
+mpc search '((artist == "Porcupine Tree") AND (title == "Even Less"))'
+Porcupine Tree/Deadwing [2006]/11 Even Less.mp3
+Porcupine Tree/Recordings/08 Even Less.mp3
+Porcupine Tree/Stupid Dream/01 Even Less.mp3
+Porcupine Tree/Warszawa/01 Even Less.mp3
+mpc search '((artist == "Derek and the Dominos") AND (title == "Layla"))'
+Derek and the Dominos/Layla and Other Assorted Love Songs/13 Layla.mp3
+Eric Clapton/The Cream of Clapton/01 Layla.mp3
+mpc search '((artist == "The Walker Brothers") AND (title == "The Sun Ain't Gonna Shine Anymore"))'
+The Walker Brothers/After The Lights Go Out - The Best Of 1965-1967/12 The Sun Ain't Gonna Shine Anymore.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Sometimes I Don’t Get You"))'
+Yo La Tengo/I Am Not Afraid of You and I Will Beat Your Ass/08 Sometimes I Don’t Get You.mp3
+mpc search '((artist == "Porcupine Tree") AND (title == "Waiting, Phase One"))'
+Porcupine Tree/Coma Divine/03 Waiting, Phase One.mp3
+Porcupine Tree/Signify/05 Waiting, Phase One.mp3
+mpc search '((artist == "Derek and the Dominos") AND (title == "Bell Bottom Blues"))'
+Derek and the Dominos/Layla and Other Assorted Love Songs/02 Bell Bottom Blues.mp3
+Eric Clapton/The Cream of Clapton/08 Bell Bottom Blues.mp3
+mpc search '((artist == "Yellowcard") AND (title == "Ocean Avenue"))'
+Yellowcard/Ocean Avenue/03 Ocean Avenue.mp3
+mpc search '((artist == "Feu! Chatterton") AND (title == "Boeing"))'
+Feu! Chatterton/Ici le jour (a tout enseveli)/07 Boeing.mp3
+mpc search '((artist == "Feu! Chatterton") AND (title == "Le Pont marie"))'
+Feu! Chatterton/Ici le jour (a tout enseveli)/06 Le Pont Marie.mp3
+mpc search '((artist == "Feu! Chatterton") AND (title == "Côte Concorde"))'
+Feu! Chatterton/Ici le jour (a tout enseveli)/05 Côte Concorde.mp3
+mpc search '((artist == "Why?") AND (title == "Gemini (Birthday Song)"))'
+WHY_/Elephant Eyelash/06 Gemini (Birthday Song).mp3
+mpc search '((artist == "Gang Starr") AND (title == "You Know My Steez"))'
+Gang Starr/Moment of Truth/01 You Know My Steez.mp3
+mpc search '((artist == "MF DOOM") AND (title == "Doomsday"))'
+MF DOOM/Operation_ Doomsday/02 Doomsday.mp3
+mpc search '((artist == "King Crimson") AND (title == "Thela Hun Ginjeet"))'
+King Crimson/Absent Lovers (Live In Montreal 1984)/03 Thela Hun Ginjeet.mp3
+King Crimson/Discipline/05 Thela Hun Ginjeet.mp3
+mpc search '((artist == "King Crimson") AND (title == "Elephant Talk"))'
+King Crimson/Absent Lovers (Live In Montreal 1984)/18 Elephant Talk.mp3
+King Crimson/Discipline/01 Elephant Talk.mp3
+mpc search '((artist == "Cat Stevens") AND (title == "Sad Lisa"))'
+Cat Stevens/Tea for the Tillerman/04 Sad Lisa.mp3
+Cat Stevens/The Very Best of Cat Stevens/21 Sad Lisa.mp3
+mpc search '((artist == "Cat Stevens") AND (title == "Father And Son"))'
+Cat Stevens/Tea for the Tillerman/10 Father and Son.mp3
+Cat Stevens/The Very Best of Cat Stevens/02 Father and Son.mp3
+mpc search '((artist == "Wire") AND (title == "I Should Have Known Better"))'
+Wire/154/01 I Should Have Known Better.flac
+mpc search '((artist == "Volbeat") AND (title == "Fallen"))'
+Volbeat/Beyond Hell _ Above Heaven/04 Fallen.mp3
+mpc search '((artist == "Volbeat") AND (title == "Still Counting"))'
+Volbeat/Guitar Gangsters & Cadillac Blood/08 Still Counting.mp3
+mpc search '((artist == "Dire Straits") AND (title == "Walk of Life"))'
+Dire Straits/Brothers in Arms/03 Walk of Life.mp3
+Dire Straits/Sultans of Swing_ The Very Best of Dire Straits/11 Walk of Life.mp3
+mpc search '((artist == "Dire Straits") AND (title == "Money for Nothing"))'
+Dire Straits/Brothers in Arms/02 Money for Nothing.mp3
+Dire Straits/Sultans of Swing_ The Very Best of Dire Straits/09 Money for Nothing.mp3
+mpc search '((artist == "Ali Farka Touré and Ry Cooder") AND (title == "Soukora"))'
+mpc search '((artist == "The Fall") AND (title == "Slang King"))'
+The Fall/The Wonderful and Frightening World of… The Fall/11 Slang King.mp3
+mpc search '((artist == "Men at Work") AND (title == "Down Under"))'
+Men at Work/Business as Usual/03 Down Under.mp3
+mpc search '((artist == "The Magnetic Fields") AND (title == "I Thought You Were My Boyfriend"))'
+The Magnetic Fields/i/05 I Thought You Were My Boyfriend.mp3
+mpc search '((artist == "The Magnetic Fields") AND (title == "Papa Was a Rodeo"))'
+The Magnetic Fields/69 Love Songs/40 Papa Was a Rodeo.mp3
+mpc search '((artist == "The Magnetic Fields") AND (title == "All My Little Words"))'
+The Magnetic Fields/69 Love Songs/03 All My Little Words.mp3
+mpc search '((artist == "The Magnetic Fields") AND (title == "The Luckiest Guy on the Lower East Side"))'
+The Magnetic Fields/69 Love Songs/08 The Luckiest Guy on the Lower East Side.mp3
+mpc search '((artist == "The Magnetic Fields") AND (title == "Absolutely Cuckoo"))'
+The Magnetic Fields/69 Love Songs/01 Absolutely Cuckoo.mp3
+mpc search '((artist == "Francis Cabrel") AND (title == "La corrida"))'
+Francis Cabrel/Samedi soir sur la Terre/01 La Corrida.mp3
+mpc search '((artist == "The Magnetic Fields") AND (title == "Strange Powers"))'
+The Magnetic Fields/Holiday/04 Strange Powers.mp3
+mpc search '((artist == "The Chameleons") AND (title == "View from a Hill"))'
+The Chameleons/Script of the Bridge/12 View From a Hill.mp3
+The Chameleons/This Never Ending Now/11 View From a Hill.mp3
+mpc search '((artist == "The Magnetic Fields") AND (title == "Old Orchard Beach"))'
+The Magnetic Fields/The Wayward Bus/07 Old Orchard Beach.mp3
+mpc search '((artist == "The Chameleons") AND (title == "Less Than Human"))'
+The Chameleons/Script of the Bridge/06 Less Than Human.mp3
+The Chameleons/Tripping Dogs/06 Less Than Human.mp3
+mpc search '((artist == "The Chameleons") AND (title == "Monkeyland"))'
+The Chameleons/Script of the Bridge/03 Monkeyland.mp3
+mpc search '((artist == "The Chameleons") AND (title == "Second Skin"))'
+The Chameleons/Script of the Bridge/04 Second Skin.mp3
+The Chameleons/This Never Ending Now/08 Second Skin.mp3
+The Chameleons/Tripping Dogs/10 Second Skin.mp3
+mpc search '((artist == "Slowdive") AND (title == "Catch the Breeze"))'
+Slowdive/Holding Our Breath/01 Catch the Breeze.mp3
+Slowdive/Just for a Day/03 Catch the Breeze.mp3
+mpc search '((artist == "Gustavo Cerati") AND (title == "Puente"))'
+Gustavo Cerati/Bocanada/04 Puente.mp3
+mpc search '((artist == "Lou Reed") AND (title == "Perfect Day"))'
+Lou Reed/Transformer/03 Perfect Day.mp3
+mpc search '((artist == "Peter Gabriel & Kate Bush") AND (title == "Don’t Give Up"))'
+mpc search '((artist == "Paul Simon") AND (title == "Rene And Georgette Magritte With Their Dog After The War"))'
+Paul Simon/Hearts and Bones/08 Rene and Georgette Magritte With Their Dog After the War.mp3
+mpc search '((artist == "Paul Simon") AND (title == "50 Ways to Leave Your Lover"))'
+Paul Simon/Still Crazy After All These Years/04 50 Ways to Leave Your Lover.mp3
+mpc search '((artist == "Blue Öyster Cult") AND (title == "(Don't Fear) The Reaper"))'
+Blue Öyster Cult/Agents of Fortune/03 (Don't Fear) The Reaper.mp3
+mpc search '((artist == "Duran Duran") AND (title == "A View to a Kill"))'
+Duran Duran/Greatest/03 A View to a Kill.mp3
+mpc search '((artist == "Indochine") AND (title == "Trois nuits par semaine"))'
+Indochine/3/07 Trois nuits par semaine.mp3
+mpc search '((artist == "Indochine") AND (title == "Tes Yeux Noirs"))'
+Indochine/3/09 Tes yeux noirs.mp3
+mpc search '((artist == "Indochine") AND (title == "Canary Bay"))'
+Indochine/3/02 Canary Bay.mp3
+mpc search '((artist == "Indochine") AND (title == "3e Sexe"))'
+Indochine/3/01 3e sexe.mp3
+mpc search '((artist == "Rammstein") AND (title == "Mein Teil"))'
+Rammstein/Reise, Reise/02 Mein Teil.mp3
+mpc search '((artist == "Squeeze") AND (title == "Cool For Cats"))'
+Squeeze/Cool for Cats/12 Cool for Cats.mp3
+mpc search '((artist == "Squeeze") AND (title == "Up The Junction"))'
+Squeeze/Cool for Cats/08 Up the Junction.mp3
+mpc search '((artist == "Stephen Malkmus") AND (title == "Deado"))'
+Stephen Malkmus/Stephen Malkmus/12 Deado.mp3
+mpc search '((artist == "Jim O’Rourke") AND (title == "Fuzzy Sun"))'
+Jim O’Rourke/Halfway to a Threeway/01 Fuzzy Sun.flac
+mpc search '((artist == "Stephen Malkmus") AND (title == "Jenny and the Ess"))'
+mpc search '((artist == "Rammstein") AND (title == "Sonne"))'
+Rammstein/Mutter/03 Sonne.mp3
+Rammstein/Mutter/14 Sonne.mp3
+mpc search '((artist == "Rammstein") AND (title == "Rosenrot"))'
+Rammstein/Rosenrot/03 Rosenrot.mp3
+mpc search '((artist == "Rammstein") AND (title == "Ohne dich"))'
+Rammstein/Reise, Reise/10 Ohne dich.mp3
+mpc search '((artist == "Rammstein") AND (title == "Moskau"))'
+Rammstein/Reise, Reise/07 Moskau.mp3
+mpc search '((artist == "Rammstein") AND (title == "Feuer frei!"))'
+Rammstein/Mutter/05 Feuer frei!.mp3
+mpc search '((artist == "Rammstein") AND (title == "Mutter"))'
+Rammstein/Mutter/06 Mutter.mp3
+mpc search '((artist == "Rammstein") AND (title == "Reise, Reise"))'
+Rammstein/Reise, Reise/01 Reise, Reise.mp3
+mpc search '((artist == "Rammstein") AND (title == "Links 2"))'
+mpc search '((artist == "Stephen Malkmus") AND (title == "Phantasies"))'
+Stephen Malkmus/Stephen Malkmus/02 Phantasies.mp3
+mpc search '((artist == "Talk Talk") AND (title == "Desire"))'
+Talk Talk/Spirit of Eden/03 Desire.mp3
+mpc search '((artist == "Talk Talk") AND (title == "Eden"))'
+Talk Talk/Spirit of Eden/02 Eden.mp3
+mpc search '((artist == "Talk Talk") AND (title == "It’s My Life"))'
+Talk Talk/It's My Life/04 It’s My Life.mp3
+mpc search '((artist == "Talk Talk") AND (title == "Life's What You Make It"))'
+Talk Talk/The Colour of Spring/03 Life's What You Make It.mp3
+mpc search '((artist == "Talk Talk") AND (title == "The Rainbow"))'
+Talk Talk/Spirit of Eden/01 The Rainbow.mp3
+mpc search '((artist == "Death") AND (title == "Painkiller"))'
+Death/The Sound of Perseverance/09 Painkiller.mp3
+mpc search '((artist == "The Chameleons") AND (title == "Don’t Fall"))'
+The Chameleons/Script of the Bridge/01 Don’t Fall.mp3
+mpc search '((artist == "Metronomy") AND (title == "The Bay"))'
+Metronomy/The English Riviera/07 The Bay.mp3
+mpc search '((artist == "Lena Raine") AND (title == "Resurrections"))'
+Lena Raine/Celeste Original Soundtrack/03 Resurrections.mp3
+mpc search '((artist == "Brand New") AND (title == "Jesus"))'
+Brand New/The Devil and God Are Raging Inside Me/03 Jesus.mp3
+mpc search '((artist == "Jessie Ware") AND (title == "Ooh La La"))'
+Jessie Ware/What’s Your Pleasure_/03 Ooh La La.mp3
+mpc search '((artist == "Jessie Ware") AND (title == "Adore You"))'
+Jessie Ware/What’s Your Pleasure_/06 Adore You.mp3
+mpc search '((artist == "Lazuli") AND (title == "Je te laisse ce monde"))'
+Lazuli/(4603 Battements)/02 Je te laisse ce monde.mp3
+mpc search '((artist == "Jessie Ware") AND (title == "Spotlight"))'
+Jessie Ware/What’s Your Pleasure_/01 Spotlight.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "First Time"))'
+Carly Rae Jepsen/E•MO•TION_ Side B/01 First Time.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "Summer Love"))'
+Carly Rae Jepsen/Dedicated Side B/07 Summer Love.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "This Love Isn’t Crazy"))'
+Carly Rae Jepsen/Dedicated Side B/01 This Love Isn’t Crazy.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "This Is What They Say"))'
+Carly Rae Jepsen/Dedicated Side B/05 This Is What They Say.mp3
+mpc search '((artist == "Leonard Cohen") AND (title == "Avalanche"))'
+Leonard Cohen/Songs of Love and Hate/01 Avalanche.mp3
+mpc search '((artist == "Allo Darlin’") AND (title == "If Loneliness Was Art"))'
+Allo Darlin’/Allo Darlin'/06 If Loneliness Was Art.mp3
+mpc search '((artist == "Coldplay") AND (title == "Arabesque"))'
+Coldplay/Everyday Life/07 Arabesque.mp3
+mpc search '((artist == "Coldplay") AND (title == "Orphans"))'
+Coldplay/Everyday Life/10 Orphans.mp3
+mpc search '((artist == "The Replacements") AND (title == "Hold My Life"))'
+The Replacements/Tim/01 Hold My Life.flac
+mpc search '((artist == "The Replacements") AND (title == "Seen Your Video"))'
+The Replacements/Let It Be/08 Seen Your Video.flac
+mpc search '((artist == "The Replacements") AND (title == "Here Comes A Regular"))'
+The Replacements/Tim/11 Here Comes a Regular.flac
+mpc search '((artist == "The Replacements") AND (title == "Kiss Me on the Bus"))'
+The Replacements/Tim/03 Kiss Me on the Bus.flac
+mpc search '((artist == "The Replacements") AND (title == "Swingin Party"))'
+The Replacements/Tim/06 Swingin Party.flac
+mpc search '((artist == "The Beatles") AND (title == "Got to Get You Into My Life"))'
+The Beatles/Revolver/13 Got to Get You Into My Life.flac
+mpc search '((artist == "The Beatles") AND (title == "A Hard Day’s Night"))'
+The Beatles/A Hard Day's Night/01 A Hard Day’s Night.flac
+mpc search '((artist == "XTC") AND (title == "I’d Like That"))'
+XTC/Apple Venus, Volume 1/02 I’d Like That.mp3
+XTC/Homespun_ The Apple Venus Volume One Home Demos/02 I’d Like That.mp3
+mpc search '((artist == "XTC") AND (title == "I Can’t Own Her"))'
+XTC/Apple Venus, Volume 1/09 I Can’t Own Her.mp3
+XTC/Homespun_ The Apple Venus Volume One Home Demos/09 I Can’t Own Her.mp3
+mpc search '((artist == "Allo Darlin’") AND (title == "Dreaming"))'
+Allo Darlin’/Allo Darlin'/01 Dreaming.mp3
+mpc search '((artist == "Allo Darlin’") AND (title == "The Polaroid Song"))'
+Allo Darlin’/Allo Darlin'/02 The Polaroid Song.mp3
+mpc search '((artist == "Donna Summer") AND (title == "Hot Stuff"))'
+Donna Summer/Bad Girls/01 Hot Stuff.mp3
+Donna Summer/Gold/11 Hot Stuff.mp3
+mpc search '((artist == "Solange") AND (title == "Cranes in the Sky"))'
+Solange/A Seat at the Table/04 Cranes in the Sky.mp3
+mpc search '((artist == "Solange") AND (title == "Rise"))'
+Solange/A Seat at the Table/01 Rise.mp3
+mpc search '((artist == "Kelela") AND (title == "Rewind"))'
+Kelela/Take Me Apart/17 Rewind.mp3
+mpc search '((artist == "Carly Rae Jepsen") AND (title == "Let’s Sort the Whole Thing Out"))'
+Carly Rae Jepsen/Dedicated Side B/09 Let’s Sort the Whole Thing Out.mp3
+mpc search '((artist == "Jessie Ware") AND (title == "Remember Where You Are"))'
+Jessie Ware/What’s Your Pleasure_/12 Remember Where You Are.mp3
+mpc search '((artist == "Leprous") AND (title == "From the Flame"))'
+Leprous/Malina/03 From the Flame.flac
+mpc search '((artist == "Leprous") AND (title == "Stuck"))'
+Leprous/Malina/02 Stuck.flac
+mpc search '((artist == "Leprous") AND (title == "Third Law"))'
+Leprous/The Congregation/02 Third Law.mp3
+mpc search '((artist == "Leprous") AND (title == "The Price"))'
+Leprous/The Congregation/01 The Price.mp3
+mpc search '((artist == "Leprous") AND (title == "The Cloak"))'
+Leprous/Coal/04 The Cloak.mp3
+mpc search '((artist == "Leprous") AND (title == "Echo"))'
+Leprous/Coal/07 Echo.mp3
+mpc search '((artist == "Leprous") AND (title == "Thorn"))'
+Leprous/Bilateral/04 Thorn.mp3
+mpc search '((artist == "Leprous") AND (title == "Forced Entry"))'
+Leprous/Bilateral/02 Forced Entry.mp3
+mpc search '((artist == "Leprous") AND (title == "Bilateral"))'
+Leprous/Bilateral/01 Bilateral.mp3
+mpc search '((artist == "Santana") AND (title == "Europa (Earth’s Cry Heaven’s Smile)"))'
+Santana/Amigos/06 Europa (Earth’s Cry Heaven’s Smile).mp3
+mpc search '((artist == "Santana") AND (title == "Evil Ways"))'
+Santana/Santana [LP, Album]/02 Evil Ways.mp3
+mpc search '((artist == "Santana") AND (title == "No One to Depend On"))'
+Santana/Santana [album]/02 No One to Depend On.mp3
+mpc search '((artist == "Brad Mehldau Trio") AND (title == "Samba e amor"))'
+Brad Mehldau Trio/Where Do You Start/07 Samba e Amor.flac
+mpc search '((artist == "Insomnium") AND (title == "Revelation"))'
+Insomnium/Shadows of the Dying Sun/03 Revelation.mp3
+mpc search '((artist == "Brad Mehldau Trio") AND (title == "Everything In Its Right Place"))'
+Brad Mehldau Trio/Anything Goes/08 Everything in Its Right Place.mp3
+mpc search '((artist == "Brad Mehldau Trio") AND (title == "Still Crazy After All These Years"))'
+Brad Mehldau Trio/Anything Goes/07 Still Crazy After All These Years.mp3
+Compilations/Space Cowboys/10 Still Crazy After All These Years.mp3
+mpc search '((artist == "Brad Mehldau Trio") AND (title == "wonderwall"))'
+Brad Mehldau Trio/Brad Mehldau Trio Live/02 Wonderwall.mp3
+mpc search '((artist == "Brad Mehldau") AND (title == "New York State of Mind"))'
+Brad Mehldau/Suite_ April 2020/14 New York State of Mind.mp3
+mpc search '((artist == "Brad Mehldau") AND (title == "Don’t Let It Bring You Down"))'
+Brad Mehldau/Suite_ April 2020/13 Don’t Let It Bring You Down.mp3
+mpc search '((artist == "Brad Mehldau Trio") AND (title == "Get Happy"))'
+Brad Mehldau Trio/Anything Goes/01 Get Happy.mp3
+Brad Mehldau Trio/Live at Stockholm Concerthouse/08 Get Happy.mp3
+Brad Mehldau Trio/Live In Tallinn Estonia/03 Get Happy.mp3
+mpc search '((artist == "Roxy Music") AND (title == "Avalon"))'
+Roxy Music/Avalon/03 Avalon.mp3
+mpc search '((artist == "Roxy Music") AND (title == "More Than This"))'
+Roxy Music/Avalon/01 More Than This.mp3
+mpc search '((artist == "Roxy Music") AND (title == "Do the Strand"))'
+Roxy Music/For Your Pleasure/01 Do the Strand.mp3
+mpc search '((artist == "Duran Duran") AND (title == "Hungry Like the Wolf"))'
+Duran Duran/Greatest/07 Hungry Like the Wolf.mp3
+Duran Duran/Rio/04 Hungry Like the Wolf.mp3
+mpc search '((artist == "New Order") AND (title == "True Faith"))'
+New Order/Substance 1987/12 True Faith.mp3
+mpc search '((artist == "New Order") AND (title == "The Perfect Kiss"))'
+New Order/Low-Life/02 The Perfect Kiss.mp3
+New Order/Low-Life/09 The Perfect Kiss.mp3
+mpc search '((artist == "New Order") AND (title == "Age of Consent"))'
+New Order/Power, Corruption & Lies/01 Age of Consent.mp3
+mpc search '((artist == "Pet Shop Boys") AND (title == "Left To My Own Devices"))'
+Pet Shop Boys/Introspective/01 Left to My Own Devices.mp3
+mpc search '((artist == "Pet Shop Boys") AND (title == "It’s A Sin"))'
+Pet Shop Boys/Actually/07 It’s a Sin.mp3
+mpc search '((artist == "Pet Shop Boys") AND (title == "West End Girls"))'
+Pet Shop Boys/Please/02 West End Girls.mp3
+mpc search '((artist == "Pet Shop Boys") AND (title == "What Have I Done to Deserve This?"))'
+Pet Shop Boys/Actually/02 What Have I Done to Deserve This_.mp3
+mpc search '((artist == "Pet Shop Boys") AND (title == "Opportunities (Let’s Make Lots Of Money)"))'
+Pet Shop Boys/Please/03 Opportunities (Let’s Make Lots of Money).mp3
+mpc search '((artist == "The Beatles") AND (title == "Back in the U.S.S.R."))'
+The Beatles/The Beatles/01 Back in the U.S.S.R_.flac
+mpc search '((artist == "The Beatles") AND (title == "With a Little Help from My Friends"))'
+The Beatles/Sgt. Pepper's Lonely Hearts Club Band/02 With a Little Help From My Friends.flac
+mpc search '((artist == "The Beatles") AND (title == "She Said She Said"))'
+The Beatles/Revolver/07 She Said She Said.flac
+mpc search '((artist == "The Beatles") AND (title == "For No One"))'
+The Beatles/Revolver/10 For No One.flac
+mpc search '((artist == "The Beatles") AND (title == "I’m Only Sleeping"))'
+The Beatles/Revolver/03 I’m Only Sleeping.flac
+mpc search '((artist == "The Beatles") AND (title == "In My Life"))'
+The Beatles/Rubber Soul/11 In My Life.flac
+mpc search '((artist == "The Beatles") AND (title == "I'm Looking Through You"))'
+The Beatles/Rubber Soul/10 I'm Looking Through You.flac
+mpc search '((artist == "The Beatles") AND (title == "Girl"))'
+The Beatles/Rubber Soul/09 Girl.flac
+mpc search '((artist == "The Beatles") AND (title == "Nowhere Man"))'
+The Beatles/Rubber Soul/04 Nowhere Man.flac
+mpc search '((artist == "The Beatles") AND (title == "Norwegian Wood (The Bird Has Flown)"))'
+The Beatles/Rubber Soul/02 Norwegian Wood (The Bird Has Flown).flac
+mpc search '((artist == "Built to Spill") AND (title == "Sidewalk"))'
+Built to Spill/Keep It Like a Secret/04 Sidewalk.mp3
+mpc search '((artist == "Low") AND (title == "In Metal"))'
+Low/Things We Lost in the Fire/13 In Metal.mp3
+mpc search '((artist == "Built to Spill") AND (title == "Made"))'
+mpc search '((artist == "Built to Spill") AND (title == "I Would Hurt a Fly"))'
+Built to Spill/Perfect From Now On/02 I Would Hurt a Fly.mp3
+mpc search '((artist == "Built to Spill") AND (title == "Randy Described Eternity"))'
+Built to Spill/Perfect From Now On/01 Randy Described Eternity.mp3
+mpc search '((artist == "Low") AND (title == "Drag"))'
+Low/I Could Live in Hope/09 Drag.mp3
+mpc search '((artist == "Low") AND (title == "Lazy"))'
+Low/I Could Live in Hope/05 Lazy.mp3
+mpc search '((artist == "Low") AND (title == "Sunshine"))'
+Low/I Could Live in Hope/11 Sunshine.mp3
+mpc search '((artist == "Jim O’Rourke") AND (title == "Life Goes Off"))'
+Jim O’Rourke/Insignificance/07 Life Goes Off.flac
+mpc search '((artist == "Jim O’Rourke") AND (title == "Get A Room"))'
+Jim O’Rourke/Insignificance/06 Get a Room.flac
+mpc search '((artist == "Jim O’Rourke") AND (title == "Therefore, I Am"))'
+Jim O’Rourke/Insignificance/03 Therefore, I Am.flac
+mpc search '((artist == "Jim O’Rourke") AND (title == "Insignificance"))'
+Jim O’Rourke/Insignificance/02 Insignificance.flac
+mpc search '((artist == "Jim O’Rourke") AND (title == "All Downhill From Here"))'
+Jim O’Rourke/Insignificance/01 All Downhill From Here.flac
+mpc search '((artist == "Jim O’Rourke") AND (title == "Halfway To A Threeway"))'
+Jim O’Rourke/Halfway to a Threeway/04 Halfway to a Threeway.flac
+mpc search '((artist == "Jim O’Rourke") AND (title == "Not Sport, Martial Art"))'
+Jim O’Rourke/Halfway to a Threeway/02 Not Sport, Martial Art.flac
+mpc search '((artist == "Jim O’Rourke") AND (title == "Something Big"))'
+Jim O’Rourke/Eureka/06 Something Big.flac
+mpc search '((artist == "Jim O’Rourke") AND (title == "Ghost Ship In A Storm"))'
+Jim O’Rourke/Eureka/02 Ghost Ship in a Storm.flac
+mpc search '((artist == "Jim O’Rourke") AND (title == "Prelude to 110 or 220 / Women of the World"))'
+Jim O’Rourke/Eureka/01 Prelude to 110 or 220 _ Women of the World.flac
+mpc search '((artist == "Jim O’Rourke") AND (title == "Happy Trails"))'
+Jim O’Rourke/Bad Timing/04 Happy Trails.flac
+mpc search '((artist == "Jim O’Rourke") AND (title == "Bad Timing"))'
+Jim O’Rourke/Bad Timing/03 Bad Timing.flac
+mpc search '((artist == "Jim O’Rourke") AND (title == "There's Hell in Hello, But More in Goodbye"))'
+Jim O’Rourke/Bad Timing/01 There's Hell in Hello, But More in Goodbye.flac
+mpc search '((artist == "Yo La Tengo") AND (title == "Tears Are in Your Eyes"))'
+Yo La Tengo/And Then Nothing Turned Itself Inside‐Out/08 Tears Are in Your Eyes.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "The Crying of Lot G"))'
+Yo La Tengo/And Then Nothing Turned Itself Inside‐Out/06 The Crying of Lot G.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Let’s Save Tony Orlando’s House"))'
+Yo La Tengo/And Then Nothing Turned Itself Inside‐Out/04 Let’s Save Tony Orlando’s House.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Saturday"))'
+Yo La Tengo/And Then Nothing Turned Itself Inside‐Out/03 Saturday.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Everyday"))'
+Yo La Tengo/And Then Nothing Turned Itself Inside‐Out/01 Everyday.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Center of Gravity"))'
+Yo La Tengo/I Can Hear the Heart Beating as One/13 Center of Gravity.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Green Arrow"))'
+Yo La Tengo/I Can Hear the Heart Beating as One/10 Green Arrow.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Little Honda"))'
+Yo La Tengo/I Can Hear the Heart Beating as One/09 Little Honda.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Deeper Into Movies"))'
+Yo La Tengo/I Can Hear the Heart Beating as One/05 Deeper Into Movies.mp3
+Yo La Tengo/Stuff Like That There/13 Deeper Into Movies.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Damage"))'
+Yo La Tengo/I Can Hear the Heart Beating as One/04 Damage.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Moby Octopad"))'
+Yo La Tengo/I Can Hear the Heart Beating as One/02 Moby Octopad.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Return to Hot Chicken"))'
+Yo La Tengo/I Can Hear the Heart Beating as One/01 Return to Hot Chicken.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "The Hour Grows Late"))'
+Yo La Tengo/Electr‐O‐Pura/03 The Hour Grows Late.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Decora"))'
+Yo La Tengo/Electr‐O‐Pura/01 Decora.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "I Heard You Looking"))'
+Yo La Tengo/Painful/11 I Heard You Looking.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Nowhere Near"))'
+Yo La Tengo/Painful/05 Nowhere Near.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Double Dare"))'
+Yo La Tengo/Painful/03 Double Dare.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "My Little Corner of the World"))'
+Yo La Tengo/I Can Hear the Heart Beating as One/16 My Little Corner of the World.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "Shadows"))'
+Yo La Tengo/I Can Hear the Heart Beating as One/06 Shadows.mp3
+mpc search '((artist == "Yo La Tengo") AND (title == "From a Motel 6"))'
+Yo La Tengo/Painful/02 From a Motel 6.mp3
+mpc search '((artist == "Neil Young") AND (title == "Only Love Can Break Your Heart"))'
+Neil Young/After the Gold Rush/03 Only Love Can Break Your Heart.mp3
+Neil Young/Greatest Hits/06 Only Love Can Break Your Heart.mp3
+mpc search '((artist == "Opeth") AND (title == "Harvest"))'
+Opeth/Blackwater Park/03 Harvest.mp3
+Opeth/In Live Concert at the Royal Albert Hall/03 Harvest.flac
+mpc search '((artist == "Opeth") AND (title == "Bleak"))'
+Opeth/Blackwater Park/02 Bleak.mp3
+Opeth/In Live Concert at the Royal Albert Hall/02 Bleak.flac
+mpc search '((artist == "Can") AND (title == "Vitamin C"))'
+Can/Ege Bamyasi/04 Vitamin C.mp3
+mpc search '((artist == "Can") AND (title == "Mushroom"))'
+Can/Tago Mago/02 Mushroom.mp3
+mpc search '((artist == "Sigur Rós") AND (title == "Ísjaki"))'
+Sigur Rós/Kveikur/03 Ísjaki.mp3
+mpc search '((artist == "Brad Mehldau") AND (title == "Waltz for J.B."))'
+Brad Mehldau/10 Years Solo Live/09 Waltz for J.B_.flac
+mpc search '((artist == "Brad Mehldau") AND (title == "This Here"))'
+Brad Mehldau/10 Years Solo Live/07 This Here.flac
+mpc search '((artist == "Brad Mehldau") AND (title == "Jigsaw Falling Into Place"))'
+Brad Mehldau/10 Years Solo Live/03 Jigsaw Falling Into Place.flac
+mpc search '((artist == "Brad Mehldau") AND (title == "And I Love Her"))'
+Brad Mehldau/10 Years Solo Live/05 And I Love Her.flac
+mpc search '((artist == "Pinback") AND (title == "The Yellow Ones"))'
+Pinback/Summer in Abaddon/09 The Yellow Ones.flac
+mpc search '((artist == "Pinback") AND (title == "Prog"))'
+Pinback/Blue Screen Life/08 Prog.flac
+mpc search '((artist == "Pinback") AND (title == "Concrete Seconds"))'
+Pinback/Blue Screen Life/02 Concrete Seconds.flac
+mpc search '((artist == "Pinback") AND (title == "Chaos Engine"))'
+Pinback/Pinback/04 Chaos Engine.flac
+mpc search '((artist == "Pinback") AND (title == "Hurley"))'
+Pinback/Pinback/02 Hurley.flac
+mpc search '((artist == "Keith Jarrett") AND (title == "Köln, January 24, 1975, Part I"))'
+Keith Jarrett/The Köln Concert/01 Köln, January 24, 1975, Part I.flac
+mpc search '((artist == "Boards of Canada") AND (title == "Turquoise Hexagon Sun"))'
+Boards of Canada/Hi Scores/02 Turquoise Hexagon Sun.mp3
+Boards of Canada/Music Has the Right to Children/07 Turquoise Hexagon Sun.mp3
+mpc search '((artist == "Genesis") AND (title == "Time Table"))'
+Genesis/Foxtrot/02 Time Table.mp3
+mpc search '((artist == "Beach House") AND (title == "Take Care"))'
+Beach House/Teen Dream/10 Take Care.mp3
+mpc search '((artist == "Beach House") AND (title == "Walk in the Park"))'
+Beach House/Teen Dream/04 Walk in the Park.mp3
+mpc search '((artist == "Beach House") AND (title == "Norway"))'
+Beach House/Teen Dream/03 Norway.mp3
+mpc search '((artist == "Boards of Canada") AND (title == "Dawn Chorus"))'
+Boards of Canada/Geogaddi/19 Dawn Chorus.mp3
+mpc search '((artist == "Beach House") AND (title == "Zebra"))'
+Beach House/Teen Dream/01 Zebra.mp3
+mpc search '((artist == "Kiasmos") AND (title == "Looped"))'
+Kiasmos/Kiasmos/03 Looped.mp3
+mpc search '((artist == "Charli XCX") AND (title == "Boom Clap"))'
+Charli XCX/Sucker/06 Boom Clap.mp3
+mpc search '((artist == "Charli XCX & Christine and the Queens") AND (title == "Gone"))'
+Charli XCX/Charli/02 Gone.mp3
+mpc search '((artist == "Charli XCX") AND (title == "Unlock It (feat. Kim Petras and Jay Park)"))'
+Charli XCX/Pop 2 [Explicit]/08 Unlock It (feat. Kim Petras and Jay Park).mp3
+mpc search '((artist == "Charli XCX") AND (title == "Track 10"))'
+Charli XCX/Pop 2 [Explicit]/10 Track 10.mp3
+mpc search '((artist == "The Beatles") AND (title == "Get Back"))'
+The Beatles/Let It Be/12 Get Back.flac
+mpc search '((artist == "Global Communication") AND (title == "14 31"))'
+Global Communication/76_14/02 14 31.mp3
+mpc search '((artist == "The Pogues") AND (title == "If I Should Fall From Grace With God"))'
+The Pogues/If I Should Fall From Grace With God/01 If I Should Fall From Grace With God.mp3
+mpc search '((artist == "The Field") AND (title == "A Paw in My Face"))'
+The Field/From Here We Go Sublime/02 A Paw in My Face.mp3
+mpc search '((artist == "Yann Tiersen") AND (title == "Sur le fil"))'
+Yann Tiersen/C’était ici/08 Sur le fil.mp3
+Yann Tiersen/Le Fabuleux Destin d’Amélie Poulain/17 Sur le fil.mp3
+Yann Tiersen/Le Phare/09 Sur le fil.mp3
+mpc search '((artist == "Enya") AND (title == "Orinoco Flow"))'
+Enya/Watermark/07 Orinoco Flow.mp3
+mpc search '((artist == "Love") AND (title == "Alone Again Or"))'
+Love/Forever Changes/01 Alone Again Or.mp3
+mpc search '((artist == "Cat Power") AND (title == "Good Woman"))'
+Cat Power/You Are Free/03 Good Woman.mp3
+mpc search '((artist == "Cat Power") AND (title == "I Don’t Blame You"))'
+Cat Power/You Are Free/01 I Don’t Blame You.mp3
+mpc search '((artist == "Real Estate") AND (title == "Same Sun"))'
+Real Estate/In Mind/10 Same Sun.mp3
+mpc search '((artist == "Real Estate") AND (title == "Diamond Eyes"))'
+Real Estate/In Mind/09 Diamond Eyes.mp3
+mpc search '((artist == "Real Estate") AND (title == "Two Arrows"))'
+Real Estate/In Mind/05 Two Arrows.mp3
+mpc search '((artist == "Real Estate") AND (title == "Stained Glass"))'
+Real Estate/In Mind/03 Stained Glass.mp3
+mpc search '((artist == "Gojira") AND (title == "L’Enfant Sauvage"))'
+Gojira/L’Enfant sauvage/02 L’Enfant sauvage.mp3
+mpc search '((artist == "Gojira") AND (title == "Vacuity"))'
+Gojira/The Flesh Alive/43 Vacuity.mp3
+Gojira/The Way of All Flesh/10 Vacuity.mp3
+mpc search '((artist == "Gojira") AND (title == "The Art of Dying"))'
+Gojira/The Flesh Alive/38 The Art of Dying.mp3
+Gojira/The Way of All Flesh/08 The Art of Dying.mp3
+mpc search '((artist == "Gojira") AND (title == "Toxic Garbage Island"))'
+Gojira/The Way of All Flesh/02 Toxic Garbage Island.mp3
+mpc search '((artist == "Gojira") AND (title == "Esoteric Surgery"))'
+Gojira/The Way of All Flesh/09 Esoteric Surgery.mp3
+mpc search '((artist == "Gojira") AND (title == "The Heaviest Matter of the Universe"))'
+Gojira/From Mars to Sirius/06 The Heaviest Matter of the Universe.mp3
+Gojira/The Flesh Alive/33 The Heaviest Matter of the Universe.mp3
+mpc search '((artist == "Gojira") AND (title == "To Sirius"))'
+Gojira/From Mars to Sirius/11 To Sirius.mp3
+mpc search '((artist == "Gojira") AND (title == "Ocean Planet"))'
+Gojira/From Mars to Sirius/01 Ocean Planet.mp3
+mpc search '((artist == "Robert Glasper") AND (title == "Rise And Shine"))'
+Robert Glasper/Canvas/01 Rise and Shine.mp3
+mpc search '((artist == "Robert Glasper") AND (title == "Maiden Voyage / Everything In Its Right Place"))'
+Robert Glasper/In My Element/07 Maiden Voyage _ Everything in Its Right Place.mp3
+mpc search '((artist == "The Robert Glasper Trio") AND (title == "Downtime"))'
+Robert Glasper/Double Booked/04 Downtime.mp3
+mpc search '((artist == "Ween") AND (title == "Exactly Where I'm At"))'
+Ween/White Pepper/01 Exactly Where I'm At.mp3
+mpc search '((artist == "Spoon") AND (title == "The Underdog"))'
+Spoon/Ga Ga Ga Ga Ga/07 The Underdog.mp3
+mpc search '((artist == "Spoon") AND (title == "Don’t You Evah"))'
+Spoon/Ga Ga Ga Ga Ga/04 Don’t You Evah.mp3
+mpc search '((artist == "Spoon") AND (title == "Small Stakes"))'
+Spoon/Kill the Moonlight/01 Small Stakes.mp3
+mpc search '((artist == "Kero Kero Bonito") AND (title == "Make Believe"))'
+Kero Kero Bonito/Time ’n’ Place/06 Make Believe.mp3
+mpc search '((artist == "Kero Kero Bonito") AND (title == "Only Acting"))'
+Kero Kero Bonito/Time ’n’ Place/03 Only Acting.mp3
+Kero Kero Bonito/TOTEP/02 Only Acting.mp3
+mpc search '((artist == "Kero Kero Bonito") AND (title == "Time Today"))'
+Kero Kero Bonito/Time ’n’ Place/02 Time Today.mp3
+mpc search '((artist == "The Comet Is Coming") AND (title == "Summon The Fire"))'
+The Comet Is Coming/Trust in the Lifeforce of the Deep Mystery/03 Summon the Fire.mp3
+mpc search '((artist == "Spoon") AND (title == "Do You"))'
+Spoon/They Want My Soul/04 Do You.mp3
+mpc search '((artist == "Spoon") AND (title == "Finer Feelings"))'
+Spoon/Ga Ga Ga Ga Ga/09 Finer Feelings.mp3
+mpc search '((artist == "Spoon") AND (title == "You Got Yr. Cherry Bomb"))'
+Spoon/Ga Ga Ga Ga Ga/03 You Got Yr. Cherry Bomb.mp3
+Spoon/Ga Ga Ga Ga Ga/17 You Got Yr. Cherry Bomb.mp3
+mpc search '((artist == "Spoon") AND (title == "Don’t Make Me a Target"))'
+Spoon/Ga Ga Ga Ga Ga/01 Don’t Make Me a Target.mp3
+mpc search '((artist == "Spoon") AND (title == "The Way We Get By"))'
+Spoon/Kill the Moonlight/02 The Way We Get By.mp3
+mpc search '((artist == "The Pretenders") AND (title == "Brass in Pocket"))'
+The Pretenders/Pretenders/10 Brass in Pocket.mp3
+mpc search '((artist == "Blondie") AND (title == "Hanging on the Telephone"))'
+Blondie/Parallel Lines/01 Hanging on the Telephone.mp3
+mpc search '((artist == "The Pretenders") AND (title == "Mystery Achievement"))'
+The Pretenders/Pretenders/12 Mystery Achievement.mp3
+mpc search '((artist == "Blondie") AND (title == "Dreaming"))'
+Blondie/Eat to the Beat/01 Dreaming.mp3
+mpc search '((artist == "Yes") AND (title == "I’ve Seen All Good People: A. Your Move B. All Good People"))'
+Yes/The Yes Album/04 I’ve Seen All Good People_ a. Your Move b. All Good People.flac
+mpc search '((artist == "Yes") AND (title == "Starship Trooper: a. Life Seeker b. Disillusion c. Würm"))'
+Yes/The Yes Album/03 Starship Trooper_ a. Life Seeker b. Disillusion c. Würm.flac
+mpc search '((artist == "XTC") AND (title == "Complicated Game"))'
+XTC/Drums and Wires/12 Complicated Game.mp3
+mpc search '((artist == "XTC") AND (title == "Limelight"))'
+XTC/Drums and Wires/15 Limelight.mp3
+mpc search '((artist == "XTC") AND (title == "Rocket From a Bottle"))'
+XTC/Black Sea/05 Rocket From a Bottle.mp3
+XTC/Black Sea_Remastered/05 Rocket From a Bottle.flac
+mpc search '((artist == "XTC") AND (title == "Roads Girdle the Globe"))'
+XTC/Drums and Wireless_ BBC Radio Sessions 1977–1989/17 Roads Girdle the Globe.mp3
+XTC/Drums and Wires/06 Roads Girdle the Globe.mp3
+XTC/Transistor Blast_ The Best of the BBC Sessions/13 Roads Girdle the Globe.mp3
+mpc search '((artist == "XTC") AND (title == "When You’re Near Me I Have Difficulty"))'
+XTC/Drums and Wires/04 When You’re Near Me I Have Difficulty.mp3
+mpc search '((artist == "XTC") AND (title == "Don’T Lose Your Temper"))'
+XTC/Beeswax_ Some B-Sides 1977–1982/07 Don’t Lose Your Temper.mp3
+XTC/Black Sea/13 Don’t Lose Your Temper.mp3
+mpc search '((artist == "XTC") AND (title == "No Language in Our Lungs"))'
+XTC/Black Sea/06 No Language in Our Lungs.mp3
+XTC/Black Sea_Remastered/06 No Language in Our Lungs.flac
+XTC/Transistor Blast_ The Best of the BBC Sessions/43 No Language in Our Lungs.mp3
+mpc search '((artist == "XTC") AND (title == "Burning With Optimism’S Flames"))'
+XTC/Black Sea/09 Burning With Optimism’s Flames.mp3
+mpc search '((artist == "XTC") AND (title == "Travels in Nihilon"))'
+XTC/Black Sea/11 Travels in Nihilon.mp3
+XTC/Black Sea_Remastered/11 Travels in Nihilon.flac
+mpc search '((artist == "XTC") AND (title == "Smokeless Zone"))'
+XTC/Beeswax_ Some B-Sides 1977–1982/08 Smokeless Zone.mp3
+XTC/Black Sea/12 Smokeless Zone.mp3
+XTC/Black Sea_Remastered/13 Smokeless Zone.flac
+mpc search '((artist == "XTC") AND (title == "This Is Pop"))'
+XTC/Transistor Blast_ The Best of the BBC Sessions/36 This Is Pop.mp3
+XTC/Transistor Blast_ The Best of the BBC Sessions/44 This Is Pop.mp3
+XTC/Waxworks_ Some Singles 1977–1982/03 This is Pop.mp3
+XTC/White Music/03 This Is Pop.mp3
+mpc search '((artist == "XTC") AND (title == "Meccanik Dancing (Oh We Go!)"))'
+XTC/Go 2/01 Meccanik Dancing (Oh We Go!).mp3
+mpc search '((artist == "Marillion") AND (title == "Fantastic Place"))'
+Marillion/Marbles/04 Fantastic Place.mp3
+mpc search '((artist == "Yes") AND (title == "Machine Messiah"))'
+Yes/Drama/01 Machine Messiah.flac
+mpc search '((artist == "Yes") AND (title == "Mood for a Day"))'
+Yes/Fragile/08 Mood for a Day.flac
+Yes/Yessongs/06 Mood for a Day.mp3
+mpc search '((artist == "Yes") AND (title == "The Fish (Schindleria Praematurus)"))'
+Yes/Fragile/07 The Fish (Schindleria Praematurus).flac
+mpc search '((artist == "Yes") AND (title == "South Side of the Sky"))'
+Yes/Fragile/04 South Side of the Sky.flac
+mpc search '((artist == "Yes") AND (title == "We Have Heaven"))'
+Yes/Fragile/03 We Have Heaven.flac
+mpc search '((artist == "Yes") AND (title == "And You and I: I. Cord of Life / II. Eclipse / III. The Preacher, the Teacher / IV. Apocalypse"))'
+Yes/Close to the Edge/02 And You and I_ I. Cord of Life _ II. Eclipse _ III. The Preacher, the Teacher _ IV. Apocalypse.flac
+mpc search '((artist == "Yes") AND (title == "Close To The Edge: I. The Solid Time of Change / II. Total Mass Retain / III. I Get Up I Get Down / IV. Seasons of Man"))'
+Yes/Close to the Edge/01 Close to the Edge_ I. The Solid Time of Change _ II. Total Mass Retain _ III. I Get Up I Get Down _ IV. Seasons of Man.flac
+mpc search '((artist == "TV on the Radio") AND (title == "Wolf Like Me"))'
+TV on the Radio/Return to Cookie Mountain/05 Wolf Like Me.mp3
+mpc search '((artist == "Iron Maiden") AND (title == "The Clairvoyant"))'
+Iron Maiden/Flight 666_ The Original Soundtrack/16 The Clairvoyant.mp3
+Iron Maiden/Seventh Son of a Seventh Son/07 The Clairvoyant.mp3
+mpc search '((artist == "Iron Maiden") AND (title == "Seventh Son of a Seventh Son"))'
+Iron Maiden/Seventh Son of a Seventh Son/05 Seventh Son of a Seventh Son.mp3
+mpc search '((artist == "Iron Maiden") AND (title == "Only the Good Die Young"))'
+Iron Maiden/Seventh Son of a Seventh Son/08 Only the Good Die Young.mp3
+mpc search '((artist == "Iron Maiden") AND (title == "Moonchild"))'
+Iron Maiden/Flight 666_ The Original Soundtrack/15 Moonchild.mp3
+Iron Maiden/Seventh Son of a Seventh Son/01 Moonchild.mp3
+mpc search '((artist == "Iron Maiden") AND (title == "Can I Play With Madness"))'
+Iron Maiden/Flight 666_ The Original Soundtrack/08 Can I Play With Madness.mp3
+Iron Maiden/Seventh Son of a Seventh Son/03 Can I Play With Madness.mp3
+mpc search '((artist == "Portishead") AND (title == "The Rip"))'
+Portishead/Third/04 The Rip.flac
+mpc search '((artist == "Portishead") AND (title == "Glory Box"))'
+Portishead/Dummy/11 Glory Box.flac
+Portishead/Roseland NYC Live/08 Glory Box.mp3
+mpc search '((artist == "Portishead") AND (title == "Roads"))'
+Portishead/Dummy/08 Roads.flac
+Portishead/Roseland NYC Live/10 Roads.mp3
+mpc search '((artist == "Jethro Tull") AND (title == "Songs From the Wood"))'
+Jethro Tull/Songs From the Wood/01 Songs From the Wood.mp3
+mpc search '((artist == "Jethro Tull") AND (title == "Bourée"))'
+Jethro Tull/Stand Up/03 Bourée.mp3
+mpc search '((artist == "Gentle Giant") AND (title == "In a Glass House"))'
+Gentle Giant/In a Glass House/06 In a Glass House.mp3
+mpc search '((artist == "Gentle Giant") AND (title == "Three Friends"))'
+Gentle Giant/Three Friends/06 Three Friends.mp3
+mpc search '((artist == "Gentle Giant") AND (title == "Pantagruel's Nativity"))'
+Gentle Giant/Acquiring the Taste/01 Pantagruel's Nativity.mp3
+mpc search '((artist == "Scorpions") AND (title == "Big City Nights"))'
+Scorpions/Love at First Sting/06 Big City Nights.mp3
+Scorpions/World Wide Live/07 Big City Nights.mp3
+mpc search '((artist == "Scorpions") AND (title == "Crossfire"))'
+Scorpions/Love at First Sting/08 Crossfire.mp3
+mpc search '((artist == "Scorpions") AND (title == "Still Loving You"))'
+Scorpions/Love at First Sting/09 Still Loving You.mp3
+Scorpions/World Wide Live/10 Still Loving You.mp3
+mpc search '((artist == "Scorpions") AND (title == "No One Like You"))'
+Scorpions/Blackout/03 No One Like You.mp3
+Scorpions/World Wide Live/14 No One Like You.mp3
+mpc search '((artist == "Scorpions") AND (title == "Rock You Like a Hurricane"))'
+Scorpions/Love at First Sting/02 Rock You Like a Hurricane.mp3
+Scorpions/World Wide Live/11 Rock You Like a Hurricane.mp3
+mpc search '((artist == "Scorpions") AND (title == "Bad Boys Running Wild"))'
+Scorpions/Love at First Sting/01 Bad Boys Running Wild.mp3
+Scorpions/World Wide Live/04 Bad Boys Running Wild.mp3
+mpc search '((artist == "Marillion") AND (title == "Kayleigh"))'
+Marillion/Misplaced Childhood/02 Kayleigh.mp3
+mpc search '((artist == "Mansun") AND (title == "She Makes My Nose Bleed"))'
+Mansun/Attack of the Grey Lantern/08 She Makes My Nose Bleed.mp3
+mpc search '((artist == "Mansun") AND (title == "Stripper Vicar"))'
+Mansun/Attack of the Grey Lantern/06 Stripper Vicar.mp3
+mpc search '((artist == "Mansun") AND (title == "The Chad Who Loved Me"))'
+Mansun/Attack of the Grey Lantern/01 The Chad Who Loved Me.mp3
+mpc search '((artist == "Focus") AND (title == "Hocus Pocus"))'
+Focus/Moving Waves/01 Hocus Pocus.mp3
+mpc search '((artist == "Led Zeppelin") AND (title == "Black Dog"))'
+Led Zeppelin/[Led Zeppelin IV]/01 Black Dog.mp3
+Led Zeppelin/How the West Was Won/04 Black Dog.mp3
+mpc search '((artist == "Led Zeppelin") AND (title == "Ramble On"))'
+Led Zeppelin/Led Zeppelin II/07 Ramble On.mp3
+mpc search '((artist == "Led Zeppelin") AND (title == "Immigrant Song"))'
+Led Zeppelin/How the West Was Won/02 Immigrant Song.mp3
+Led Zeppelin/Led Zeppelin III/01 Immigrant Song.mp3
+mpc search '((artist == "Led Zeppelin") AND (title == "Thank You"))'
+Led Zeppelin/Led Zeppelin II/04 Thank You.mp3
+mpc search '((artist == "Led Zeppelin") AND (title == "Whole Lotta Love"))'
+Led Zeppelin/How the West Was Won/15 Whole Lotta Love.mp3
+Led Zeppelin/Led Zeppelin II/01 Whole Lotta Love.mp3
+mpc search '((artist == "Yes") AND (title == "The Gates of Delirium"))'
+Yes/Relayer/01 The Gates of Delirium.flac
+mpc search '((artist == "Led Zeppelin") AND (title == "Babe I'm Gonna Leave You"))'
+Led Zeppelin/Led Zeppelin/02 Babe I'm Gonna Leave You.mp3
+mpc search '((artist == "Led Zeppelin") AND (title == "Good Times Bad Times"))'
+Led Zeppelin/Led Zeppelin/01 Good Times Bad Times.mp3
+mpc search '((artist == "Queensrÿche") AND (title == "Operation: Mindcrime"))'
+Queensrÿche/Operation_ Mindcrime/04 Operation_ Mindcrime.mp3
+mpc search '((artist == "Black Sabbath") AND (title == "Supernaut"))'
+Black Sabbath/Greatest Hits 1970–1978/11 Supernaut.mp3
+Black Sabbath/Vol 4/05 Supernaut.mp3
+mpc search '((artist == "Black Sabbath") AND (title == "Snowblind"))'
+Black Sabbath/Greatest Hits 1970–1978/10 Snowblind.mp3
+Black Sabbath/Vol 4/06 Snowblind.mp3
+mpc search '((artist == "Queensrÿche") AND (title == "Revolution Calling"))'
+Queensrÿche/Operation_ Mindcrime/03 Revolution Calling.mp3
+mpc search '((artist == "Black Sabbath") AND (title == "Black Sabbath"))'
+Black Sabbath/Black Sabbath/01 Black Sabbath.mp3
+Black Sabbath/Greatest Hits 1970–1978/01 Black Sabbath.mp3
+mpc search '((artist == "Iron Maiden") AND (title == "Aces High"))'
+Iron Maiden/Flight 666_ The Original Soundtrack/02 Aces High.mp3
+Iron Maiden/Live After Death/02 Aces High.mp3
+Iron Maiden/Powerslave/01 Aces High.mp3
+mpc search '((artist == "Tool") AND (title == "Schism"))'
+Tool/Lateralus/05 Schism.mp3
+mpc search '((artist == "Black Sabbath") AND (title == "Children of the Grave"))'
+Black Sabbath/Greatest Hits 1970–1978/08 Children of the Grave.mp3
+Black Sabbath/Master of Reality/04 Children of the Grave.mp3
+mpc search '((artist == "Black Sabbath") AND (title == "Sweet Leaf"))'
+Black Sabbath/Greatest Hits 1970–1978/07 Sweet Leaf.mp3
+Black Sabbath/Master of Reality/01 Sweet Leaf.mp3
+mpc search '((artist == "Black Sabbath") AND (title == "Iron Man"))'
+Black Sabbath/Greatest Hits 1970–1978/06 Iron Man.mp3
+Black Sabbath/Paranoid/04 Iron Man.mp3
+mpc search '((artist == "Black Sabbath") AND (title == "War Pigs"))'
+Black Sabbath/Greatest Hits 1970–1978/04 War Pigs.mp3
+Black Sabbath/Paranoid/01 War Pigs.mp3
+mpc search '((artist == "Janelle Monáe feat. Grimes") AND (title == "PYNK"))'
+Janelle Monáe/Dirty Computer/07 Pynk.mp3
+mpc search '((artist == "Kylie Minogue") AND (title == "Can’t Get You Out Of My Head"))'
+Kylie Minogue/Fever/03 Can’t Get You Out of My Head.mp3
+mpc search '((artist == "Michael Jackson") AND (title == "Human Nature"))'
+Michael Jackson/Thriller/07 Human Nature.mp3
+mpc search '((artist == "Michael Jackson") AND (title == "Black or White"))'
+Michael Jackson/Dangerous/08 Black Or White.mp3
+Michael Jackson/HIStory_ Past, Present and Future, Book I/03 Black or White.mp3
+mpc search '((artist == "Everything Everything") AND (title == "Regret"))'
+Everything Everything/Get to Heaven/04 Regret.mp3
+mpc search '((artist == "Everything Everything") AND (title == "Final Form"))'
+Everything Everything/Man Alive/05 Final Form.mp3
+mpc search '((artist == "Everything Everything") AND (title == "Get to Heaven"))'
+Everything Everything/Get to Heaven/03 Get to Heaven.mp3
+mpc search '((artist == "Everything Everything") AND (title == "To the Blade"))'
+Everything Everything/Get to Heaven/01 To the Blade.mp3
+mpc search '((artist == "Yeah Yeah Yeahs") AND (title == "Zero"))'
+Yeah Yeah Yeahs/It's Blitz!/01 Zero.mp3
+mpc search '((artist == "Yeah Yeah Yeahs") AND (title == "Maps"))'
+Yeah Yeah Yeahs/Fever to Tell/09 Maps.mp3
+mpc search '((artist == "Everything Everything") AND (title == "Photoshop Handsome"))'
+Everything Everything/Man Alive/06 Photoshop Handsome.mp3
+mpc search '((artist == "Imogen Heap") AND (title == "Hide and Seek"))'
+Imogen Heap/Speak for Yourself/05 Hide and Seek.mp3
+mpc search '((artist == "Dua Lipa") AND (title == "Break My Heart"))'
+Dua Lipa/Future Nostalgia/09 Break My Heart.mp3
+mpc search '((artist == "Dua Lipa") AND (title == "Don’t Start Now"))'
+Dua Lipa/Future Nostalgia/02 Don’t Start Now.mp3
+mpc search '((artist == "Everything Everything") AND (title == "MY KZ, UR BF"))'
+Everything Everything/Man Alive/01 MY KZ, UR BF.mp3
+mpc search '((artist == "Janelle Monáe feat. Zoe Kravitz") AND (title == "Screwed"))'
+Janelle Monáe/Dirty Computer/05 Screwed.mp3
+mpc search '((artist == "Janelle Monáe") AND (title == "Make Me Feel"))'
+Janelle Monáe/Dirty Computer/08 Make Me Feel.mp3
+mpc search '((artist == "Janelle Monáe") AND (title == "Crazy, Classic, Life"))'
+Janelle Monáe/Dirty Computer/02 Crazy, Classic, Life.mp3
+mpc search '((artist == "Rhye") AND (title == "Open"))'
+Rhye/Woman/01 Open.mp3
+mpc search '((artist == "Grimes") AND (title == "Kill V. Maim"))'
+Grimes/Art Angels/06 Kill V. Maim.mp3
+mpc search '((artist == "Grimes") AND (title == "REALiTi"))'
+Grimes/Art Angels/10 REALiTi.mp3
+mpc search '((artist == "Grimes") AND (title == "Flesh without Blood"))'
+Grimes/Art Angels/04 Flesh without Blood.mp3
+mpc search '((artist == "Grimes") AND (title == "World Princess, Part II"))'
+Grimes/Art Angels/11 World Princess, part II.mp3
+mpc search '((artist == "Blood Orange") AND (title == "Jewelry"))'
+Blood Orange/Negro Swan/05 Jewelry.mp3
+mpc search '((artist == "Blood Orange") AND (title == "Always Let U Down"))'
+Blood Orange/Cupid Deluxe/08 Always Let U Down.mp3
+mpc search '((artist == "Blood Orange") AND (title == "Chosen"))'
+Blood Orange/Cupid Deluxe/06 Chosen.mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Comme des Garçons"))'
+Frank Ocean/Endless/06 Comme Des Garçons.m4a
+mpc search '((artist == "Frank Ocean") AND (title == "At Your Best (You Are Love)"))'
+Frank Ocean/Endless/01 At Your Best (You Are Love).m4a
+mpc search '((artist == "Frank Ocean") AND (title == "Futura Free"))'
+Frank Ocean/Blonde/17 Futura Free.mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Godspeed"))'
+Frank Ocean/Blonde/16 Godspeed.mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Bad Religion"))'
+Frank Ocean/Channel Orange/14 Bad Religion.mp3
+mpc search '((artist == "Blood Orange") AND (title == "Minetta Creek"))'
+Blood Orange/Negro Swan/15 Minetta Creek.mp3
+mpc search '((artist == "Bee Gees") AND (title == "Stayin' Alive"))'
+Bee Gees/Their Greatest Hits_ The Record/22 Stayin' Alive.mp3
+mpc search '((artist == "Blood Orange") AND (title == "Uncle Ace"))'
+Blood Orange/Cupid Deluxe/03 Uncle ACE.mp3
+mpc search '((artist == "Blood Orange") AND (title == "Take Your Time"))'
+Blood Orange/Negro Swan/03 Take Your Time.mp3
+mpc search '((artist == "Blood Orange") AND (title == "Saint"))'
+Blood Orange/Negro Swan/02 Saint.mp3
+mpc search '((artist == "Blood Orange") AND (title == "E.V.P."))'
+Blood Orange/Freetown Sound/06 E.V.P_.mp3
+mpc search '((artist == "Blood Orange") AND (title == "Augustine"))'
+Blood Orange/Freetown Sound/02 Augustine.mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Solo (Reprise)"))'
+Frank Ocean/Blonde/10 Solo (reprise).mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Self Control"))'
+Frank Ocean/Blonde/07 Self Control.mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Nights"))'
+Frank Ocean/Blonde/09 Nights.mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Nikes"))'
+Frank Ocean/Blonde/01 Nikes.mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Pink + White"))'
+Frank Ocean/Blonde/03 Pink + White.mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Solo"))'
+Frank Ocean/Blonde/05 Solo.mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Pyramids"))'
+Frank Ocean/Channel Orange/10 Pyramids.mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Super Rich Kids"))'
+mpc search '((artist == "FKA twigs") AND (title == "cellophane"))'
+FKA twigs/MAGDALENE/09 cellophane.mp3
+mpc search '((artist == "Blood Orange") AND (title == "Charcoal Baby"))'
+Blood Orange/Negro Swan/07 Charcoal Baby.mp3
+mpc search '((artist == "Graham Nash") AND (title == "Better Days"))'
+Graham Nash/Songs for Beginners/02 Better Days.mp3
+mpc search '((artist == "Al Stewart") AND (title == "Year of the Cat"))'
+Al Stewart/Year of the Cat/09 Year of the Cat.mp3
+mpc search '((artist == "Jackson Browne") AND (title == "Doctor My Eyes"))'
+Jackson Browne/Saturate Before Using/04 Doctor My Eyes.mp3
+mpc search '((artist == "The Weeknd Feat. Daft Punk") AND (title == "I Feel It Coming"))'
+The Weeknd/Starboy/18 I Feel It Coming.mp3
+mpc search '((artist == "Jamila Woods") AND (title == "GIOVANNI"))'
+Jamila Woods/LEGACY! LEGACY!/03 GIOVANNI.mp3
+mpc search '((artist == "Rhye") AND (title == "The Fall"))'
+Rhye/Woman/02 The Fall.mp3
+mpc search '((artist == "Billie Eilish") AND (title == "bad guy"))'
+Billie Eilish/WHEN WE ALL FALL ASLEEP, WHERE DO WE GO_/02 bad guy.mp3
+mpc search '((artist == "Grimes") AND (title == "Genesis"))'
+Grimes/Visions/02 Genesis.mp3
+mpc search '((artist == "James Blake") AND (title == "Retrograde"))'
+James Blake/Overgrown/05 Retrograde.mp3
+mpc search '((artist == "FKA twigs") AND (title == "Two Weeks"))'
+FKA twigs/LP1/03 Two Weeks.mp3
+mpc search '((artist == "James Blake") AND (title == "Limit to Your Love"))'
+James Blake/James Blake/06 Limit to Your Love.mp3
+mpc search '((artist == "James Blake") AND (title == "The Wilhelm Scream"))'
+James Blake/James Blake/02 The Wilhelm Scream.mp3
+mpc search '((artist == "Mac Miller") AND (title == "Good News"))'
+Mac Miller/Circles/04 Good News.mp3
+mpc search '((artist == "Herbie Hancock") AND (title == "Actual Proof"))'
+Herbie Hancock/Flood/02 Actual Proof.mp3
+Herbie Hancock/Thrust/02 Actual Proof.mp3
+mpc search '((artist == "Aes Dana") AND (title == "Leylines"))'
+Aes Dana/Leylines/06 Leylines.mp3
+mpc search '((artist == "Carbon Based Lifeforms") AND (title == "Photosynthesis"))'
+Carbon Based Lifeforms/World of Sleepers/03 Photosynthesis.mp3
+mpc search '((artist == "Herbie Hancock") AND (title == "Palm Grease"))'
+Herbie Hancock/Thrust/01 Palm Grease.mp3
+mpc search '((artist == "Kenny Dorham") AND (title == "Sao Paulo"))'
+Kenny Dorham/Una Mas/03 Sao Paulo.mp3
+mpc search '((artist == "Hank Mobley") AND (title == "Take Your Pick"))'
+Hank Mobley/Roll Call/03 Take Your Pick.mp3
+mpc search '((artist == "Hank Mobley") AND (title == "Remember"))'
+Hank Mobley/Soul Station/01 Remember.flac
+mpc search '((artist == "Chico Hamilton") AND (title == "The Dealer"))'
+Chico Hamilton/The Dealer/01 The Dealer.mp3
+mpc search '((artist == "Kenny Burrell") AND (title == "Soul Lament"))'
+Kenny Burrell/Midnight Blue/03 Soul Lament.mp3
+mpc search '((artist == "Sonny Rollins") AND (title == "God Bless the Child"))'
+Sonny Rollins/The Bridge/05 God Bless the Child.mp3
+mpc search '((artist == "Jan Johansson") AND (title == "Visa från Utanmyra"))'
+Jan Johansson/Jazz på svenska/01 Visa från Utanmyra.mp3
+mpc search '((artist == "Oliver Nelson") AND (title == "Hoe"))'
+mpc search '((artist == "Cannonball Adderley") AND (title == "Autumn Leaves"))'
+Cannonball Adderley/Somethin’ Else/01 Autumn Leaves.flac
+mpc search '((artist == "Tame Impala") AND (title == "Apocalypse Dreams"))'
+Tame Impala/Lonerism [album]/03 Apocalypse Dreams.mp3
+mpc search '((artist == "Blood Orange") AND (title == "You’re Not Good Enough"))'
+Blood Orange/Cupid Deluxe/02 You’re Not Good Enough.mp3
+mpc search '((artist == "Blood Orange") AND (title == "Best to You"))'
+Blood Orange/Freetown Sound/04 Best to You.mp3
+mpc search '((artist == "Unknown Mortal Orchestra") AND (title == "Necessary Evil"))'
+Unknown Mortal Orchestra/Multi‐Love/08 Necessary Evil.mp3
+mpc search '((artist == "Pond") AND (title == "Sweep Me Off My Feet"))'
+Pond/The Weather/02 Sweep Me Off My Feet.mp3
+mpc search '((artist == "Pond") AND (title == "Paint Me Silver"))'
+Pond/The Weather/03 Paint Me Silver.mp3
+mpc search '((artist == "Sonny Rollins") AND (title == "Strode Rode"))'
+Sonny Rollins/Saxophone Colossus/03 Strode Rode.mp3
+mpc search '((artist == "Sonny Rollins") AND (title == "Die Moritat von Mackie Messer (The Ballad of Mack the Knife) A Theme From “The Threepenny Opera”"))'
+Sonny Rollins/Saxophone Colossus/04 Die Moritat von Mackie Messer (The Ballad of Mack the Knife) A Theme From “The Threepenny Opera”.mp3
+mpc search '((artist == "Miles Davis") AND (title == "Right Off"))'
+Miles Davis/A Tribute to Jack Johnson/01 Right Off.mp3
+Miles Davis/Agharta/06 Right Off.mp3
+mpc search '((artist == "Art Blakey & The Jazz Messengers") AND (title == "Along Came Betty"))'
+Art Blakey & The Jazz Messengers/Moanin'/03 Along Came Betty.flac
+mpc search '((artist == "Ornette Coleman") AND (title == "Eventually"))'
+Ornette Coleman/The Shape of Jazz to Come/02 Eventually.mp3
+mpc search '((artist == "Ornette Coleman") AND (title == "Peace"))'
+Ornette Coleman/The Shape of Jazz to Come/03 Peace.mp3
+mpc search '((artist == "Ornette Coleman") AND (title == "Lonely Woman"))'
+Ornette Coleman/The Shape of Jazz to Come/01 Lonely Woman.mp3
+mpc search '((artist == "John Coltrane") AND (title == "I’m Old Fashioned"))'
+John Coltrane/Blue Train/04 I’m Old Fashioned.mp3
+mpc search '((artist == "John Coltrane") AND (title == "Lazy Bird"))'
+John Coltrane/Blue Train/05 Lazy Bird.mp3
+mpc search '((artist == "Angelo Badalamenti") AND (title == "Falling"))'
+Angelo Badalamenti/Music From Twin Peaks/11 Falling.mp3
+mpc search '((artist == "Pharoah Sanders") AND (title == "The Creator Has A Master Plan"))'
+Pharoah Sanders/Karma/01 The Creator Has a Master Plan.mp3
+mpc search '((artist == "Angelo Badalamenti") AND (title == "Laura Palmer’s Theme"))'
+Angelo Badalamenti/Music From Twin Peaks/02 Laura Palmer’s Theme.mp3
+mpc search '((artist == "Angelo Badalamenti") AND (title == "Twin Peaks Theme"))'
+Angelo Badalamenti/Music From Twin Peaks/01 Twin Peaks Theme.mp3
+mpc search '((artist == "Charles Mingus") AND (title == "Jelly Roll"))'
+Charles Mingus/Mingus Ah Um/09 Jelly Roll.mp3
+mpc search '((artist == "Charles Mingus") AND (title == "Fables of Faubus"))'
+Charles Mingus/Mingus Ah Um/07 Fables of Faubus.mp3
+Charles Mingus/The Great Concert of Charles Mingus/05 Fables of Faubus.mp3
+mpc search '((artist == "Miles Davis") AND (title == "Bitches Brew"))'
+Miles Davis/Bitches Brew/02 Bitches Brew.mp3
+mpc search '((artist == "Miles Davis") AND (title == "Pharaoh’s Dance"))'
+Miles Davis/Bitches Brew/01 Pharaoh’s Dance.mp3
+mpc search '((artist == "Frank Zappa") AND (title == "Son of Mr. Green Genes"))'
+Frank Zappa/Hot Rats/03 Son of Mr. Green Genes.flac
+mpc search '((artist == "Frank Zappa") AND (title == "Willie the Pimp"))'
+Frank Zappa/Hot Rats/02 Willie the Pimp.flac
+mpc search '((artist == "Miles Davis") AND (title == "In a silent way / It’s about that time"))'
+Miles Davis/In a Silent Way/02 In a Silent Way _ It’s About That Time.mp3
+mpc search '((artist == "Miles Davis") AND (title == "Shhh / Peaceful"))'
+Miles Davis/In a Silent Way/01 Shhh _ Peaceful.mp3
+mpc search '((artist == "Frank Zappa") AND (title == "Peaches en Regalia"))'
+Frank Zappa/Hot Rats/01 Peaches en Regalia.flac
+mpc search '((artist == "Miles Davis") AND (title == "Blue in Green"))'
+Miles Davis/Kind of Blue/03 Blue In Green.mp3
+mpc search '((artist == "Miles Davis") AND (title == "Flamenco Sketches"))'
+Miles Davis/Kind of Blue/05 Flamenco Sketches.mp3
+mpc search '((artist == "Miles Davis") AND (title == "All Blues"))'
+Miles Davis/Kind of Blue/04 All Blues.mp3
+Miles Davis/My Funny Valentine_ Miles Davis in Concert/04 All Blues.mp3
+mpc search '((artist == "John Coltrane") AND (title == "Part 1: Acknowledgement"))'
+John Coltrane/A Love Supreme/01 Part 1_ Acknowledgement.mp3
+mpc search '((artist == "John Coltrane") AND (title == "Part 2: Resolution"))'
+John Coltrane/A Love Supreme/02 Part 2_ Resolution.mp3
+mpc search '((artist == "Miles Davis") AND (title == "Freddie Freeloader"))'
+Miles Davis/Kind of Blue/02 Freddie Freeloader.mp3
+mpc search '((artist == "Thelonious Monk") AND (title == "Well, You Needn't"))'
+Thelonious Monk/Genius of Modern Music, Volume 1/11 Well, You Needn't.mp3
+Thelonious Monk/Monk's Music/02 Well, You Needn't.mp3
+mpc search '((artist == "Thelonious Monk") AND (title == "Ruby, My Dear"))'
+Thelonious Monk/Genius of Modern Music, Volume 1/10 Ruby, My Dear.mp3
+Thelonious Monk/Monk's Music/03 Ruby, My Dear.mp3
+Thelonious Monk/Solo Monk/05 Ruby, My Dear.flac
+Thelonious Monk/Thelonious Alone in San Francisco/02 Ruby, My Dear.mp3
+mpc search '((artist == "Thelonious Monk") AND (title == "Blues Five Spot"))'
+Thelonious Monk/Live at the It Club/05 Blues Five Spot.mp3
+Thelonious Monk/Misterioso/02 Blues Five Spot.mp3
+Thelonious Monk/Monk’s Dream/04 Blues Five Spot.flac
+mpc search '((artist == "Thelonious Monk") AND (title == "Monk's Dream"))'
+Thelonious Monk/Monk’s Dream/01 Monk's Dream.flac
+mpc search '((artist == "Thelonious Monk") AND (title == "Bemsha Swing"))'
+Thelonious Monk/Brilliant Corners/05 Bemsha Swing.flac
+Thelonious Monk/Live at the It Club/06 Bemsha Swing.mp3
+mpc search '((artist == "Joe Henderson") AND (title == "Blue Bossa"))'
+Joe Henderson/Page One/01 Blue Bossa.mp3
+mpc search '((artist == "Hüsker Dü") AND (title == "Never Talking to You Again"))'
+Hüsker Dü/Zen Arcade/03 Never Talking to You Again.mp3
+mpc search '((artist == "Hüsker Dü") AND (title == "Something I Learned Today"))'
+Hüsker Dü/Zen Arcade/01 Something I Learned Today.mp3
+mpc search '((artist == "Blackfield") AND (title == "Lullaby"))'
+Blackfield/Blackfield/05 Lullaby.mp3
+mpc search '((artist == "Hüsker Dü") AND (title == "Don't Want to Know If You Are Lonely"))'
+Hüsker Dü/Candy Apple Grey/02 Don't Want to Know If You Are Lonely.mp3
+mpc search '((artist == "Haggard") AND (title == "Herr Mannelig"))'
+Haggard/Eppur si muove/06 Herr Mannelig.mp3
+mpc search '((artist == "Pixies") AND (title == "Levitate Me"))'
+Pixies/Come On Pilgrim/08 Levitate Me.mp3
+mpc search '((artist == "Cannonball Adderley") AND (title == "Mercy, Mercy, Mercy"))'
+mpc search '((artist == "Brad Mehldau") AND (title == "Smells Like Teen Spirit"))'
+Brad Mehldau/10 Years Solo Live/08 Smells Like Teen Spirit.flac
+Brad Mehldau/Live in Vienne/03 Smells Like Teen Spirit.mp3
+mpc search '((artist == "Brad Mehldau Trio") AND (title == "Kurt Vibe"))'
+Brad Mehldau Trio/Ode/07 Kurt Vibe.flac
+mpc search '((artist == "Francesco Bearzatti Tinissima 4et") AND (title == "Long train running"))'
+Francesco Bearzatti Tinissima 4et/This Machine Kills Fascists/04 Long Train Running.flac
+mpc search '((artist == "Pat Metheny") AND (title == "Facing West"))'
+Pat Metheny/Secret Story/02 Facing West.mp3
+mpc search '((artist == "Pat Metheny Group") AND (title == "Beat 70"))'
+Pat Metheny Group/Letter From Home/07 Beat 70.flac
+mpc search '((artist == "Pat Metheny Group") AND (title == "Every Summer Night"))'
+Pat Metheny Group/Letter From Home/02 Every Summer Night.flac
+mpc search '((artist == "Pat Metheny Group") AND (title == "Last Train Home"))'
+Pat Metheny Group/Still Life (Talking)/03 Last Train Home.mp3
+mpc search '((artist == "Pat Metheny Group") AND (title == "Minuano (Six Eight)"))'
+Pat Metheny Group/Still Life (Talking)/01 Minuano (Six Eight).mp3
+mpc search '((artist == "Buena Vista Social Club") AND (title == "De camino a la vereda"))'
+Buena Vista Social Club/Buena Vista Social Club/02 De camino a la vereda.mp3
+mpc search '((artist == "Buena Vista Social Club") AND (title == "Chan Chan"))'
+Buena Vista Social Club/Buena Vista Social Club/01 Chan Chan.mp3
+mpc search '((artist == "Lee Morgan") AND (title == "A Night in Tunisia"))'
+Lee Morgan/The Cooker/01 A Night in Tunisia.mp3
+mpc search '((artist == "Lee Morgan") AND (title == "The Joker"))'
+Lee Morgan/Search for the New Land/02 The Joker.mp3
+mpc search '((artist == "The Clifford Brown–Max Roach Quintet") AND (title == "Joy Spring"))'
+The Clifford Brown–Max Roach Quintet/Clifford Brown and Max Roach/04 Joy Spring.mp3
+mpc search '((artist == "The Clifford Brown–Max Roach Quintet") AND (title == "Jordu"))'
+The Clifford Brown–Max Roach Quintet/Clifford Brown and Max Roach/05 Jordu.mp3
+mpc search '((artist == "McCoy Tyner") AND (title == "Passion Dance"))'
+McCoy Tyner/The Real McCoy/01 Passion Dance.mp3
+mpc search '((artist == "Sun Ra") AND (title == "Space Is The Place"))'
+Sun Ra/Space Is the Place/01 Space Is the Place.mp3
+mpc search '((artist == "Charles Mingus") AND (title == "Moanin'"))'
+Charles Mingus/Blues & Roots/03 Moanin'.mp3
+mpc search '((artist == "Charles Mingus") AND (title == "My Jelly Roll Soul"))'
+Charles Mingus/Blues & Roots/05 My Jelly Roll Soul.mp3
+mpc search '((artist == "Charles Mingus") AND (title == "Boogie Stop Shuffle"))'
+Charles Mingus/Mingus Ah Um/03 Boogie Stop Shuffle.mp3
+mpc search '((artist == "Charles Mingus") AND (title == "Goodbye Pork Pie Hat"))'
+Charles Mingus/Mingus Ah Um/02 Goodbye Pork Pie Hat.mp3
+mpc search '((artist == "Charles Mingus") AND (title == "Better Git It in Your Soul"))'
+Charles Mingus/Mingus Ah Um/01 Better Git It in Your Soul.mp3
+mpc search '((artist == "Sentenced") AND (title == "Vengeance Is Mine"))'
+Sentenced/The Funeral Album/07 Vengeance Is Mine.mp3
+mpc search '((artist == "Sentenced") AND (title == "Killing Me Killing You"))'
+Sentenced/Crimson/06 Killing Me Killing You.mp3
+mpc search '((artist == "Sentenced") AND (title == "The Suicider"))'
+Sentenced/Frozen/06 The Suicider.mp3
+mpc search '((artist == "Sentenced") AND (title == "Nepenthe"))'
+Sentenced/Amok/06 Nepenthe.mp3
+mpc search '((artist == "Thy Catafalque") AND (title == "Sirály"))'
+Thy Catafalque/Meta/02 Sirály.mp3
+mpc search '((artist == "Thy Catafalque") AND (title == "Köd utánam"))'
+Thy Catafalque/Róka hasa rádió/03 Köd utánam.mp3
+mpc search '((artist == "Thy Catafalque") AND (title == "Molekuláris gépezetek"))'
+Thy Catafalque/Róka hasa rádió/02 Molekuláris gépezetek.mp3
+mpc search '((artist == "Agalloch") AND (title == "...And the Great Cold Death of the Earth"))'
+Agalloch/The Mantle/08 ...and the Great Cold Death of the Earth.mp3
+mpc search '((artist == "Agalloch") AND (title == "The Hawthorne Passage"))'
+Agalloch/The Mantle/07 The Hawthorne Passage.mp3
+mpc search '((artist == "Agalloch") AND (title == "You Were But a Ghost in My Arms"))'
+Agalloch/The Mantle/06 You Were but a Ghost in My Arms.mp3
+mpc search '((artist == "Agalloch") AND (title == "I Am the Wooden Doors"))'
+Agalloch/The Mantle/04 I Am the Wooden Doors.mp3
+mpc search '((artist == "Agalloch") AND (title == "In the Shadow of Our Pale Companion"))'
+Agalloch/The Mantle/02 In the Shadow of Our Pale Companion.mp3
+mpc search '((artist == "Agalloch") AND (title == "She Painted Fire Across The Skyline, Part 1"))'
+Agalloch/Pale Folklore/01 She Painted Fire Across the Skyline, Part 1.mp3
+mpc search '((artist == "Primordial") AND (title == "Empire Falls"))'
+Primordial/To the Nameless Dead/01 Empire Falls.mp3
+mpc search '((artist == "Primordial") AND (title == "The Coffin Ships"))'
+Primordial/The Gathering Wilderness/05 The Coffin Ships.mp3
+mpc search '((artist == "Primordial") AND (title == "Gods to the Godless"))'
+Primordial/Spirit the Earth Aflame/02 Gods to the Godless.mp3
+mpc search '((artist == "Myrath") AND (title == "Under Siege"))'
+Myrath/Tales of the Sands/01 Under Siege.mp3
+mpc search '((artist == "Orphaned Land") AND (title == "All Is One"))'
+Orphaned Land/All Is One/01 All Is One.mp3
+mpc search '((artist == "Katatonia") AND (title == "Takeover"))'
+Katatonia/The Fall of Hearts/01 Takeover.mp3
+mpc search '((artist == "Katatonia") AND (title == "Brave"))'
+Katatonia/Brave Murder Day/01 Brave.mp3
+mpc search '((artist == "Paradise Lost") AND (title == "Don't Belong"))'
+Paradise Lost/Paradise Lost/01 Don't Belong.mp3
+mpc search '((artist == "Paradise Lost") AND (title == "Redshift"))'
+Paradise Lost/Paradise Lost/04 Redshift.mp3
+mpc search '((artist == "Paradise Lost") AND (title == "Ordinary Days"))'
+Paradise Lost/Host/05 Ordinary Days.mp3
+mpc search '((artist == "Paradise Lost") AND (title == "Enchantment"))'
+Paradise Lost/Draconian Times/01 Enchantment.mp3
+mpc search '((artist == "Paradise Lost") AND (title == "The Last Time"))'
+Paradise Lost/Draconian Times/03 The Last Time.mp3
+mpc search '((artist == "The Gathering") AND (title == "Strange Machines"))'
+The Gathering/Mandylion/01 Strange Machines.mp3
+mpc search '((artist == "The Gathering") AND (title == "Saturnine"))'
+The Gathering/if_then_else/09 Saturnine.mp3
+The Gathering/Sleepy Buildings_ A Semi Acoustic Evening/02 Saturnine.mp3
+mpc search '((artist == "The Gathering") AND (title == "You Learn About It"))'
+The Gathering/Souvenirs/05 You Learn About It.mp3
+mpc search '((artist == "Anathema") AND (title == "Thin Air"))'
+Anathema/Universal/03 Thin Air.mp3
+Anathema/We’re Here Because We’re Here/01 Thin Air.mp3
+mpc search '((artist == "Anathema") AND (title == "Fragile Dreams"))'
+Anathema/Alternative 4/02 Fragile Dreams.mp3
+Anathema/Hindsight/01 Fragile Dreams.mp3
+Anathema/Universal/16 Fragile Dreams.mp3
+Anathema/Universal/20 Fragile Dreams.mp3
+mpc search '((artist == "Paradise Lost") AND (title == "Hallowed Land"))'
+Paradise Lost/Draconian Times/02 Hallowed Land.mp3
+mpc search '((artist == "Paradise Lost") AND (title == "Forever Failure"))'
+Paradise Lost/Draconian Times/04 Forever Failure.mp3
+mpc search '((artist == "Paradise Lost") AND (title == "Say Just Words"))'
+Paradise Lost/One Second/02 Say Just Words.mp3
+mpc search '((artist == "Paradise Lost") AND (title == "Erased"))'
+Paradise Lost/Symbol of Life/02 Erased.mp3
+mpc search '((artist == "Tiamat") AND (title == "Gaia"))'
+Tiamat/Wildhoney/05 Gaia.mp3
+mpc search '((artist == "Tiamat") AND (title == "Whatever That Hurts"))'
+Tiamat/Wildhoney/02 Whatever That Hurts.mp3
+mpc search '((artist == "Tiamat") AND (title == "Meliae"))'
+Tiamat/Amanethes/11 Meliae.mp3
+mpc search '((artist == "Tiamat") AND (title == "Circles"))'
+Tiamat/Amanethes/13 Circles.mp3
+mpc search '((artist == "Tiamat") AND (title == "Misantropolis"))'
+Tiamat/Amanethes/09 Misantropolis.mp3
+mpc search '((artist == "Moonspell") AND (title == "Alma Mater"))'
+Moonspell/Wolfheart/08 Alma Mater.mp3
+mpc search '((artist == "Moonspell") AND (title == "Opium"))'
+Moonspell/Irreligious/02 Opium.mp3
+mpc search '((artist == "Kate Bush") AND (title == "Hounds of Love"))'
+Kate Bush/Hounds of Love/02 Hounds of Love.mp3
+mpc search '((artist == "U2") AND (title == "Gloria"))'
+U2/October/01 Gloria.mp3
+U2/Under a Blood Red Sky/01 Gloria.mp3
+mpc search '((artist == "Cat Stevens") AND (title == "Wild World"))'
+Cat Stevens/Tea for the Tillerman/03 Wild World.mp3
+Cat Stevens/The Very Best of Cat Stevens/04 Wild World.mp3
+mpc search '((artist == "David Bowie") AND (title == "“Heroes”"))'
+David Bowie/“Heroes”/03 “Heroes”.mp3
+mpc search '((artist == "Bob Dylan") AND (title == "Blowin’ In the Wind"))'
+Bob Dylan/The Freewheelin’ Bob Dylan/01 Blowin’ in the Wind.mp3
+mpc search '((artist == "Allen Toussaint") AND (title == "Southern Nights"))'
+Allen Toussaint/Songbook/25 Southern Nights.mp3
+Allen Toussaint/Southern Nights/06 Southern Nights.mp3
+mpc search '((artist == "Talk Talk") AND (title == "Living In Another World"))'
+Talk Talk/The Colour of Spring/05 Living in Another World.mp3
+mpc search '((artist == "Talk Talk") AND (title == "Happiness Is Easy"))'
+Talk Talk/The Colour of Spring/01 Happiness Is Easy.mp3
+mpc search '((artist == "Depeche Mode") AND (title == "Everything Counts"))'
+Depeche Mode/101 [1617]/20 Everything Counts.mp3
+Depeche Mode/Construction Time Again/04 Everything Counts.mp3
+mpc search '((artist == "Tears for Fears") AND (title == "Sowing The Seeds Of Love"))'
+Tears for Fears/The Seeds of Love/03 Sowing the Seeds of Love.mp3
+mpc search '((artist == "Pet Shop Boys") AND (title == "Always On My Mind/In My House"))'
+Pet Shop Boys/Introspective/05 Always on My Mind_In My House.mp3
+mpc search '((artist == "New Order") AND (title == "Perfect Kiss"))'
+New Order/Substance 1987/07 Perfect Kiss.mp3
+mpc search '((artist == "Rush") AND (title == "Tom Sawyer"))'
+Rush/Moving Pictures/01 Tom Sawyer.mp3
+Rush/The Spirit of Radio_ Greatest Hits 1974-1987/09 Tom Sawyer.mp3
+mpc search '((artist == "Rush") AND (title == "The Spirit of Radio"))'
+Rush/Permanent Waves/01 The Spirit of Radio.mp3
+Rush/The Spirit of Radio_ Greatest Hits 1974-1987/06 The Spirit of Radio.mp3
+mpc search '((artist == "Jon Brion") AND (title == "Trouble"))'
+Jon Brion/Meaningless/06 Trouble.flac
+mpc search '((artist == "Grateful Dead") AND (title == "Box of Rain"))'
+Grateful Dead/American Beauty/01 Box of Rain.mp3
+mpc search '((artist == "Supertramp") AND (title == "Even In The Quietest Moments"))'
+Supertramp/Breakfast in America/17 Even in the Quietest Moments.mp3
+Supertramp/Even in the Quietest Moments…/03 Even in the Quietest Moments.mp3
+mpc search '((artist == "Joe Jackson") AND (title == "It’s Different for Girls"))'
+Joe Jackson/I’m the Man/04 It’s Different for Girls.flac
+Joe Jackson/Live 1980–86/19 It’s Different for Girls.flac
+mpc search '((artist == "Joe Jackson") AND (title == "Look Sharp!"))'
+Joe Jackson/Live 1980–86/11 Look Sharp!.flac
+Joe Jackson/Look Sharp!/07 Look Sharp!.flac
+mpc search '((artist == "Joe Jackson") AND (title == "I’m the Man"))'
+Joe Jackson/I’m the Man/05 I’m the Man.flac
+Joe Jackson/Live 1980–86/02 I’m the Man.flac
+mpc search '((artist == "Supertramp") AND (title == "Take the Long Way Home"))'
+Supertramp/Breakfast in America/06 Take the Long Way Home.mp3
+Supertramp/Breakfast in America/15 Take the Long Way Home.mp3
+Supertramp/Paris/13 Take the Long Way Home.mp3
+mpc search '((artist == "Supertramp") AND (title == "Breakfast in America"))'
+Supertramp/Breakfast in America/04 Breakfast in America.mp3
+Supertramp/Breakfast in America/13 Breakfast in America.mp3
+Supertramp/Paris/05 Breakfast in America.mp3
+mpc search '((artist == "Supertramp") AND (title == "Goodbye Stranger"))'
+Aimee Mann/Magnolia/10 Goodbye Stranger.mp3
+Supertramp/Breakfast in America/03 Goodbye Stranger.mp3
+Supertramp/Breakfast in America/12 Goodbye Stranger.mp3
+mpc search '((artist == "Supertramp") AND (title == "Dreamer"))'
+Supertramp/Crime of the Century/05 Dreamer.mp3
+Supertramp/Paris/09 Dreamer.mp3
+mpc search '((artist == "Supertramp") AND (title == "The Logical Song"))'
+Supertramp/Breakfast in America/02 The Logical Song.mp3
+Supertramp/Breakfast in America/11 The Logical Song.mp3
+Supertramp/Paris/03 The Logical Song.mp3
+mpc search '((artist == "Supertramp") AND (title == "Fool’s Overture"))'
+Supertramp/Even in the Quietest Moments…/07 Fool’s Overture.mp3
+Supertramp/Paris/14 Fool’s Overture.mp3
+mpc search '((artist == "Supertramp") AND (title == "Give a Little Bit"))'
+Supertramp/Breakfast in America/20 Give a Little Bit.mp3
+Supertramp/Even in the Quietest Moments…/01 Give a Little Bit.mp3
+mpc search '((artist == "The Who") AND (title == "Squeeze Box"))'
+The Who/My Generation – The Very Best of The Who/18 Squeeze Box.mp3
+The Who/The Who by Numbers/03 Squeeze Box.mp3
+The Who/Who's Better, Who's Best/16 Squeeze Box.mp3
+mpc search '((artist == "The Who") AND (title == "Slip Kid"))'
+The Who/The Who by Numbers/01 Slip Kid.mp3
+mpc search '((artist == "Idles") AND (title == "Mother"))'
+IDLES/Brutalism/03 Mother.mp3
+mpc search '((artist == "Idles") AND (title == "Exeter"))'
+IDLES/Brutalism/10 Exeter.mp3
+mpc search '((artist == "Idles") AND (title == "Well Done"))'
+IDLES/Brutalism/02 Well Done.mp3
+mpc search '((artist == "Idles") AND (title == "Date Night"))'
+IDLES/Brutalism/04 Date Night.mp3
+mpc search '((artist == "Idles") AND (title == "1049 Gotho"))'
+IDLES/Brutalism/06 1049 Gotho.mp3
+mpc search '((artist == "Deep Purple") AND (title == "Hush"))'
+Deep Purple/Shades of Deep Purple/02 Hush.mp3
+mpc search '((artist == "Deep Purple") AND (title == "Child in Time"))'
+Deep Purple/Deep Purple in Rock/03 Child in Time.mp3
+Deep Purple/Deepest Purple_ The Very Best of Deep Purple/05 Child in Time.mp3
+Deep Purple/Made in Japan/02 Child in Time.mp3
+mpc search '((artist == "Deep Purple") AND (title == "Smoke on the Water"))'
+Deep Purple/Deepest Purple_ The Very Best of Deep Purple/12 Smoke on the Water.mp3
+Deep Purple/Machine Head/05 Smoke on the Water.mp3
+Deep Purple/Made in Japan/03 Smoke on the Water.mp3
+mpc search '((artist == "Deep Purple") AND (title == "Highway Star"))'
+Deep Purple/Deepest Purple_ The Very Best of Deep Purple/07 Highway Star.mp3
+Deep Purple/Machine Head/01 Highway Star.mp3
+Deep Purple/Made in Japan/01 Highway Star.mp3
+mpc search '((artist == "Santana") AND (title == "Oye Como Va"))'
+Santana/Abraxas/03 Oye como va.mp3
+Santana/Lotus/06 Oye Como Va.mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Lost"))'
+Frank Ocean/Channel Orange/11 Lost.mp3
+mpc search '((artist == "Frank Ocean") AND (title == "Thinkin Bout You"))'
+Frank Ocean/Channel Orange/02 Thinkin Bout You.mp3
+mpc search '((artist == "Thrice") AND (title == "The Earth Will Shake"))'
+Thrice/Live at the House of Blues/25 The Earth Will Shake.mp3
+Thrice/Vheissu/03 The Earth Will Shake.mp3
+mpc search '((artist == "Noname feat. Raury & Cam O’bi") AND (title == "Diddy Bop"))'
+Noname/Telefone/03 Diddy Bop.flac
+mpc search '((artist == "Noname") AND (title == "Yesterday"))'
+Noname/Telefone/01 Yesterday.flac
+mpc search '((artist == "Jacques Brel") AND (title == "Amsterdam"))'
+Jacques Brel/Enregistrement public à l'Olympia 1964/01 Amsterdam.mp3
+Jacques Brel/Infiniment [2003]/21 Amsterdam.mp3
+Jacques Brel/Infiniment [2004]/14 Amsterdam.mp3
+mpc search '((artist == "Jacques Brel") AND (title == "Vesoul"))'
+Jacques Brel/Infiniment [2003]/36 Vesoul.mp3
+Jacques Brel/Infiniment [2004]/11 Vesoul.mp3
+mpc search '((artist == "Jacques Brel") AND (title == "Mathilde"))'
+Jacques Brel/Ces gens-là/07 Mathilde.mp3
+Jacques Brel/Enregistrement public à l'Olympia 1964/10 Mathilde.mp3
+Jacques Brel/Infiniment [2003]/32 Mathilde.mp3
+Jacques Brel/Infiniment [2004]/05 Mathilde.mp3
+mpc search '((artist == "Jacques Brel") AND (title == "Les Bourgeois"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/01 Les bourgeois.mp3
+Jacques Brel/Enregistrement public à l'Olympia 1961/02 Les Bourgeois.mp3
+Jacques Brel/Enregistrement public à l'Olympia 1964/12 Les Bourgeois.mp3
+Jacques Brel/Infiniment [2003]/30 Les Bourgeois.mp3
+Jacques Brel/Infiniment [2004]/08 Les Bourgeois.mp3
+mpc search '((artist == "Jacques Brel") AND (title == "Le Moribond"))'
+Jacques Brel/Enregistrement public à l'Olympia 1961/14 Le Moribond.mp3
+Jacques Brel/Infiniment [2003]/37 Le Moribond.mp3
+Jacques Brel/Infiniment [2004]/12 Le Moribond.mp3
+mpc search '((artist == "Jacques Brel") AND (title == "quand on n’a que l’amour"))'
+Jacques Brel/Infiniment [2003]/12 Quand on n’a que l’amour.mp3
+Jacques Brel/Infiniment [2004]/16 Quand on n’a que l’amour.mp3
+mpc search '((artist == "Jacques Brel") AND (title == "Ne me quitte pas"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/04 Ne me quitte pas.mp3
+Jacques Brel/Enregistrement public à l'Olympia 1961/13 Ne me quitte pas.mp3
+Jacques Brel/Infiniment [2003]/20 Ne me quitte pas.mp3
+Jacques Brel/Infiniment [2004]/19 Ne me quitte pas.mp3
+mpc search '((artist == "Jacques Brel") AND (title == "La Valse à Mille Temps"))'
+Brel, Brassens, Ferré/Le coffret Brel, Brassens, Ferré/06 La valse à mille temps.mp3
+Jacques Brel/Enregistrement public à l'Olympia 1961/12 La Valse à mille temps.mp3
+Jacques Brel/Infiniment [2003]/17 La Valse à mille temps.mp3
+Jacques Brel/Infiniment [2004]/06 La Valse à mille temps.mp3
+mpc search '((artist == "IAM") AND (title == "L’école du micro d’argent"))'
+IAM/L’École du micro d’argent/01 L’École du micro d’argent.mp3
+mpc search '((artist == "IAM") AND (title == "Demain, c’est loin"))'
+IAM/L’École du micro d’argent/16 Demain, c’est loin.mp3
+mpc search '((artist == "IAM") AND (title == "Je danse le mia"))'
+IAM/Ombre est lumière, volumes 1 & 2/15 Je danse le Mia.mp3
+mpc search '((artist == "At the Drive") AND (title == "In"))'
+mpc search '((artist == "At the Drive") AND (title == "In"))'
+mpc search '((artist == "At the Drive") AND (title == "In"))'
+mpc search '((artist == "At the Drive") AND (title == "In"))'
+mpc search '((artist == "NOFX") AND (title == "Linoleum"))'
+NOFX/Punk in Drublic/01 Linoleum.mp3
+NOFX/The Greatest Songs Ever Written (By Us)/02 Linoleum.mp3
+mpc search '((artist == "Ensiferum") AND (title == "Iron"))'
+Ensiferum/Iron/02 Iron.mp3
+mpc search '((artist == "Ensiferum") AND (title == "Lai Lai Hei"))'
+Ensiferum/Iron/09 LAI LAI HEI.mp3
+mpc search '((artist == "Helloween") AND (title == "Perfect Gentleman"))'
+Helloween/Master of the Rings/06 Perfect Gentleman.mp3
+mpc search '((artist == "Helloween") AND (title == "Mr. Torture"))'
+Helloween/The Dark Ride/03 Mr. Torture.mp3
+mpc search '((artist == "Nightwish") AND (title == "Nemo"))'
+Nightwish/Highest Hopes_ The Best of Nightwish/07 Nemo.mp3
+Nightwish/Once/03 Nemo.flac
+mpc search '((artist == "Nightwish") AND (title == "Wish I Had an Angel"))'
+Nightwish/Highest Hopes_ The Best of Nightwish/01 Wish I Had an Angel.mp3
+Nightwish/Once/02 Wish I Had an Angel.flac
+mpc search '((artist == "Stratovarius") AND (title == "Hunting High and Low"))'
+Stratovarius/Infinite/01 Hunting High and Low.mp3
+mpc search '((artist == "Blind Guardian") AND (title == "Mirror Mirror"))'
+Blind Guardian/Nightfall in Middle-Earth/09 Mirror Mirror.mp3
+mpc search '((artist == "Blind Guardian") AND (title == "Sacred Worlds"))'
+Blind Guardian/At the Edge of Time/01 Sacred Worlds.mp3
+mpc search '((artist == "Gamma Ray") AND (title == "Send Me a Sign"))'
+Gamma Ray/Blast From the Past/20 Send Me a Sign.mp3
+Gamma Ray/Powerplant/03 Send Me a Sign.mp3
+mpc search '((artist == "Blind Guardian") AND (title == "Nightfall"))'
+Blind Guardian/Nightfall in Middle-Earth/04 Nightfall.mp3
+mpc search '((artist == "HammerFall") AND (title == "Hearts on Fire"))'
+HammerFall/Crimson Thunder/02 Hearts on Fire.mp3
+mpc search '((artist == "Streetlight Manifesto") AND (title == "Point / Counterpoint"))'
+Streetlight Manifesto/Everything Goes Numb/03 Point _ Counterpoint.mp3
+mpc search '((artist == "Paul Gilbert") AND (title == "Fuzz Universe"))'
+Paul Gilbert/Fuzz Universe/01 Fuzz Universe.mp3
+mpc search '((artist == "Eric Johnson") AND (title == "Cliffs of Dover"))'
+Eric Johnson/Ah Via Musicom/02 Cliffs of Dover.mp3
+mpc search '((artist == "Racer X") AND (title == "Technical Difficulties"))'
+Racer X/Technical Difficulties/04 Technical Difficulties.mp3
+mpc search '((artist == "Joe Satriani") AND (title == "Surfing with the Alien"))'
+Joe Satriani/Surfing With the Alien/01 Surfing With the Alien.mp3
+mpc search '((artist == "Joe Satriani") AND (title == "Crushing Day"))'
+Joe Satriani/Surfing With the Alien/03 Crushing Day.mp3
+mpc search '((artist == "Joe Satriani") AND (title == "Satch Boogie"))'
+Joe Satriani/Surfing With the Alien/05 Satch Boogie.mp3
+mpc search '((artist == "Joe Satriani") AND (title == "Ice 9"))'
+Joe Satriani/Surfing With the Alien/02 Ice 9.mp3
+mpc search '((artist == "Buzzcocks") AND (title == "Fast Cars"))'
+Buzzcocks/Another Music in a Different Kitchen/01 Fast Cars.mp3
+mpc search '((artist == "Steven Wilson feat. Ninet Tayeb") AND (title == "Pariah"))'
+Steven Wilson/To the Bone/03 Pariah.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "To The Bone"))'
+Steven Wilson/To the Bone/01 To the Bone.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "Routine"))'
+Steven Wilson/Hand. Cannot. Erase_/05 Routine.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "The Holy Drinker"))'
+Steven Wilson/The Raven That Refused to Sing (and Other Stories)/03 The Holy Drinker.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "The Raven That Refused to Sing"))'
+Steven Wilson/The Raven That Refused to Sing (and Other Stories)/06 The Raven That Refused to Sing.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "3 Years Older"))'
+Steven Wilson/Hand. Cannot. Erase_/02 3 Years Older.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "Hand Cannot Erase"))'
+Steven Wilson/Hand. Cannot. Erase_/03 Hand Cannot Erase.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "Perfect Life"))'
+Steven Wilson/Hand. Cannot. Erase_/04 Perfect Life.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "Luminol"))'
+Steven Wilson/The Raven That Refused to Sing (and Other Stories)/01 Luminol.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "Deform to Form a Star"))'
+Steven Wilson/Grace for Drowning [5669]/03 Deform to Form a Star.mp3
+mpc search '((artist == "Porcupine Tree") AND (title == "Arriving Somewhere but Not Here"))'
+Porcupine Tree/Deadwing [2005]/05 Arriving Somewhere but Not Here.mp3
+mpc search '((artist == "Steven Wilson") AND (title == "Sectarian"))'
+Steven Wilson/Grace for Drowning [5669]/02 Sectarian.mp3
+mpc search '((artist == "Porcupine Tree") AND (title == "Anesthetize"))'
+Porcupine Tree/Fear of a Blank Planet/03 Anesthetize.mp3
+mpc search '((artist == "Porcupine Tree") AND (title == "Fear of a Blank Planet"))'
+Porcupine Tree/Fear of a Blank Planet/01 Fear of a Blank Planet.mp3
+mpc search '((artist == "Porcupine Tree") AND (title == "The Sound of Muzak"))'
+Porcupine Tree/In Absentia/04 The Sound of Muzak.mp3
+mpc search '((artist == "Porcupine Tree") AND (title == "Piano Lessons"))'
+Porcupine Tree/Stupid Dream/02 Piano Lessons.mp3
+mpc search '((artist == "Fugazi") AND (title == "Epic Problem"))'
+Fugazi/The Argument/04 Epic Problem.mp3
+mpc search '((artist == "Fugazi") AND (title == "Full Disclosure"))'
+Fugazi/The Argument/03 Full Disclosure.mp3
+mpc search '((artist == "Fugazi") AND (title == "Cashout"))'
+Fugazi/The Argument/02 Cashout.mp3
+mpc search '((artist == "Fugazi") AND (title == "Bed for the Scraping"))'
+Fugazi/Red Medicine/02 Bed for the Scraping.mp3
+mpc search '((artist == "Fugazi") AND (title == "Suggestion"))'
+Fugazi/13 Songs/06 Suggestion.mp3
+Fugazi/Fugazi/06 Suggestion.mp3
+mpc search '((artist == "Fugazi") AND (title == "Give Me the Cure"))'
+Fugazi/13 Songs/05 Give Me the Cure.mp3
+Fugazi/Fugazi/05 Give Me the Cure.mp3
+mpc search '((artist == "Drive Like Jehu") AND (title == "Step On Chameleon"))'
+Drive Like Jehu/Drive Like Jehu/03 Step on Chameleon.mp3
+mpc search '((artist == "Unwound") AND (title == "Valentine Card / Kantina / Were, Are And Was Or Is."))'
+Unwound/Fake Train/04 Valentine Card _ Kantina _ Were, Are And Was Or Is_.mp3
+mpc search '((artist == "Unwound") AND (title == "Honourosis"))'
+Unwound/Fake Train/05 Honourosis.mp3
+mpc search '((artist == "Unwound") AND (title == "Below the Salt"))'
+Unwound/Leaves Turn Inside You [6790]/13 Below the Salt.mp3
+mpc search '((artist == "Unwound") AND (title == "Summer Freeze"))'
+Unwound/Leaves Turn Inside You [6790]/11 Summer Freeze.mp3
+mpc search '((artist == "Unwound") AND (title == "October All Over"))'
+Unwound/Leaves Turn Inside You [6790]/10 October All Over.mp3
+mpc search '((artist == "Unwound") AND (title == "Treachery"))'
+Unwound/Leaves Turn Inside You [6789]/04 Treachery.mp3
+mpc search '((artist == "Unwound") AND (title == "December"))'
+Unwound/Leaves Turn Inside You [6789]/03 December.mp3
+mpc search '((artist == "Unwound") AND (title == "Demons Sing Love Songs"))'
+Unwound/Leaves Turn Inside You [6789]/06 Demons Sing Love Songs.mp3
+mpc search '((artist == "Unwound") AND (title == "Look a Ghost"))'
+Unwound/Leaves Turn Inside You [6789]/02 Look a Ghost.mp3
+mpc search '((artist == "Unwound") AND (title == "Terminus"))'
+Unwound/Leaves Turn Inside You [6789]/05 Terminus.mp3
+mpc search '((artist == "Buzzcocks") AND (title == "Ever Fallen In Love (With Someone You Shouldn’t’ve)"))'
+Buzzcocks/Love Bites/02 Ever Fallen in Love (With Someone You Shouldn’t’ve).mp3
+mpc search '((artist == "Low") AND (title == "Gentle"))'
+Low/Ones and Sixes/01 Gentle.mp3
+mpc search '((artist == "Cardiacs") AND (title == "Tarred and Feathered"))'
+Cardiacs/Songs for Ships and Irons/02 Tarred and Feathered.mp3
+mpc search '((artist == "Cardiacs") AND (title == "Nurses Whispering Verses"))'
+Cardiacs/Sing to God (Part 2)/11 Nurses Whispering Verses.mp3
+Cardiacs/The Seaside/06 Nurses Whispering Verses.mp3
+mpc search '((artist == "Cardiacs") AND (title == "Dirty Boy"))'
+Cardiacs/Sing to God (Part 2)/01 Dirty Boy.mp3
+mpc search '((artist == "Cardiacs") AND (title == "Fiery Gun Hand"))'
+Cardiacs/Sing to God (Part 1)/04 Fiery Gun Hand.mp3
+mpc search '((artist == "Cardiacs") AND (title == "Bellyeye"))'
+Cardiacs/Sing to God (Part 1)/07 Bellyeye.mp3
+mpc search '((artist == "Cardiacs") AND (title == "Dog"))'
+mpc search '((artist == "Cardiacs") AND (title == "The Whole World Window"))'
+Cardiacs/A Little Man and a House and the Whole World Window/10 The Whole World Window.mp3
+mpc search '((artist == "Cardiacs") AND (title == "R.E.S."))'
+Cardiacs/A Little Man and a House and the Whole World Window/09 R.E.S_.mp3
+Cardiacs/The Seaside/12 R.E.S_.mp3
+mpc search '((artist == "Cardiacs") AND (title == "Is This the Life"))'
+Cardiacs/A Little Man and a House and the Whole World Window/03 Is This the Life.mp3
+mpc search '((artist == "Cardiacs") AND (title == "In a City Lining"))'
+Cardiacs/A Little Man and a House and the Whole World Window/02 In a City Lining.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "I Don’t Wanna Go There"))'
+Dinosaur Jr_/Farm/11 I Don’t Wanna Go There.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "Said The People"))'
+Dinosaur Jr_/Farm/08 Said the People.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "Feel the Pain"))'
+Dinosaur Jr_/Without a Sound/01 Feel the Pain.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "Crumble"))'
+Dinosaur Jr_/Beyond/02 Crumble.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "Almost Ready"))'
+Dinosaur Jr_/Beyond/01 Almost Ready.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "Plans"))'
+Dinosaur Jr_/Farm/04 Plans.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "Pieces"))'
+Dinosaur Jr_/Farm/01 Pieces.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "The Wagon"))'
+Dinosaur Jr_/Green Mind/01 The Wagon.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "Start Choppin"))'
+Dinosaur Jr_/Where You Been/02 Start Choppin.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "Out There"))'
+Dinosaur Jr_/Where You Been/01 Out There.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "Freak Scene"))'
+Dinosaur Jr_/Bug/01 Freak Scene.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "Sludgefeast"))'
+Dinosaur Jr_/You’re Living All Over Me/03 Sludgefeast.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "Little Fury Things"))'
+Dinosaur Jr_/You’re Living All Over Me/01 Little Fury Things.mp3
+mpc search '((artist == "Dinosaur Jr.") AND (title == "Kracked"))'
+Dinosaur Jr_/You’re Living All Over Me/02 Kracked.mp3
+mpc search '((artist == "Gnarls Barkley") AND (title == "Crazy"))'
+Gnarls Barkley/St. Elsewhere/02 Crazy.mp3
+mpc search '((artist == "Sharon Van Etten") AND (title == "Every Time the Sun Comes Up"))'
+Sharon Van Etten/Are We There/11 Every Time the Sun Comes Up.mp3
+mpc search '((artist == "Kings of Convenience") AND (title == "Misread"))'
+Kings of Convenience/Riot on an Empty Street/02 Misread.mp3
+mpc search '((artist == "Kings of Convenience") AND (title == "Homesick"))'
+Kings of Convenience/Riot on an Empty Street/01 Homesick.mp3
+mpc search '((artist == "Andrew Bird") AND (title == "Fake Palindromes"))'
+Andrew Bird/The Mysterious Production of Eggs/04 Fake Palindromes.mp3
+mpc search '((artist == "Andrew Bird") AND (title == "A Nervous Tic Motion of the Head to the Left"))'
+Andrew Bird/The Mysterious Production of Eggs/03 A Nervous Tic Motion of the Head to the Left.mp3
+mpc search '((artist == "Andrew Bird") AND (title == "Sovay"))'
+Andrew Bird/The Mysterious Production of Eggs/02 Sovay.mp3
+mpc search '((artist == "M. Ward") AND (title == "Chinese Translation"))'
+M. Ward/Post-War/06 Chinese Translation.mp3
+mpc search '((artist == "Bill Callahan") AND (title == "Javelin Unlanding"))'
+Bill Callahan/Dream River/02 Javelin Unlanding.mp3
+mpc search '((artist == "Sebadoh") AND (title == "License to Confuse"))'
+Sebadoh/Bakesale/01 License to Confuse.mp3
+mpc search '((artist == "Grandaddy") AND (title == "A.M. 180"))'
+Grandaddy/Under the Western Freeway/02 A.M. 180.mp3
+mpc search '((artist == "Grandaddy") AND (title == "The Crystal Lake"))'
+Grandaddy/The Sophtware Slump/04 The Crystal Lake.mp3
+mpc search '((artist == "Grandaddy") AND (title == "He's Simple, He's Dumb, He's The Pilot"))'
+Grandaddy/The Sophtware Slump/01 He's Simple, He's Dumb, He's the Pilot.mp3
+mpc search '((artist == "Faust") AND (title == "Picnic On A Frozen River / Deuxieme Tableux"))'
+Faust/Faust IV/05 Picnic on a Frozen River _ Deuxieme Tableux.mp3
+mpc search '((artist == "Teenage Fanclub") AND (title == "About You"))'
+Teenage Fanclub/Grand Prix/01 About You.mp3
+mpc search '((artist == "Eels") AND (title == "Hey Man (Now You're Really Living)"))'
+EELS/Blinking Lights and Other Revelations/21 Hey Man (Now You're Really Living).mp3
+mpc search '((artist == "Eels") AND (title == "Fresh Feeling"))'
+EELS/Souljacker/03 Fresh Feeling.mp3
+mpc search '((artist == "Eels") AND (title == "Railroad Man"))'
+EELS/Blinking Lights and Other Revelations/09 Railroad Man.mp3
+mpc search '((artist == "Teenage Fanclub") AND (title == "The Concept"))'
+Teenage Fanclub/Bandwagonesque/01 The Concept.flac
+mpc search '((artist == "Eels") AND (title == "Climbing To The Moon"))'
+EELS/Electro-Shock Blues/12 Climbing to the Moon.mp3
+mpc search '((artist == "Duster") AND (title == "Gold Dust"))'
+Duster/Stratosphere/03 Gold Dust.mp3
+mpc search '((artist == "Duster") AND (title == "Heading for the Door"))'
+Duster/Stratosphere/02 Heading for the Door.mp3
+mpc search '((artist == "Wilco") AND (title == "Can’t Stand It"))'
+Wilco/Summerteeth/01 Can’t Stand It.mp3
+mpc search '((artist == "Wilco") AND (title == "Misunderstood"))'
+Wilco/Being There/01 Misunderstood.mp3
+Wilco/Kicking Television_ Live in Chicago/01 Misunderstood.mp3
