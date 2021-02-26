@@ -13,8 +13,10 @@ fi
 FILE=$1
 
 while read name; do
-	artist="$(cut -d' - ' -f1 <<<$name)"
-	track="$(cut -d' - ' -f2- <<<$name)"
+	# artist="$(cut -d' - ' -f1 <<<$name)"
+	artist="$(awk -F " - " '{printf $1}' <<<$name)"
+	# track="$(cut -d' - ' -f2- <<<$name)"
+	track="$(awk -F " - " '{printf $2}' <<<$name)"
 
     artist="${artist#"${artist%%[![:space:]]*}"}"
     # remove trailing whitespace characters
@@ -27,11 +29,10 @@ while read name; do
 
 	potential_tracks=$(mpc search "((artist == \"$artist\") AND (title == \"$track\"))" )
 	if [[ $potential_tracks ]]; then
-    	echo "$potential_tracks" >> playlist2.txt
+    	printf "$potential_tracks" >> files/01-result_mplaylist.txt
 	else
-		printf "No track found for = \"$artist\" - \"$track\"'\n"
+		printf "No track found for = $artist - $track\n"
+		printf "$artist - $track\n" >> files/01-result_mplaylist_missing.txt
 	fi
-	# mpc search "((artist == \"$artist\") AND (title == \"$track\"))"
-	# result=$(mpc search "((artist == \"$artist\") AND (title == \"$track\"))")
 
 done < "$FILE"
