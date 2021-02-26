@@ -20,7 +20,7 @@ with open("files/03-correspondances.csv", "r") as f:
 list_file = []
 list_missing_artists = []
 for track in tracks:
-    artist = track.split("/")[2]
+    artist = track.split("/")[0]
     if artist in dict_genres:
         list_file.append({dict_genres[artist]: track})
     else:
