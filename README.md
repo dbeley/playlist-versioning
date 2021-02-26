@@ -67,12 +67,12 @@ You can use `01-result_mplaylist_missing.txt` to manually add the missing tracks
 
 ## Missing tracks
 
-You can also create tracklist for the missing tracks with the `create_playlists_missing.py` script:
+You can also create tracklist for the missing tracks with the `create_tracklists_from_missing.py` script:
 ```
-python create_playlists_missing.py
+python create_tracklists_from_missing.py
 ```
 It will create tracklist from the tracks in `01-result_mplaylist_missing.txt`.
 
 - `files/04-missing_artists2.csv`: artists not found in artists.csv
 
-Exported playlists will be in the `files` folder with the `tracklist` prefix.
+Exported tracklists will be in the `files` folder with the `tracklist` prefix.
