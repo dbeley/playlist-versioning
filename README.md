@@ -23,8 +23,8 @@ Run the `mplaylist.sh` script:
 ./mplaylist.sh files/00-favorites.txt
 ```
 
-- `files/01-result_mplaylist.txt` : tracks matched with mpc
-- `files/01-result_mplaylist_missing.txt` : tracks not matched with mpc
+- `files/01-result_mplaylist.txt`: tracks matched with mpc
+- `files/01-result_mplaylist_missing.txt`: tracks not matched with mpc
 
 ## Playlist creation
 
@@ -36,7 +36,7 @@ You will need two files:
 1;ARTIST3
 ```
 
-- `files/03-correspondances.csv`:  file with playlist_id -> playlist_name
+- `files/03-correspondances.csv`: file with playlist_id -> playlist_name
 ```
 1;Rock
 2;Pop
@@ -49,5 +49,8 @@ python create_playlists.py
 
 - `files/04-missing_artists.csv`: artists not found in artists.csv
 
+If it's empty you're good, otherwise just add another entry in `02-artists.csv`.
+
 Exported playlists will be in the `files` folder.
-You can use the `04-missing_artists.csv` file to fill out the missing tracks.
+
+You can use `01-result_mplaylist_missing.txt` to manually add the missing tracks in the playlists.
