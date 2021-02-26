@@ -1,10 +1,7 @@
 from collections import defaultdict
 
-# prefix or base path
-PREFIX = "/music/"
-
 # result of mplaylist.sh
-with open("files/01-result_mplaylist.txt", "r") as f:
+with open("files/01-result_mplaylist_missing.txt", "r") as f:
     tracks = [x.strip() for x in f.readlines()]
 
 # artists.csv
@@ -20,7 +17,7 @@ with open("files/03-correspondances.csv", "r") as f:
 list_file = []
 list_missing_artists = []
 for track in tracks:
-    artist = track.split("/")[0]
+    artist = track.split(" - ")[0]
     if artist in dict_genres:
         list_file.append({dict_genres[artist]: track})
     else:
@@ -32,7 +29,7 @@ if len(list_missing_artists) > 0:
         print(f"{missing_artist} is missing.")
     print(f"{len(list_missing_artists)} artists missing!")
 
-    with open("files/04-missing_artists.csv", "w") as f:
+    with open("files/04-missing_artists2.csv", "w") as f:
         f.write("\n".join(missing_artists))
 
 d = defaultdict(list)
@@ -54,7 +51,7 @@ for k, v in condensed_dict.items():
 # export
 for playlist, tracks in final_dict.items():
     # print(playlist)
-    filename = f"files/mplaylist_{playlist.replace('/', '-')}.m3u8"
+    filename = f"files/tracklist_{playlist.replace('/', '-')}.m3u8"
     with open(filename, "w") as f:
         print(f"Creating {filename}.")
-        f.write("\n".join([f"{PREFIX}{x}" for x in tracks]))
+        f.write("\n".join([f"{x}" for x in tracks]))
