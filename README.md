@@ -1,5 +1,7 @@
 # playlists
 
+My playlists under version control.
+
 ## Dependencies
 
 - mpd/mpc
@@ -27,7 +29,7 @@ ARTIST3 - FAVORITE_TRACK4
 
 I personnaly export all my favorite tracks on last.fm with [this script](https://github.com/dbeley/lastfm-scraper/blob/master/lastfm-all_favorite_tracks.py).
 
-Run the `mplaylist.sh` script:
+Run the `mplaylist.sh` script (change the *PREFIX* global variable to your own base path):
 ```
 ./mplaylist.sh files/00-favorites.txt
 ```
@@ -76,3 +78,9 @@ It will create tracklist from the tracks in `01-result_mplaylist_missing.txt`.
 - `files/04-missing_artists2.csv`: artists not found in artists.csv
 
 Exported tracklists will be in the `files` folder with the `tracklist` prefix.
+
+## Import
+
+I personnaly import those playlists into airsonic.
+
+My music folder is mounted under the `/music/` folder in my airsonic container (hence the `/music/` prefix in `create_playlists.py`).
