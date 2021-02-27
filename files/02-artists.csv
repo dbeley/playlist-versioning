@@ -215,12 +215,12 @@
 43;Massive Attack;Trip-Hop
 20;Alvvays;Indie Pop / Indie Rock
 21;Art Blakey & The Jazz Messengers;Jazz / Classique
-42;The Ronettes;Soul / Funk
+26;The Ronettes;Soul / Funk
 38;Yes;Rock Progressif
 42;Marvin Gaye;Soul / Funk
 7;Amon Amarth;Death Metal Mélodique
 14;Ruth;FR
-30;Gamma Ray;Post-Metal
+33;Gamma Ray;
 31;Killing Joke;Post-Punk / New Wave
 14;Dogs;FR
 5;Oasis;Britpop
@@ -614,7 +614,7 @@
 13;The Walker Brothers;Folk / Pop / Rock
 7;Ghost Brigade;Death Metal Mélodique
 31;Nick Lowe;Post-Punk / New Wave
-13;Hoodoo Gurus;Folk / Pop / Rock
+20;Hoodoo Gurus;
 13;The Pogues;Folk / Pop / Rock
 13;Bryan Adams;Folk / Pop / Rock
 35;Die Ärzte;Punk Rock / Ska
@@ -715,7 +715,7 @@
 13;Sinéad O'Connor;
 20;Jim O'Rourke;
 42;D'Angelo;
-2;CHVRCHES;
+11;CHVRCHES;
 22;Nik Bärtsch's Ronin;
 23;Vince Guaraldi Trio;
 21;Oscar Peterson;

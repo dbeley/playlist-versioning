@@ -2,7 +2,7 @@
 
 My playlists under version control.
 
-## Dependencies
+## Requirements
 
 - mpd/mpc
 - python/bash
@@ -15,6 +15,8 @@ Limitations:
 - mpc query language is quite limited and only support exact matches
 
 The script assume the library is organized using `ARTIST/ALBUM/TRACK` folder structure.
+
+If you run the scripts after another run, don't forget to delete the previous output as the scripts append their results to the output files.
 
 ## MPD matching
 
@@ -29,31 +31,32 @@ ARTIST3 - FAVORITE_TRACK4
 
 I personnaly export all my favorite tracks on last.fm with [this script](https://github.com/dbeley/lastfm-scraper/blob/master/lastfm-all_favorite_tracks.py).
 
-Run the `mplaylist.sh` script (change the *PREFIX* global variable to your own base path):
+Run the `mplaylist.sh` script:
 ```
 ./mplaylist.sh files/00-favorites.txt
 ```
 
-- `files/01-result_mplaylist.txt`: tracks matched with mpc
-- `files/01-result_mplaylist_missing.txt`: tracks not matched with mpc
+Output:
+- `files/01-result_mplaylist.txt`: tracks matched with mpc (input of `create_playlists.py`)
+- `files/01-result_mplaylist_missing.txt`: tracks not matched with mpc (input of `create_tracklists_from_missing.py`)
 
 ## Playlist creation
 
 You will need two files:
-- `files/02-artists.csv`: file with playlist_id -> artist_name
+- `files/02-artists.csv` (file with fields `playlist_id;artist_name`):
 ```
 1;ARTIST1
 2;ARTIST2
 1;ARTIST3
 ```
 
-- `files/03-correspondances.csv`: file with playlist_id -> playlist_name
+- `files/03-correspondances.csv` (file with fields `playlist_id;playlist_name`):
 ```
 1;Rock
 2;Pop
 ```
 
-Run the `create_playlists.py` script:
+Run the `create_playlists.py` script (change the *PREFIX* global variable to your own base path):
 ```
 python create_playlists.py
 ```
@@ -84,3 +87,9 @@ Exported tracklists will be in the `files` folder with the `tracklist` prefix.
 I personnaly import those playlists into airsonic.
 
 My music folder is mounted under the `/music/` folder in my airsonic container (hence the `/music/` prefix in `create_playlists.py`).
+
+## Troubleshooting
+
+### `MPD Error: ')' expected
+
+Most likely due to a malformed input file. If there are quotes in your input file `"`, you will have to escape them `\"`.

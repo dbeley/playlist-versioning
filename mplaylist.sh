@@ -25,9 +25,10 @@ while read name; do
     # remove trailing whitespace characters
     track="${track%"${track##*[![:space:]]}"}"
 
-	potential_tracks=$(mpc search "((artist == \"$artist\") AND (title == \"$track\"))" )
+	# printf "mpc search ((artist == \"$artist\") AND (title == \"$track\"))\n"
+	potential_tracks=$(mpc search "((artist == \"$artist\") AND (title == \"$track\"))")
 	if [[ $potential_tracks ]]; then
-    	printf "$potential_tracks" >> files/01-result_mplaylist.txt
+    	printf "$potential_tracks\n" >> files/01-result_mplaylist.txt
 	else
 		printf "No track found for = $artist - $track\n"
 		printf "$artist - $track\n" >> files/01-result_mplaylist_missing.txt
