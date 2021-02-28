@@ -4,7 +4,7 @@ from collections import defaultdict
 PREFIX = "/music/"
 
 # result of mplaylist.sh
-with open("files/01-result_mplaylist.txt", "r") as f:
+with open("files/01-result_mplaylist.csv", "r") as f:
     tracks = [x.strip() for x in f.readlines()]
 
 # artists.csv
