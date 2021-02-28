@@ -50,7 +50,6 @@
 /music/Elliott Smith/From a Basement on the Hill/06 A Fond Farewell.mp3
 /music/Elliott Smith/From a Basement on the Hill/09 Twilight.mp3
 /music/Elliott Smith/XO/01 Sweet Adeline.mp3
-/music/Elliott Smith/XO/03 Waltz
 /music/Elliott Smith/XO/04 Baby Britain.mp3
 /music/Elliott Smith/XO/06 Independence Day.mp3
 /music/Elliott Smith/XO/07 Bled White.mp3

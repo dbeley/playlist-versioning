@@ -2,9 +2,6 @@
 /music/(Sandy) Alex G/House of Sugar/04 Gretel.mp3
 /music/American Football/American Football/01 Never Meant.mp3
 /music/Arcade Fire/Everything Now/02 Everything Now.mp3
-/music/Arcade Fire/Funeral/01 Neighborhood
-/music/Arcade Fire/Funeral/02 Neighborhood
-/music/Arcade Fire/Funeral/04 Neighborhood
 /music/Arcade Fire/Funeral/07 Wake Up.mp3
 /music/Arcade Fire/Funeral/09 Rebellion (Lies).mp3
 /music/Arcade Fire/Neon Bible/04 Intervention.mp3
@@ -17,9 +14,6 @@
 /music/Arcade Fire/The Suburbs/15 Sprawl II (Mountains Beyond Mountains).mp3
 /music/Beat Happening/You Turn Me On/09 Bury the Hammer.mp3
 /music/Beulah/When Your Heartstrings Break/04 Emma Blowgun’s Last Stand.mp3
-/music/Big Star/
-/music/Big Star/
-/music/Big Star/
 /music/Big Star/Radio City/01 O My Soul.flac
 /music/Big Star/Radio City/10 September Gurls.flac
 /music/Big Star/Third_Sister Lovers/07 Holocaust.flac
