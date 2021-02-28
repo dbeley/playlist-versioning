@@ -20,7 +20,7 @@ If you run the scripts after another run, don't forget to delete the previous ou
 
 ## MPD matching
 
-Create a file `files/00-favorites.txt` containing:
+Create a file `files/00-favorites.csv` containing your favorite tracks:
 ```
 ARTIST1 - FAVORITE_TRACK1
 ARTIST1 - FAVORITE_TRACK2
@@ -33,54 +33,50 @@ I personnaly export all my favorite tracks on last.fm with [this script](https:/
 
 Run the `mplaylist.sh` script:
 ```
-./mplaylist.sh files/00-favorites.txt
+./mplaylist.sh files/00-favorites.csv
 ```
 
 Output:
-- `files/01-result_mplaylist.txt`: tracks matched with mpc (input of `create_playlists.py`)
-- `files/01-result_mplaylist_missing.txt`: tracks not matched with mpc (input of `create_tracklists_from_missing.py`)
+- `files/01-result_mplaylist.csv`: tracks matched with mpc
+- `files/01-result_mplaylist_missing.csv`: tracks not matched with mpc
 
 ## Playlist creation
 
-You will need two files:
-- `files/02-artists.csv` (file with fields `playlist_id;artist_name`):
+You will need three files:
+- `files/03-artists.csv` (file with fields `playlist_id;artist_name`):
 ```
 1;ARTIST1
 2;ARTIST2
 1;ARTIST3
 ```
 
-- `files/03-correspondances.csv` (file with fields `playlist_id;playlist_name`):
+- `files/02-playlists.csv` (file with fields `playlist_id;playlist_name`):
 ```
 1;Rock
 2;Pop
 ```
 
-Run the `create_playlists.py` script (change the *PREFIX* global variable to your own base path):
+- `files/04-missing_tracks.csv`: used to manually add paths for the missing tracks in `01-result_mplaylist_missing.csv` (file with fields `artist-missing_track;path`):
+```
+ARTIST1 - MISSING_TRACK1;PATH_TO_TRACK1
+ARTIST2 - MISSING_TRACK2;PATH_TO_TRACK2
+ARTIST2 - MISSING_TRACK3;PATH_TO_TRACK3
+ARTIST3 - MISSING_TRACK4;PATH_TO_TRACK4
+```
+
+Run the `create_playlists.py` script (change the *LOCAL_BASEPATH* and *BASEPATH* global variable to your own):
 ```
 python create_playlists.py
 ```
-It will create playlists from the paths in `01-result_mplaylist.txt`
 
-- `files/04-missing_artists.csv`: artists not found in artists.csv
+The script will try to match the missing tracks in `01-result_mplaylist_missing.csv` with `04-tracklist_matching.csv`. Unmatched tracks will be written in `04-missing_tracks_missing.csv`.
 
-If it's empty you're good, otherwise just add another entry in `02-artists.csv`.
+- `files/03-missing_artists.csv`: artists not found in artists.csv
+- `files/04-missing_tracks_missing.csv`: missing tracks not found in `04-missing_tracks.csv`
+
+If those files are empty you're good, otherwise just add entries in `03-artists.csv` or `04-missing_tracks.csv`.
 
 Exported playlists will be in the `files` folder with the `mplaylist` prefix.
-
-You can use `01-result_mplaylist_missing.txt` to manually add the missing tracks in the playlists.
-
-## Missing tracks
-
-You can also create tracklist for the missing tracks with the `create_tracklists_from_missing.py` script:
-```
-python create_tracklists_from_missing.py
-```
-It will create tracklist from the tracks in `01-result_mplaylist_missing.txt`.
-
-- `files/04-missing_artists2.csv`: artists not found in artists.csv
-
-Exported tracklists will be in the `files` folder with the `tracklist` prefix.
 
 ## Import
 
