@@ -1,0 +1,503 @@
+/music/10,000 Maniacs/In My Tribe/03 Like the Weather.mp3
+/music/10cc/The Original Soundtrack/02 I’m Not in Love.mp3
+/music/A Flock of Seagulls/A Flock of Seagulls/01 I Ran.mp3
+/music/ABBA/ABBA/01 Mamma Mia.mp3
+/music/ABBA/ABBA/04 SOS.mp3
+/music/ABBA/Arrival/02 Dancing Queen.mp3
+/music/ABBA/Arrival/06 Money, Money, Money.mp3
+/music/ABBA/Gold_ Greatest Hits/02 Knowing Me, Knowing You.mp3
+/music/ABBA/Gold_ Greatest Hits/19 Waterloo.mp3
+/music/ABBA/Super Trouper/01 Super Trouper.mp3
+/music/ABBA/Super Trouper/02 The Winner Takes It All.mp3
+/music/ABBA/The Album/02 Take a Chance on Me.mp3
+/music/ABBA/The Visitors/06 One of Us.mp3
+/music/ABBA/Voulez-Vous/13 Gimme! Gimme! Gimme! (A Man After Midnight).mp3
+/music/Alanis Morissette/Jagged Little Pill/10 Ironic.mp3
+/music/Asia/Asia/01 Heat of the Moment.mp3
+/music/Asia/Asia/02 Only Time Will Tell.mp3
+/music/Big Country/The Crossing/01 In a Big Country.mp3
+/music/Billy Joel/52nd Street/03 My Life.mp3
+/music/Billy Joel/An Innocent Man/06 Uptown Girl.mp3
+/music/Billy Joel/Piano Man/02 Piano Man.mp3
+/music/Billy Joel/Storm Front/02 We Didn't Start the Fire.mp3
+/music/Billy Joel/The Stranger/01 Movin’ Out (Anthony’s Song).mp3
+/music/Billy Joel/The Stranger/03 Just the Way You Are.mp3
+/music/Billy Joel/The Stranger/07 She’s Always a Woman.mp3
+/music/Blondie/Parallel Lines/10 Heart of Glass (Disco Version).mp3
+/music/Bob Dylan/Blonde on Blonde/03 Visions of Johanna.mp3
+/music/Bob Dylan/Blonde on Blonde/05 I Want You.mp3
+/music/Bob Dylan/Blonde on Blonde/08 Just Like a Woman.mp3
+/music/Bob Dylan/Blonde on Blonde/14 Sad-Eyed Lady of the Lowlands.mp3
+/music/Bob Dylan/Blood on the Tracks/01 Tangled Up in Blue.mp3
+/music/Bob Dylan/Blood on the Tracks/02 Simple Twist of Fate.mp3
+/music/Bob Dylan/Blood on the Tracks/04 Idiot Wind.mp3
+/music/Bob Dylan/Bringing It All Back Home/08 Mr. Tambourine Man.mp3
+/music/Bob Dylan/Desire/01 Hurricane.mp3
+/music/Bob Dylan/Highway 61 Revisited/01 Like a Rolling Stone.mp3
+/music/Bob Dylan/Highway 61 Revisited/05 Ballad of a Thin Man.mp3
+/music/Bob Dylan/Highway 61 Revisited/09 Desolation Row.mp3
+/music/Bob Dylan/John Wesley Harding/04 All Along the Watchtower.mp3
+/music/Bob Dylan/Nashville Skyline/06 Lay Lady Lay.mp3
+/music/Bob Dylan/Pat Garrett & Billy the Kid/07 Knockin’ on Heaven’s Door.mp3
+/music/Bob Dylan/Planet Waves/06 Forever Young.mp3
+/music/Bob Dylan/The Best of Bob Dylan/02 The Times They Are A-Changin'.mp3
+/music/Bob Dylan/The Freewheelin’ Bob Dylan/01 Blowin’ in the Wind.mp3
+/music/Bob Dylan/The Freewheelin’ Bob Dylan/02 Girl From the North Country.mp3
+/music/Bob Dylan/The Freewheelin’ Bob Dylan/07 Don’t Think Twice, It’s All Right.mp3
+/music/Boston/Boston/01 More Than a Feeling.mp3
+/music/Bruce Springsteen/Born in the U.S.A_/01 Born in the U.S.A_.mp3
+/music/Bruce Springsteen/Born in the U.S.A_/05 Downbound Train.mp3
+/music/Bruce Springsteen/Born in the U.S.A_/11 Dancing in the Dark.mp3
+/music/Bruce Springsteen/Born to Run/04 Backstreets.mp3
+/music/Bruce Springsteen/Born to Run/05 Born to Run.mp3
+/music/Bruce Springsteen/Greatest Hits/14 Streets of Philadelphia.mp3
+/music/Bruce Springsteen/Magic/01 Radio Nowhere.mp3
+/music/Bruce Springsteen/The Rising/03 Waitin’ on a Sunny Day.mp3
+/music/Bruce Springsteen/The River/11 The River.mp3
+/music/Bryan Adams/Reckless/06 Summer of '69.mp3
+/music/Buffalo Springfield/Buffalo Springfield/01 For What It’s Worth.mp3
+/music/Carole King/Tapestry/02 So Far Away.mp3
+/music/Carole King/Tapestry/03 It's Too Late.mp3
+/music/Carole King/Tapestry/07 You've Got a Friend.mp3
+/music/Carole King/Tapestry/12 (You Make Me Feel Like) A Natural Woman.mp3
+/music/Cat Stevens/Mona Bone Jakon/01 Lady d'Arbanville.mp3
+/music/Cat Stevens/Tea for the Tillerman/01 Where Do the Children Play_.mp3
+/music/Cat Stevens/Tea for the Tillerman/03 Wild World.mp3
+/music/Cat Stevens/Tea for the Tillerman/04 Sad Lisa.mp3
+/music/Cat Stevens/Tea for the Tillerman/10 Father and Son.mp3
+/music/Cat Stevens/The Very Best of Cat Stevens/03 Morning Has Broken.mp3
+/music/Cheap Trick/At Budokan/07 I Want You to Want Me.mp3
+/music/Cheap Trick/At Budokan/08 Surrender.mp3
+/music/Cheap Trick/Heaven Tonight/01 Surrender.mp3
+/music/Cheap Trick/In Color/04 I Want You to Want Me.mp3
+/music/Chicago/The Chicago Story_ The Complete Greatest Hits/01 If You Leave Me Now.mp3
+/music/Compilations/The Wire_ _...and all the pieces matter_/16 The Body of an American.flac
+/music/Compilations/Walt Disney Records The Legacy Collection_ The Lion King/31 Circle of Life.mp3
+/music/Concrete Blonde/Bloodletting/09 Joey.mp3
+/music/Crowded House/Crowded House/02 World Where You Live.mp3
+/music/Crowded House/Crowded House/04 Don't Dream It's Over.mp3
+/music/Crowded House/Woodface/02 It’s Only Natural.mp3
+/music/Crowded House/Woodface/03 Fall at Your Feet.mp3
+/music/Crowded House/Woodface/05 Weather With You.mp3
+/music/Crowded House/Woodface/07 Four Seasons in One Day.mp3
+/music/Cyndi Lauper/She’s So Unusual/02 Girls Just Want to Have Fun.mp3
+/music/Cyndi Lauper/She’s So Unusual/04 Time After Time.mp3
+/music/David Bowie/Hunky Dory/01 Changes.mp3
+/music/David Bowie/Hunky Dory/03 Life on Mars_.mp3
+/music/David Bowie/Scary Monsters/04 Ashes to Ashes.mp3
+/music/David Bowie/Space Oddity/01 Space Oddity.mp3
+/music/David Bowie/The Rise and Fall of Ziggy Stardust and the Spiders From Mars/04 Starman.mp3
+/music/David Bowie/The Rise and Fall of Ziggy Stardust and the Spiders From Mars/09 Ziggy Stardust.mp3
+/music/David Bowie/“Heroes”/03 “Heroes”.mp3
+/music/David Bowie/★/01 ★.mp3
+/music/David Bowie/★/03 Lazarus.mp3
+/music/David Bowie/★/07 I Can’t Give Everything Away.mp3
+/music/Dire Straits/Brothers in Arms/02 Money for Nothing.mp3
+/music/Dire Straits/Brothers in Arms/03 Walk of Life.mp3
+/music/Dire Straits/Brothers in Arms/09 Brothers in Arms.mp3
+/music/Dire Straits/Dire Straits/06 Sultans of Swing.mp3
+/music/Dire Straits/Making Movies/02 Romeo And Juliet.mp3
+/music/Eagles/Desperado/05 Desperado.mp3
+/music/Eagles/Eagles/01 Take It Easy.mp3
+/music/Eagles/Hotel California/01 Hotel California.mp3
+/music/Electric Light Orchestra/Out of the Blue/13 Mr. Blue Sky.mp3
+/music/Elton John/Elton John/01 Your Song.mp3
+/music/Elton John/Goodbye Yellow Brick Road/02 Candle in the Wind.mp3
+/music/Elton John/Goodbye Yellow Brick Road/14 Saturday Night's Alright for Fighting.mp3
+/music/Elton John/Honky Château/05 Rocket Man (I Think It's Going to Be a Long, Long Time).mp3
+/music/Elton John/Madman Across the Water/01 Tiny Dancer.mp3
+/music/Everything but the Girl/Amplified Heart/06 Missing.mp3
+/music/Fleetwood Mac/Fleetwood Mac/01 Monday Morning.mp3
+/music/Fleetwood Mac/Fleetwood Mac/02 Warm Ways.mp3
+/music/Fleetwood Mac/Fleetwood Mac/03 Blue Letter.mp3
+/music/Fleetwood Mac/Fleetwood Mac/04 Rhiannon.mp3
+/music/Fleetwood Mac/Fleetwood Mac/05 Over My Head.mp3
+/music/Fleetwood Mac/Mirage/05 Gypsy.mp3
+/music/Fleetwood Mac/Rumours/01 Second Hand News.mp3
+/music/Fleetwood Mac/Rumours/02 Dreams.mp3
+/music/Fleetwood Mac/Rumours/03 Never Going Back Again.mp3
+/music/Fleetwood Mac/Rumours/04 Don’t Stop.mp3
+/music/Fleetwood Mac/Rumours/05 Go Your Own Way.mp3
+/music/Fleetwood Mac/Rumours/07 The Chain.mp3
+/music/Fleetwood Mac/Rumours/08 You Make Loving Fun.mp3
+/music/Fleetwood Mac/Tango in the Night/01 Big Love.mp3
+/music/Fleetwood Mac/Tango in the Night/02 Seven Wonders.mp3
+/music/Fleetwood Mac/Tango in the Night/03 Everywhere.mp3
+/music/Fleetwood Mac/Tango in the Night/07 Little Lies.mp3
+/music/Fleetwood Mac/Tusk/05 Sara (edit).mp3
+/music/Fleetwood Mac/Tusk/06 What Makes You Think You're the One.mp3
+/music/Fleetwood Mac/Tusk/07 Storms.mp3
+/music/Fleetwood Mac/Tusk/15 I Know I'm Not Wrong.mp3
+/music/Fleetwood Mac/Tusk/20 Never Forget.mp3
+/music/Foreigner/Agent Provocateur/03 I Want to Know What Love Is.mp3
+/music/Franco Battiato/La voce del padrone/02 Bandiera bianca.flac
+/music/Franco Battiato/La voce del padrone/04 Cuccurucucù.flac
+/music/Franco Battiato/La voce del padrone/07 Sentimiento nuevo.flac
+/music/Gary Numan/The Pleasure Principle/09 Cars.mp3
+/music/Gene Clark/Gene Clark/02 With Tomorrow.mp3
+/music/Gene Clark/No Other/01 Life’s Greatest Fool.mp3
+/music/Gene Clark/No Other/04 Strength of Strings.mp3
+/music/Genesis/Abacab/01 Abacab.mp3
+/music/Genesis/Genesis/01 Mama.mp3
+/music/Genesis/Genesis/02 That's All.mp3
+/music/Genesis/Invisible Touch/01 Invisible Touch.mp3
+/music/Genesis/We Can’t Dance/01 No Son of Mine.mp3
+/music/Genesis/We Can’t Dance/02 Jesus He Knows Me.mp3
+/music/Genesis/We Can’t Dance/04 I Can’t Dance.mp3
+/music/George Harrison/All Things Must Pass [2411]/02 My Sweet Lord.mp3
+/music/George Harrison/All Things Must Pass [2411]/04 Isn't It a Pity (version one).mp3
+/music/George Harrison/All Things Must Pass [2411]/05 What Is Life.mp3
+/music/George Harrison/All Things Must Pass [2412]/17 Isn't It a Pity (version two).mp3
+/music/Grateful Dead/American Beauty/01 Box of Rain.mp3
+/music/Harry Nilsson/Aerial Ballet/07 Everybody’s Talkin’.mp3
+/music/Iggy Pop/Lust for Life/04 The Passenger.mp3
+/music/Joe Jackson/Look Sharp!/03 Is She Really Going Out With Him_.flac
+/music/John Cale/Fear/01 Fear Is a Man's Best Friend.mp3
+/music/John Cale/Fear/02 Buffalo Ballet.mp3
+/music/John Cale/Fear/03 Barracuda.mp3
+/music/John Cale/Fear/05 Ship of Fools.mp3
+/music/John Cale/Paris 1919/01 Child's Christmas in Wales.mp3
+/music/John Cale/Paris 1919/02 Hanky Panky Nohow.mp3
+/music/John Cale/Paris 1919/03 The Endless Plain of Fortune.mp3
+/music/John Cale/Paris 1919/04 Andalucia.mp3
+/music/John Cale/Paris 1919/05 Macbeth.mp3
+/music/John Cale/Paris 1919/06 Paris 1919.mp3
+/music/John Cale/Paris 1919/07 Graham Greene.mp3
+/music/John Lennon/Imagine/01 Imagine.mp3
+/music/John Lennon/Imagine/03 Jealous Guy.mp3
+/music/John Lennon/John Lennon_Plastic Ono Band/01 Mother.mp3
+/music/John Lennon/John Lennon_Plastic Ono Band/04 Working Class Hero.mp3
+/music/Johnny Cash/American III_ Solitary Man/07 The Mercy Seat.mp3
+/music/Johnny Cash/American IV_ The Man Comes Around/01 The Man Comes Around.mp3
+/music/Johnny Cash/American IV_ The Man Comes Around/02 Hurt.mp3
+/music/Johnny Cash/American IV_ The Man Comes Around/04 Bridge Over Troubled Water.mp3
+/music/Johnny Cash/American IV_ The Man Comes Around/07 Personal Jesus.mp3
+/music/Johnny Cash/At San Quentin (The Complete 1969 Concert)/14 Ring of Fire.mp3
+/music/Johnny Cash/Johnny Cash With His Hot and Blue Guitar/09 I Walk the Line.mp3
+/music/Joni Mitchell/Blue/06 California.mp3
+/music/Joni Mitchell/Blue/09 A Case of You.mp3
+/music/Journey/Escape/01 Don't Stop Believin'.mp3
+/music/Journey/Frontiers/01 Separate Ways (Worlds Apart).mp3
+/music/Kate Bush/Hounds of Love/01 Running Up That Hill (A Deal With God).mp3
+/music/Kate Bush/Hounds of Love/02 Hounds of Love.mp3
+/music/Kate Bush/Hounds of Love/05 Cloudbusting.mp3
+/music/Kate Bush/The Kick Inside/06 Wuthering Heights.mp3
+/music/Leonard Cohen/Songs From a Room/04 The Partisan.mp3
+/music/Leonard Cohen/Songs of Leonard Cohen/01 Suzanne.mp3
+/music/Leonard Cohen/Songs of Love and Hate/01 Avalanche.mp3
+/music/Leonard Cohen/Various Positions/05 Hallelujah.mp3
+/music/Lou Reed/Transformer/03 Perfect Day.mp3
+/music/Lou Reed/Transformer/05 Walk on the Wild Side.mp3
+/music/Lou Reed/Transformer/07 Satellite of Love.mp3
+/music/Love/Forever Changes/01 Alone Again Or.mp3
+/music/Lucinda Williams/Car Wheels on a Gravel Road/02 Car Wheels on a Gravel Road.mp3
+/music/Midnight Oil/Diesel and Dust/01 Beds Are Burning.mp3
+/music/Milton Nascimento & Lô Borges/Clube da Esquina/12 Paisagem da janela.mp3
+/music/Moondog/H'art Songs/01 Pigmy Pig.mp3
+/music/Moondog/H'art Songs/02 High on a Rocky Ledge.mp3
+/music/Moondog/H'art Songs/03 Choo Choo Lullaby.mp3
+/music/Neil Young & Crazy Horse/Greendale/10 Be the Rain.mp3
+/music/Neil Young with Crazy Horse/Zuma/08 Cortez the Killer.mp3
+/music/Neil Young/After the Gold Rush/01 Tell Me Why.mp3
+/music/Neil Young/After the Gold Rush/02 After the Gold Rush.mp3
+/music/Neil Young/After the Gold Rush/03 Only Love Can Break Your Heart.mp3
+/music/Neil Young/After the Gold Rush/04 Southern Man.mp3
+/music/Neil Young/After the Gold Rush/07 Don't Let It Bring You Down.mp3
+/music/Neil Young/American Stars 'n Bars/08 Like a Hurricane.mp3
+/music/Neil Young/Comes a Time/02 Comes a Time.mp3
+/music/Neil Young/Harvest Moon/04 Harvest Moon.mp3
+/music/Neil Young/Harvest/01 Out on the Weekend.mp3
+/music/Neil Young/Harvest/02 Harvest.mp3
+/music/Neil Young/Harvest/04 Heart of Gold.mp3
+/music/Neil Young/Harvest/06 Old Man.mp3
+/music/Neil Young/Harvest/08 Alabama.mp3
+/music/Neil Young/Harvest/10 Words (Between the Lines of Age).mp3
+/music/Neil Young/On the Beach/01 Walk On.mp3
+/music/Neil Young/On the Beach/02 See the Sky About to Rain.mp3
+/music/Neil Young/On the Beach/08 Ambulance Blues.mp3
+/music/Neil Young/Tonight’s the Night/01 Tonight’s the Night.mp3
+/music/Neil Young/Tonight’s the Night/04 Borrowed Tune.mp3
+/music/Neil Young/Tonight’s the Night/06 Mellow My Mind.mp3
+/music/Nick Cave & The Bad Seeds/Abattoir Blues _ The Lyre of Orpheus/05 There She Goes, My Beautiful World.mp3
+/music/Nick Cave & The Bad Seeds/Abattoir Blues _ The Lyre of Orpheus/14 Supernaturally.mp3
+/music/Nick Cave & The Bad Seeds/Murder Ballads/05 Where the Wild Roses Grow.mp3
+/music/Nick Cave & The Bad Seeds/Tender Prey/01 The Mercy Seat.mp3
+/music/Nick Cave & The Bad Seeds/The Boatman’s Call/01 Into My Arms.mp3
+/music/Nick Drake/Bryter Layter/04 One of These Things First.flac
+/music/Nick Drake/Five Leaves Left/01 Time Has Told Me.flac
+/music/Nick Drake/Five Leaves Left/02 River Man.flac
+/music/Nick Drake/Five Leaves Left/05 Day Is Done.flac
+/music/Nick Drake/Pink Moon/01 Pink Moon.flac
+/music/Nick Drake/Pink Moon/02 Place to Be.flac
+/music/Nick Drake/Pink Moon/03 Road.flac
+/music/Nick Drake/Pink Moon/06 Things Behind the Sun.flac
+/music/Paul McCartney/McCartney/12 Maybe I'm Amazed.mp3
+/music/Paul Simon/Graceland/02 Graceland.mp3
+/music/Paul Simon/Graceland/05 Diamonds on the Soles of Her Shoes.mp3
+/music/Paul Simon/Graceland/06 You Can Call Me Al.mp3
+/music/Paul Simon/Paul Simon/02 Duncan.mp3
+/music/Paul Simon/Paul Simon/04 Run That Body Down.mp3
+/music/Paul Simon/Paul Simon/06 Me and Julio Down by the Schoolyard.mp3
+/music/Paul Simon/There Goes Rhymin’ Simon/01 Kodachrome.mp3
+/music/Paul Simon/There Goes Rhymin’ Simon/02 Tenderness.mp3
+/music/Paul Simon/There Goes Rhymin’ Simon/03 Take Me to the Mardi Gras.mp3
+/music/Paul Simon/There Goes Rhymin’ Simon/04 Something So Right.mp3
+/music/Peter Gabriel/Peter Gabriel [2002]/02 Solsbury Hill.mp3
+/music/Peter Gabriel/Peter Gabriel [2002]/09 Here Comes the Flood.mp3
+/music/Peter Gabriel/So/03 Don’t Give Up.mp3
+/music/Phil Collins/Face Value/01 In the Air Tonight.mp3
+/music/Phil Collins/Hello, I Must Be Going!/05 You Can't Hurry Love.mp3
+/music/Phil Collins/_..But Seriously/07 Another Day in Paradise.mp3
+/music/Queen/A Day at the Races/06 Somebody to Love.mp3
+/music/Queen/A Kind of Magic/01 One Vision.mp3
+/music/Queen/A Kind of Magic/02 A Kind of Magic.mp3
+/music/Queen/A Night at the Opera/11 Bohemian Rhapsody.mp3
+/music/Queen/Hot Space/11 Under Pressure.mp3
+/music/Queen/Jazz/02 Fat Bottomed Girls.mp3
+/music/Queen/Sheer Heart Attack/02 Killer Queen.mp3
+/music/Queen/The Game/03 Another One Bites the Dust.mp3
+/music/Queen/The Works/01 Radio Ga Ga.mp3
+/music/Queen/The Works/06 I Want to Break Free.mp3
+/music/Randy Newman/Toy Story/01 You've Got a Friend in Me.mp3
+/music/Ringo Starr/Ringo/11 It Don’t Come Easy.mp3
+/music/Robyn Hitchcock/Black Snake Dîamonḑ Röle/01 The Man Who Invented Himself.mp3
+/music/Scott Walker/Scott 2/01 Jackie.mp3
+/music/Scott Walker/Scott 3/01 It's Raining Today.mp3
+/music/Scott Walker/Scott 3/13 If You Go Away.mp3
+/music/Scott Walker/Scott 4/01 The Seventh Seal.mp3
+/music/Scott Walker/Scott 4/03 The World's Strongest Man.mp3
+/music/Scott Walker/Scott 4/08 Duchess.mp3
+/music/Scott Walker/Scott 4/09 Get Behind Me.mp3
+/music/Simon & Garfunkel/Bookends/03 America.mp3
+/music/Simon & Garfunkel/Bookends/08 Fakin’ It.mp3
+/music/Simon & Garfunkel/Bookends/10 Mrs. Robinson.mp3
+/music/Simon & Garfunkel/Bridge Over Troubled Water/01 Bridge Over Troubled Water.mp3
+/music/Simon & Garfunkel/Bridge Over Troubled Water/02 El Condor Pasa (If I Could).mp3
+/music/Simon & Garfunkel/Bridge Over Troubled Water/03 Cecilia.mp3
+/music/Simon & Garfunkel/Bridge Over Troubled Water/04 Keep the Customer Satisfied.mp3
+/music/Simon & Garfunkel/Bridge Over Troubled Water/06 The Boxer.mp3
+/music/Simon & Garfunkel/Parsley, Sage, Rosemary and Thyme/01 Scarborough Fair _ Canticle.mp3
+/music/Simon & Garfunkel/Parsley, Sage, Rosemary and Thyme/04 Homeward Bound.mp3
+/music/Simon & Garfunkel/Sounds of Silence/01 The Sound of Silence.mp3
+/music/Simon & Garfunkel/Sounds of Silence/09 April Come She Will.mp3
+/music/Simon & Garfunkel/Sounds of Silence/11 I Am a Rock.mp3
+/music/Sinéad O’Connor/I Do Not Want What I Haven't Got/06 Nothing Compares 2 U.mp3
+/music/Squeeze/Argybargy/10 Wrong Side of the Moon.mp3
+/music/Steely Dan/Aja/01 Black Cow.mp3
+/music/Steely Dan/Aja/03 Deacon Blues.mp3
+/music/Steely Dan/Aja/04 Peg.mp3
+/music/Steely Dan/Can’t Buy a Thrill/01 Do It Again.mp3
+/music/Steely Dan/Can’t Buy a Thrill/06 Reelin’ in the Years.mp3
+/music/Steve Winwood/Back in the High Life/01 Higher Love.mp3
+/music/Stevie Nicks/Bella Donna/06 Edge of Seventeen.mp3
+/music/Sting/…Nothing Like the Sun/03 Englishman in New York.mp3
+/music/Styx/Pieces of Eight/08 Renegade.mp3
+/music/Styx/The Grand Illusion/04 Come Sail Away.mp3
+/music/Supertramp/Breakfast in America/02 The Logical Song.mp3
+/music/Supertramp/Breakfast in America/03 Goodbye Stranger.mp3
+/music/Supertramp/Breakfast in America/04 Breakfast in America.mp3
+/music/Supertramp/Breakfast in America/06 Take the Long Way Home.mp3
+/music/Supertramp/Breakfast in America/20 Give a Little Bit.mp3
+/music/Supertramp/Crime of the Century/05 Dreamer.mp3
+/music/Supertramp/Even in the Quietest Moments…/01 Give a Little Bit.mp3
+/music/Supertramp/Even in the Quietest Moments…/03 Even in the Quietest Moments.mp3
+/music/Supertramp/Even in the Quietest Moments…/07 Fool’s Overture.mp3
+/music/Suzanne Vega/Solitude Standing/02 Luka.mp3
+/music/Suzanne Vega/Suzanne Vega/03 Marlene on the Wall.mp3
+/music/T. Rex/Electric Warrior/06 Bang a Gong (Get It On).mp3
+/music/T. Rex/The Very Best of T. Rex/09 Children of the Revolution.mp3
+/music/The Alan Parsons Project/Eye in the Sky/02 Eye in the Sky.mp3
+/music/The Band/Music From Big Pink/05 The Weight.mp3
+/music/The Band/Music From Big Pink/08 Chest Fever.mp3
+/music/The Band/The Band/01 Across the Great Divide.mp3
+/music/The Band/The Band/03 The Night They Drove Old Dixie Down.mp3
+/music/The Band/The Band/05 Up on Cripple Creek.mp3
+/music/The Band/The Band/09 Look Out Cleveland.mp3
+/music/The Beach Boys/All Summer Long/01 I Get Around.mp3
+/music/The Beach Boys/Beach Boys’ Party!/12 Barbara Ann.mp3
+/music/The Beach Boys/Pet Sounds/01 Wouldn’t It Be Nice.mp3
+/music/The Beach Boys/Pet Sounds/02 You Still Believe in Me.mp3
+/music/The Beach Boys/Pet Sounds/07 Sloop John B.mp3
+/music/The Beach Boys/Pet Sounds/08 God Only Knows.mp3
+/music/The Beach Boys/Pet Sounds/09 I Know There’s an Answer.mp3
+/music/The Beach Boys/Smile - A STEREO Reconstruction/02 Heroes and Villians.mp3
+/music/The Beach Boys/Smile - A STEREO Reconstruction/06 Cabin Essence.mp3
+/music/The Beach Boys/Smile - A STEREO Reconstruction/10 Surf's Up.mp3
+/music/The Beach Boys/Smile - A STEREO Reconstruction/17 Good Vibrations.mp3
+/music/The Beach Boys/Summer Days (and Summer Nights!!)/06 Help Me, Rhonda.mp3
+/music/The Beach Boys/Summer Days (and Summer Nights!!)/07 California Girls.mp3
+/music/The Beach Boys/Surf's Up/09 'Til I Die.mp3
+/music/The Beach Boys/Surf's Up/10 Surf's Up.mp3
+/music/The Beach Boys/The Beach Boys Today!/05 Help Me, Ronda.mp3
+/music/The Beach Boys/The Beach Boys Today!/07 Please Let Me Wonder.mp3
+/music/The Beatles/A Hard Day's Night/01 A Hard Day’s Night.flac
+/music/The Beatles/A Hard Day's Night/05 And I Love Her.flac
+/music/The Beatles/A Hard Day's Night/07 Can’t Buy Me Love.flac
+/music/The Beatles/Abbey Road/01 Come Together.flac
+/music/The Beatles/Abbey Road/02 Something.flac
+/music/The Beatles/Abbey Road/04 Oh! Darling.flac
+/music/The Beatles/Abbey Road/05 Octopus’s Garden.flac
+/music/The Beatles/Abbey Road/06 I Want You (She’s So Heavy).flac
+/music/The Beatles/Abbey Road/07 Here Comes the Sun.flac
+/music/The Beatles/Abbey Road/09 You Never Give Me Your Money.flac
+/music/The Beatles/Abbey Road/14 Golden Slumbers.flac
+/music/The Beatles/Abbey Road/15 Carry That Weight.flac
+/music/The Beatles/Beatles for Sale/08 Eight Days a Week.flac
+/music/The Beatles/Help!/01 Help!.flac
+/music/The Beatles/Help!/07 Ticket to Ride.flac
+/music/The Beatles/Help!/13 Yesterday.flac
+/music/The Beatles/Let It Be/03 Across the Universe.flac
+/music/The Beatles/Let It Be/06 Let It Be.flac
+/music/The Beatles/Let It Be/12 Get Back.flac
+/music/The Beatles/Magical Mystery Tour/02 The Fool on the Hill.flac
+/music/The Beatles/Magical Mystery Tour/06 I Am the Walrus.flac
+/music/The Beatles/Magical Mystery Tour/07 Hello Goodbye.flac
+/music/The Beatles/Magical Mystery Tour/08 Strawberry Fields Forever.flac
+/music/The Beatles/Magical Mystery Tour/09 Penny Lane.flac
+/music/The Beatles/Magical Mystery Tour/11 All You Need Is Love.flac
+/music/The Beatles/Past Masters, Volume Two/01 Day Tripper.flac
+/music/The Beatles/Past Masters, Volume Two/07 Hey Jude.flac
+/music/The Beatles/Please Please Me/01 I Saw Her Standing There.flac
+/music/The Beatles/Please Please Me/08 Love Me Do.flac
+/music/The Beatles/Please Please Me/14 Twist and Shout.flac
+/music/The Beatles/Revolver/01 Taxman.flac
+/music/The Beatles/Revolver/02 Eleanor Rigby.flac
+/music/The Beatles/Revolver/03 I’m Only Sleeping.flac
+/music/The Beatles/Revolver/05 Here, There and Everywhere.flac
+/music/The Beatles/Revolver/06 Yellow Submarine.flac
+/music/The Beatles/Revolver/07 She Said She Said.flac
+/music/The Beatles/Revolver/08 Good Day Sunshine.flac
+/music/The Beatles/Revolver/09 And Your Bird Can Sing.flac
+/music/The Beatles/Revolver/10 For No One.flac
+/music/The Beatles/Revolver/14 Tomorrow Never Knows.flac
+/music/The Beatles/Rubber Soul/01 Drive My Car.flac
+/music/The Beatles/Rubber Soul/02 Norwegian Wood (The Bird Has Flown).flac
+/music/The Beatles/Rubber Soul/03 You Won't See Me.flac
+/music/The Beatles/Rubber Soul/04 Nowhere Man.flac
+/music/The Beatles/Rubber Soul/07 Michelle.flac
+/music/The Beatles/Rubber Soul/09 Girl.flac
+/music/The Beatles/Rubber Soul/10 I'm Looking Through You.flac
+/music/The Beatles/Rubber Soul/11 In My Life.flac
+/music/The Beatles/Sgt. Pepper's Lonely Hearts Club Band/02 With a Little Help From My Friends.flac
+/music/The Beatles/Sgt. Pepper's Lonely Hearts Club Band/03 Lucy in the Sky With Diamonds.flac
+/music/The Beatles/Sgt. Pepper's Lonely Hearts Club Band/04 Getting Better.flac
+/music/The Beatles/Sgt. Pepper's Lonely Hearts Club Band/06 She's Leaving Home.flac
+/music/The Beatles/Sgt. Pepper's Lonely Hearts Club Band/10 Lovely Rita.flac
+/music/The Beatles/Sgt. Pepper's Lonely Hearts Club Band/13 A Day in the Life.flac
+/music/The Beatles/The Beatles/01 Back in the U.S.S.R_.flac
+/music/The Beatles/The Beatles/02 Dear Prudence.flac
+/music/The Beatles/The Beatles/04 Ob‐La‐Di, Ob‐La‐Da.flac
+/music/The Beatles/The Beatles/07 While My Guitar Gently Weeps.flac
+/music/The Beatles/The Beatles/08 Happiness Is a Warm Gun.flac
+/music/The Beatles/The Beatles/09 Martha My Dear.flac
+/music/The Beatles/The Beatles/11 Blackbird.flac
+/music/The Beatles/The Beatles/12 Piggies.flac
+/music/The Beatles/The Beatles/17 Julia.flac
+/music/The Beatles/The Beatles/22 Sexy Sadie.flac
+/music/The Beatles/The Beatles/23 Helter Skelter.flac
+/music/The Beatles/Yellow Submarine/04 Hey Bulldog.flac
+/music/The Byrds/Fifth Dimension/07 Eight Miles High.mp3
+/music/The Byrds/Mr. Tambourine Man/01 Mr. Tambourine Man.mp3
+/music/The Byrds/Turn! Turn! Turn!/01 Turn! Turn! Turn! (To Everything There Is a Season).mp3
+/music/The Byrds/Younger Than Yesterday/09 My Back Pages.mp3
+/music/The Cars/The Cars/02 My Best Friend’s Girl.mp3
+/music/The Cars/The Cars/03 Just What I Needed.mp3
+/music/The Doors/L.A. Woman/05 L.A. Woman.mp3
+/music/The Doors/L.A. Woman/10 Riders on the Storm.mp3
+/music/The Doors/Strange Days/07 People Are Strange.mp3
+/music/The Doors/The Doors/01 Break On Through (to the Other Side).mp3
+/music/The Doors/The Doors/06 Light My Fire.mp3
+/music/The Doors/The Doors/11 The End.mp3
+/music/The Kinks/Arthur (or The Decline and Fall of the British Empire)/01 Victoria.mp3
+/music/The Kinks/Arthur (or The Decline and Fall of the British Empire)/07 Shangri‐La.mp3
+/music/The Kinks/Face to Face/13 Sunny Afternoon.mp3
+/music/The Kinks/Lola Versus Powerman and the Moneygoround, Part One/05 Lola.mp3
+/music/The Kinks/Something Else by The Kinks/01 David Watts.mp3
+/music/The Kinks/Something Else by The Kinks/02 Death of a Clown.mp3
+/music/The Kinks/Something Else by The Kinks/13 Waterloo Sunset.mp3
+/music/The Kinks/The Kinks Are the Village Green Preservation Society/02 Do You Remember Walter_.mp3
+/music/The Kinks/The Kinks Are the Village Green Preservation Society/03 Picture Book.mp3
+/music/The Kinks/The Kinks Are the Village Green Preservation Society/08 Animal Farm.mp3
+/music/The Kinks/The Kinks Are the Village Green Preservation Society/09 Village Green.mp3
+/music/The Pogues/If I Should Fall From Grace With God/04 Fairytale of New York.mp3
+/music/The Pogues/If I Should Fall From Grace With God/06 Thousands Are Sailing.mp3
+/music/The Pogues/Rum Sodomy & the Lash/08 Dirty Old Town.mp3
+/music/The Police/Outlandos d'Amour/01 Next to You.mp3
+/music/The Police/Outlandos d'Amour/02 So Lonely.mp3
+/music/The Police/Outlandos d'Amour/03 Roxanne.mp3
+/music/The Police/Outlandos d'Amour/06 Can't Stand Losing You.mp3
+/music/The Police/Reggatta de Blanc/01 Message in a Bottle.mp3
+/music/The Police/Reggatta de Blanc/06 Walking on the Moon.mp3
+/music/The Police/Synchronicity/07 Every Breath You Take.mp3
+/music/The Police/Zenyattà Mondatta/01 Don't Stand So Close to Me.mp3
+/music/The Police/Zenyattà Mondatta/07 De Do Do Do, De Da Da Da.mp3
+/music/The Portsmouth Sinfonia/20 Classic Rock Classics/19 (I Can't Get No) Satisfaction.mp3
+/music/The Rolling Stones/Aftermath/01 Paint It, Black.mp3
+/music/The Rolling Stones/Aftermath/04 Under My Thumb.mp3
+/music/The Rolling Stones/Beggars Banquet/01 Sympathy for the Devil.mp3
+/music/The Rolling Stones/Get Yer Ya-Ya's Out! The Rolling Stones in Concert/01 Jumpin' Jack Flash.mp3
+/music/The Rolling Stones/Greatests Hits/24 Jumpin' Jack Flash.mp3
+/music/The Rolling Stones/Let It Bleed/01 Gimme Shelter.mp3
+/music/The Rolling Stones/Let It Bleed/09 You Can’t Always Get What You Want.mp3
+/music/The Rolling Stones/Sticky Fingers/01 Brown Sugar.mp3
+/music/The Rolling Stones/Sticky Fingers/03 Wild Horses.mp3
+/music/The Rolling Stones/Their Satanic Majesties Request/06 She's a Rainbow.mp3
+/music/The Stranglers/La Folie/09 Golden Brown.mp3
+/music/The Velvet Underground/Loaded/02 Sweet Jane.mp3
+/music/The Velvet Underground/The Velvet Underground & Nico/01 Sunday Morning.mp3
+/music/The Velvet Underground/The Velvet Underground & Nico/02 I’m Waiting for the Man.mp3
+/music/The Velvet Underground/The Velvet Underground & Nico/04 Venus in Furs.mp3
+/music/The Velvet Underground/The Velvet Underground & Nico/07 Heroin.mp3
+/music/The Verve/Urban Hymns/01 Bitter Sweet Symphony.mp3
+/music/The Walker Brothers/After The Lights Go Out - The Best Of 1965-1967/12 The Sun Ain't Gonna Shine Anymore.mp3
+/music/The Waterboys/This Is the Sea/02 The Whole of the Moon.mp3
+/music/The Who/It’s Hard/06 Eminence Front.mp3
+/music/The Who/Odds & Sods/10 Naked Eye.mp3
+/music/The Who/Quadrophenia/17 Love, Reign O’er Me.mp3
+/music/The Who/The Who Sell Out/07 I Can See for Miles.mp3
+/music/The Who/The Who Sings My Generation/06 My Generation.mp3
+/music/The Who/The Who Sings My Generation/07 The Kids Are Alright.mp3
+/music/The Who/The Who by Numbers/02 However Much I Booze.mp3
+/music/The Who/The Who by Numbers/03 Squeeze Box.mp3
+/music/The Who/Tommy/13 Pinball Wizard.mp3
+/music/The Who/Who Are You/09 Who Are You.mp3
+/music/The Who/Who’s Next/01 Baba O’Riley.mp3
+/music/The Who/Who’s Next/06 Getting in Tune.mp3
+/music/The Who/Who’s Next/08 Behind Blue Eyes.mp3
+/music/The Who/Who’s Next/09 Won’t Get Fooled Again.mp3
+/music/Tom Petty and the Heartbreakers/Damn the Torpedoes/01 Refugee.mp3
+/music/Tom Petty and the Heartbreakers/Tom Petty and the Heartbreakers/10 American Girl.mp3
+/music/Tom Petty/Full Moon Fever/01 Free Fallin'.mp3
+/music/Tom Petty/Full Moon Fever/02 I Won't Back Down.mp3
+/music/Tom Petty/Full Moon Fever/05 Runnin' Down a Dream.mp3
+/music/Tom Petty/Wildflowers/02 You Don't Know How It Feels.mp3
+/music/Tom Waits/Closing Time/02 I Hope That I Don’t Fall in Love With You.mp3
+/music/Tom Waits/Closing Time/09 Ice Cream Man.mp3
+/music/Tom Waits/Rain Dogs/02 Clap Hands.mp3
+/music/Toto/Toto IV/10 Africa.mp3
+/music/Toto/Toto/09 Hold the Line.mp3
+/music/Townes Van Zandt/The Late Great Townes Van Zandt/09 If I Needed You.mp3
+/music/Townes Van Zandt/Townes Van Zandt/03 Waiting Around to Die.mp3
+/music/U2/Achtung Baby/03 One.mp3
+/music/U2/Boy/01 I Will Follow.mp3
+/music/U2/October/01 Gloria.mp3
+/music/U2/The Joshua Tree/01 Where the Streets Have No Name.mp3
+/music/U2/The Joshua Tree/02 I Still Haven’t Found What I’m Looking For.mp3
+/music/U2/The Joshua Tree/03 With or Without You.mp3
+/music/U2/The Unforgettable Fire/02 Pride (In the Name of Love).mp3
+/music/U2/War/01 Sunday Bloody Sunday.mp3
+/music/U2/War/03 New Year’s Day.mp3
+/music/Van Morrison/Astral Weeks/01 Astral Weeks.mp3
+/music/Van Morrison/Astral Weeks/03 Sweet Thing.mp3
+/music/Van Morrison/Into the Music/01 Bright Side of the Road.mp3
+/music/Van Morrison/Moondance/01 And It Stoned Me.mp3
+/music/Van Morrison/Moondance/02 Moondance.mp3
+/music/Van Morrison/Moondance/03 Crazy Love.mp3
+/music/Van Morrison/Moondance/05 Into the Mystic.mp3
+/music/Van Morrison/Tupelo Honey/01 Wild Night.mp3
+/music/Van Morrison/Tupelo Honey/06 Tupelo Honey.mp3
+/music/Warren Zevon/Excitable Boy/02 Roland the Headless Thompson Gunner.mp3
+/music/Warren Zevon/Excitable Boy/03 Excitable Boy.mp3
+/music/Warren Zevon/Excitable Boy/04 Werewolves of London.mp3
+/music/Warren Zevon/Excitable Boy/09 Lawyers, Guns and Money.mp3
+/music/XTC/Drums and Wires/01 Making Plans for Nigel.mp3

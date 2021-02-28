@@ -1,0 +1,64 @@
+/music/2Pac/All Eyez on Me/09 Life Goes On.mp3
+/music/2Pac/Greatest Hits/01 Keep Ya Head Up.mp3
+/music/2Pac/Greatest Hits/17 Changes.mp3
+/music/2Pac/Greatest Hits/18 California Love (original version).mp3
+/music/2Pac/Me Against the World/09 Dear Mama.mp3
+/music/2Pac/Me Against the World/09 Dear Mama.mp3
+/music/2Pac/Tupac_ Resurrection/08 Starin’ Through My Rear View.mp3
+/music/A Tribe Called Quest/Midnight Marauders/08 Electric Relaxation.mp3
+/music/A Tribe Called Quest/People’s Instinctive Travels and the Paths of Rhythm/08 Can I Kick It_.mp3
+/music/A Tribe Called Quest/The Low End Theory/14 Scenario.mp3
+/music/Akhenaton/Soldats de fortune/20 La Fin de leur monde.mp3
+/music/Beastie Boys/Ill Communication [1994]/06 Sabotage.mp3
+/music/Deltron 3030/Deltron 3030/02 3030.mp3
+/music/Deltron 3030/Deltron 3030/10 Mastermind.mp3
+/music/Deltron 3030/Deltron 3030/12 Madness.mp3
+/music/Eminem/The Eminem Show/10 Without Me.mp3
+/music/Eminem/The Eminem Show/12 Sing for the Moment.mp3
+/music/Eminem/The Marshall Mathers LP/03 Stan.mp3
+/music/Eminem/The Marshall Mathers LP/08 The Real Slim Shady.mp3
+/music/Gang Starr/Moment of Truth/08 Moment of Truth.mp3
+/music/IAM/L’École du micro d’argent/01 L’École du micro d’argent.mp3
+/music/IAM/L’École du micro d’argent/05 Petit Frère.mp3
+/music/IAM/L’École du micro d’argent/07 L’Empire du côté obscur.mp3
+/music/IAM/L’École du micro d’argent/16 Demain, c’est loin.mp3
+/music/IAM/Ombre est lumière, volumes 1 & 2/15 Je danse le Mia.mp3
+/music/Ice Cube/The Predator/07 It Was a Good Day.mp3
+/music/JAY Z & Kanye West/Watch the Throne/03 Niggas in Paris.mp3
+/music/Kanye West/Graduation/03 Stronger.mp3
+/music/Kanye West/Graduation/06 Can't Tell Me Nothing.mp3
+/music/Kanye West/Graduation/09 Flashing Lights.mp3
+/music/Kanye West/Late Registration/02 Heard 'em Say.mp3
+/music/Kanye West/Late Registration/03 Touch the Sky.mp3
+/music/Kanye West/Late Registration/04 Gold Digger.mp3
+/music/Kanye West/Late Registration/04 Gold Digger.mp3
+/music/Kanye West/My Beautiful Dark Twisted Fantasy/01 Dark Fantasy.mp3
+/music/Kanye West/My Beautiful Dark Twisted Fantasy/03 Power.mp3
+/music/Kanye West/My Beautiful Dark Twisted Fantasy/05 All of the Lights.mp3
+/music/Kanye West/My Beautiful Dark Twisted Fantasy/09 Runaway.mp3
+/music/Kanye West/The College Dropout/02 We Don't Care.mp3
+/music/Kanye West/The College Dropout/07 Jesus Walks.mp3
+/music/Kanye West/The College Dropout/08 Never Let Me Down.mp3
+/music/Kanye West/The College Dropout/19 Through the Wire.mp3
+/music/Kanye West/The College Dropout/20 Family Business.mp3
+/music/Kendrick Lamar/To Pimp a Butterfly/15 i.flac
+/music/Mobb Deep/The Infamous/15 Shook Ones, Part II.mp3
+/music/Nas/Illmatic/02 N.Y. State of Mind.mp3
+/music/Nas/Illmatic/03 Life’s a Bitch.mp3
+/music/Nas/Illmatic/04 The World Is Yours.mp3
+/music/Nas/Illmatic/06 Memory Lane (Sittin’ in da Park).mp3
+/music/Nas/Illmatic/09 Represent.mp3
+/music/Nas/Illmatic/10 It Ain’t Hard to Tell.mp3
+/music/Nas/It Was Written/02 The Message.mp3
+/music/Noname/Telefone/01 Yesterday.flac
+/music/Noname/Telefone/03 Diddy Bop.flac
+/music/Oxmo Puccino/Opéra Puccino/06 L’Enfant seul.mp3
+/music/Showbiz & A.G_/Goodfellas/02 You Know Now.mp3
+/music/The Notorious B.I.G_/Life After Death/03 Hypnotize.mp3
+/music/The Notorious B.I.G_/Ready to Die/10 Juicy.mp3
+/music/Warren G/Regulate… G Funk Era/01 Regulate.mp3
+/music/Warren G/Regulate… G Funk Era/08 This D.J_.mp3
+/music/Warren G/Regulate… G Funk Era/13 Regulate (remix).mp3
+/music/Warren G/Regulate… G Funk Era/16 This D.J. (remix).mp3
+/music/Warren G/Regulate… G Funk Era/17 This D.J. (Dobie's Rub, Part 1).mp3
+/music/Wu‐Tang Clan/Enter the Wu‐Tang_ 36 Chambers/08 C.R.E.A.M_.mp3
