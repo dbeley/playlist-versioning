@@ -1,3 +1,8 @@
+```
+python ampache_compare.py
+vim sort u
+```
+
 Comparison between old ampache playlists with current ones.
 
 ```
