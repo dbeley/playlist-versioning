@@ -30,11 +30,17 @@ for track in tracks:
         # check file exists
         artist = track.split(" - ")[0]
         path = dict_paths[track]
-        my_file = Path(path.replace("/music/", "/home/david/nfs/Toshiba/Musique/"))
+        my_file = Path(path)
         if not my_file.is_file():
             print(f"WARNING: file {path} doesn't seem to exist for track {track}.")
         elif artist in dict_genres:
-            list_file.append({dict_genres[artist]: path})
+            list_file.append(
+                {
+                    dict_genres[artist]: path.replace(
+                        "/home/david/nfs/Toshiba/Musique/", "/music/"
+                    )
+                }
+            )
         else:
             list_missing_artists.append(artist)
     else:
@@ -54,7 +60,7 @@ if len(list_missing_artists) > 0:
 
 if len(list_missing_paths) > 0:
     missing_paths = set(list_missing_paths)
-    for missing_path in missing_paths:
+    for missing_path in sorted(missing_paths):
         print(f"{missing_path} is missing.")
     print(f"{len(list_missing_paths)} paths missing!")
 
