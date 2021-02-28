@@ -1,0 +1,57 @@
+/music/Avishai Cohen Trio/From Darkness/04 C#-.mp3
+/music/Avishai Cohen Trio/Gently Disturbed/01 Seattle.flac
+/music/Avishai Cohen Trio/Gently Disturbed/02 Chutzpan.flac
+/music/Avishai Cohen Trio/Gently Disturbed/03 Lo Baiom Velo Balyla.flac
+/music/Avishai Cohen Trio/Gently Disturbed/04 Pinzin Kinzin.flac
+/music/Avishai Cohen Trio/Gently Disturbed/06 Eleven Wives.flac
+/music/Avishai Cohen Trio/Gently Disturbed/11 Structure in Emotion.flac
+/music/Avishai Cohen/As Is… Live at the Blue Note/01 Smash.flac
+/music/Avishai Cohen/As Is… Live at the Blue Note/02 Elli.flac
+/music/Avishai Cohen/As Is… Live at the Blue Note/06 Remembering.flac
+/music/Avishai Cohen/At Home/04 Remembering.mp3
+/music/Avishai Cohen/Aurora/01 Morenika.mp3
+/music/Avishai Cohen/Aurora/04 Leolam.mp3
+/music/Avishai Cohen/Continuo/01 Nu Nu.flac
+/music/Avishai Cohen/Continuo/02 Elli.flac
+/music/Avishai Cohen/Continuo/03 One for Mark.flac
+/music/Avishai Cohen/Continuo/06 Emotional Storm.flac
+/music/Avishai Cohen/Continuo/07 Calm.flac
+/music/Avishai Cohen/Continuo/09 Smash.flac
+/music/Avishai Cohen/Continuo/10 Continuo.flac
+/music/Avishai Cohen/Lyla/06 Structure in Emotion.mp3
+/music/Avishai Cohen/Lyla/08 Come Together.mp3
+/music/Avishai Cohen/Seven Seas/01 Dreaming.flac
+/music/Avishai Cohen/Seven Seas/03 Seven Seas.flac
+/music/Francesco Bearzatti Tinissima 4et/Monk'n'Roll/02 Bemsha Swing.mp3
+/music/Francesco Bearzatti Tinissima 4et/This Machine Kills Fascists/04 Long Train Running.flac
+/music/George Duke/Face the Music/02 Chillin'.mp3
+/music/George Duke/Face the Music/03 My Piano.mp3
+/music/George Duke/Face the Music/04 Guess You're Not the One.mp3
+/music/George Duke/Face the Music/10 Ten Mile Jog.mp3
+/music/Ibrahim Maalouf/Diagnostic/04 Maeva in the Wonderland.mp3
+/music/Ibrahim Maalouf/Illusions/08 True Sorry.mp3
+/music/Ibrahim Maalouf/Red & Black Light/01 Free Spirit.flac
+/music/Jaco Pastorius/Punk Jazz_ The Jaco Pastorius Anthology/08 Birdland.flac
+/music/Pat Metheny Group/Letter From Home/02 Every Summer Night.flac
+/music/Pat Metheny Group/Letter From Home/07 Beat 70.flac
+/music/Pat Metheny Group/Still Life (Talking)/01 Minuano (Six Eight).mp3
+/music/Pat Metheny Group/Still Life (Talking)/03 Last Train Home.mp3
+/music/Pat Metheny/New Chautauqua/06 Daybreak.mp3
+/music/Pat Metheny/Secret Story/02 Facing West.mp3
+/music/Rahsaan Roland Kirk/Volunteered Slavery/01 Volunteered Slavery.mp3
+/music/Robert Glasper/Canvas/01 Rise and Shine.mp3
+/music/Robert Glasper/Covered/03 Reckoner.mp3
+/music/Robert Glasper/Double Booked/04 Downtime.mp3
+/music/Robert Glasper/In My Element/03 F.T.B_.mp3
+/music/Robert Glasper/In My Element/07 Maiden Voyage _ Everything in Its Right Place.mp3
+/music/Snarky Puppy/Live In Concert At La Cigale/03 Sleeper.mp3
+/music/Snarky Puppy/Live In Concert At La Cigale/04 Shofukan.mp3
+/music/Snarky Puppy/We Like It Here/01 Shofukan.mp3
+/music/Snarky Puppy/We Like It Here/02 What About Me_.mp3
+/music/Snarky Puppy/We Like It Here/03 Sleeper.mp3
+/music/Snarky Puppy/We Like It Here/08 Lingus.mp3
+/music/The Bad Plus/Suspicious Activity_/06 Lost of Love.mp3
+/music/The Comet Is Coming/Trust in the Lifeforce of the Deep Mystery/03 Summon the Fire.mp3
+/music/Tord Gustavsen Quartet/Extended Circle/05 Staying There.flac
+/music/Tord Gustavsen Trio/Being There/08 Still There.mp3
+/music/Weather Report/Heavy Weather/01 Birdland.mp3
