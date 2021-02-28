@@ -14,9 +14,7 @@ Limitations:
 - for now an artist can't be added to several playlists
 - mpc query language is quite limited and only support exact matches
 
-The script assume the library is organized using `ARTIST/ALBUM/TRACK` folder structure.
-
-If you run the scripts after another run, don't forget to delete the previous output as the scripts append their results to the output files.
+The script assume the library is organized with `ARTIST/ALBUM/TRACK` as folder structure.
 
 ## MPD matching
 
@@ -35,6 +33,8 @@ Run the `mplaylist.sh` script:
 ```
 ./mplaylist.sh files/00-favorites.csv
 ```
+
+If you run `mplaylist.sh` after another run, don't forget to delete the previous output as the script append their results to the output files.
 
 Output:
 - `files/01-result_mplaylist.csv`: tracks matched with mpc
