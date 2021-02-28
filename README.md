@@ -71,7 +71,7 @@ python create_playlists.py
 
 The script will try to match the missing tracks in `01-result_mplaylist_missing.csv` with `04-tracklist_matching.csv`. Unmatched tracks will be written in `04-missing_tracks_missing.csv`.
 
-- `files/03-missing_artists.csv`: artists not found in artists.csv
+- `files/03-missing_artists.csv`: artists not found in `03-artists.csv`
 - `files/04-missing_tracks_missing.csv`: missing tracks not found in `04-missing_tracks.csv`
 
 If those files are empty you're good, otherwise just add entries in `03-artists.csv` or `04-missing_tracks.csv`.
