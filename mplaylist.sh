@@ -12,6 +12,9 @@ if [ "$1" == "-h" ]; then
 fi
 FILE=$1
 
+printf "Replacing double quotes in file $FILE.\n"
+sed -i 's/"//g' $FILE
+
 while read name; do
 	artist="$(awk -F " - " '{printf $1}' <<<$name)"
 	track="$(awk -F " - " '{printf $2}' <<<$name)"
@@ -30,7 +33,7 @@ while read name; do
 	if [[ $potential_tracks ]]; then
     	printf "$potential_tracks\n" >> files/01-result_mplaylist.csv
 	else
-		printf "No track found for = $artist - $track\n"
+		printf "Track $artist - $track not found in mpd database.\n"
 		printf "$artist - $track\n" >> files/01-result_mplaylist_missing.csv
 	fi
 
