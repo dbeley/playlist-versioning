@@ -41,20 +41,20 @@ Output:
 ## Playlist creation
 
 You will need three files:
-- `files/03-artists.csv` (file with fields `playlist_id;artist_name`):
+- `files/03-artists.csv` (fields: `playlist_id;artist_name`):
 ```
 1;ARTIST1
 2;ARTIST2
 1;ARTIST3
 ```
 
-- `files/02-playlists.csv` (file with fields `playlist_id;playlist_name`):
+- `files/02-playlists.csv` (fields: `playlist_id;playlist_name`):
 ```
 1;Rock
 2;Pop
 ```
 
-- `files/04-fix_missing_tracks.csv`: used to manually add paths for the missing tracks in `01-result_mplaylist_missing.csv` (file with fields `artist-missing_track;path`):
+- `files/04-fix_missing_tracks.csv`: manually add paths for the missing tracks in `01-result_mplaylist_missing.csl` (fields: `artist-missing_track;path`):
 ```
 ARTIST1 - MISSING_TRACK1;PATH_TO_TRACK1
 ARTIST2 - MISSING_TRACK2;PATH_TO_TRACK2
@@ -62,28 +62,20 @@ ARTIST2 - MISSING_TRACK3;PATH_TO_TRACK3
 ARTIST3 - MISSING_TRACK4;PATH_TO_TRACK4
 ```
 
-Run the `create_playlists.py` script (change the *LOCAL_BASEPATH* and *BASEPATH* global variable to your own):
+Run the `create_playlists.py` script (change the **LOCAL_BASEPATH** and **BASEPATH** global variable to your own):
 ```
 python create_playlists.py
 ```
-
-The script will try to match the missing tracks in `01-result_mplaylist_missing.csv` with `04-tracklist_matching.csv`. Unmatched tracks will be written in `04-fix_missing_tracks_NOT_FOUND.csv`.
 
 - `files/03-artists_NOT_FOUND.csv`: artists not found in `03-artists.csv`
 - `files/04-fix_missing_tracks_NOT_FOUND.csv`: missing tracks not found in `04-fix_missing_tracks.csv`
 
 If those files are empty you're good, otherwise just add entries in `03-artists.csv` or `04-fix_missing_tracks.csv`.
 
-Exported playlists will be in the `files` folder with the `mplaylist` prefix.
+Exported playlists will be in the `playlists` folder.
 
 ## Import
 
 I personnaly import those playlists into airsonic.
 
 My music folder is mounted under the `/music/` folder in my airsonic container (hence the `/music/` prefix in `create_playlists.py`).
-
-## Troubleshooting
-
-### `MPD Error: ')' expected
-
-Most likely due to a malformed input file. If there are quotes in your input file `"`, you will have to escape them `\"`.
