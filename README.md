@@ -34,8 +34,6 @@ Run the `mplaylist.sh` script:
 ./mplaylist.sh files/00-favorites.csv
 ```
 
-If you run `mplaylist.sh` after another run, don't forget to delete the previous output as the script append their results to the output files.
-
 Output:
 - `files/01-result_mplaylist.csv`: tracks matched with mpc
 - `files/01-result_mplaylist_missing.csv`: tracks not matched with mpc

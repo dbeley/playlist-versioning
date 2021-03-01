@@ -81,19 +81,20 @@ for i in list_file:
 
 condensed_dict = dict(d)
 final_dict = dict()
+max_playlist_id = max([int(x) for x in corr])
 for k, v in condensed_dict.items():
     if k in corr:
-        final_dict[corr[k]] = v
+        final_dict[f"{k.zfill(len(str(max_playlist_id)))}_{corr[k]}"] = v
     else:
         print(f"Playlist name {k} not in correspondances.csv.")
-# print(final_dict)
 
 # export
+Path("playlists").mkdir(parents=True, exist_ok=True)
 for playlist, tracks in final_dict.items():
     # print(playlist)
-    filename = f"files/mplaylist_{playlist.replace('/', '-')}.m3u8"
+    filename = f"playlists/{playlist.replace('/', '-')}.m3u8"
+    print(f"Creating {filename}.")
     with open(filename, "w") as f:
-        print(f"Creating {filename}.")
         f.write("\n".join([f"{BASEPATH}{x}" for x in tracks]))
 
 print(
