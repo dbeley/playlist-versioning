@@ -87,7 +87,3 @@ My music folder is mounted under the `/music/` folder in my airsonic container (
 ### `MPD Error: ')' expected
 
 Most likely due to a malformed input file. If there are quotes in your input file `"`, you will have to escape them `\"`.
-
-### Folders
-
-- files : output files
