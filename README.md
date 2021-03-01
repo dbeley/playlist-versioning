@@ -93,5 +93,3 @@ Most likely due to a malformed input file. If there are quotes in your input fil
 ### Folders
 
 - files : output files
-- ampache_backup : my old ampache backup
-- diff : parsed ampache backup, to be compared with files in `files`
