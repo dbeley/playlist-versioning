@@ -27,6 +27,10 @@ with open("files/04-fix_missing_tracks.csv", "r") as f:
         [(x.strip().split(";")[0], x.strip().split(";")[1]) for x in f.readlines()]
     )
 
+# delete NOT_FOUND files if exists
+Path("files/03-artists_NOT_FOUND.csv").unlink(missing_ok=True)
+Path("files/04-fix_missing_tracks_NOT_FOUND.csv").unlink(missing_ok=True)
+
 list_file = []
 list_missing_artists = []
 for track in tracks:
