@@ -11,15 +11,15 @@ with open("files/01-result_mplaylist.csv", "r") as f:
 with open("files/01-result_mplaylist_missing.csv", "r") as f:
     missing_tracks = [x.strip() for x in f.readlines()]
 
+# correspondances.csv
+with open("files/02-playlists.csv", "r") as f:
+    corr = dict([x.strip().split(";") for x in f.readlines()])
+
 # artists.csv
 with open("files/03-artists.csv", "r") as f:
     dict_genres = dict(
         [(x.strip().split(";")[1], x.strip().split(";")[0]) for x in f.readlines()]
     )
-
-# correspondances.csv
-with open("files/02-playlists.csv", "r") as f:
-    corr = dict([x.strip().split(";") for x in f.readlines()])
 
 # matching with tracks
 with open("files/04-fix_missing_tracks.csv", "r") as f:
@@ -102,5 +102,5 @@ for playlist, tracks in final_dict.items():
         f.write("\n".join([f"{BASEPATH}{x}" for x in tracks]))
 
 print(
-    f"{len(set(list_missing_artists))} artists not found in 02-artists.csv.\n{len(list_missing_paths)} missing tracks not found in 04-missing_tracks.csv."
+    f"{len(set(list_missing_artists))} artists not found in 03-artists.csv.\n{len(list_missing_paths)} missing tracks not found in 04-fix_missing_tracks.csv."
 )
