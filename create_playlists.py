@@ -62,7 +62,7 @@ if len(list_missing_artists) > 0:
     missing_artists = set(list_missing_artists)
     for missing_artist in missing_artists:
         print(f"{missing_artist} is missing.")
-    print(f"{len(list_missing_artists)} artists missing!")
+    print(f"{len(set(list_missing_artists))} artists missing!")
 
     with open("files/03-artists_NOT_FOUND.csv", "w") as f:
         f.write("\n".join(missing_artists))
