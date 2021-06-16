@@ -175,13 +175,13 @@
 23;Shai Maestro Trio
 13;Cat Stevens
 2;Duran Duran
-17;Pantera
+48;Pantera
 18;Gang Starr
 19;Laura Nyro
 19;Sharon Van Etten
 19;Sufjan Stevens
 21;Cannonball Adderley
-17;Anthrax
+48;Anthrax
 38;Faust
 20;The Bats
 13;John Mayer
@@ -321,7 +321,7 @@
 20;The Sundays
 31;Clinic
 2;Fever Ray
-24;Death
+48;Death
 13;Lou Reed
 20;Mitski
 34;Hüsker Dü
@@ -401,7 +401,7 @@
 22;Jaco Pastorius
 39;Blackfield
 17;Grave Digger
-17;Megadeth
+48;Megadeth
 31;Siouxsie and the Banshees
 21;The Horace Silver Quintet & The Horace Silver Trio
 20;Silver Jews
@@ -544,7 +544,7 @@
 20;Julia Holter
 41;Low
 31;CCCP Fedeli alla linea
-17;Metallica
+48;Metallica
 14;Brel, Brassens, Ferré
 22;Ibrahim Maalouf
 2;La Femme
@@ -582,7 +582,7 @@
 21;Ahmad Jamal
 31;Joe Jackson
 20;The Walkmen
-17;Slayer
+48;Slayer
 22;George Duke
 36;Kelela
 20;Pinback
@@ -650,7 +650,7 @@
 19;Rome
 38;Rick Wakeman
 19;M. Ward
-17;Machine Head
+48;Machine Head
 13;Billy Joel
 21;The Dave Brubeck Quartet
 7;At the Gates
@@ -947,6 +947,13 @@
 31;Wolf Alice
 14;Johnny Hallyday
 34;Dead Kennedys
-24;Bolt Thrower
+48;Bolt Thrower
 34;Ramones
-24;Morbid Angel
+48;Morbid Angel
+48;Pestilence
+17;Running Wild
+20;Hop Along
+48;Entombed
+48;Unleashed
+20;The Cardigans
+17;W.A.S.P_
