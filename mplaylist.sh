@@ -32,22 +32,22 @@ while read name; do
 	artist="$(awk -F " - " '{printf $1}' <<<$name)"
 	track="$(awk -F " - " '{printf $2}' <<<$name)"
 
-    artist="${artist#"${artist%%[![:space:]]*}"}"
-    # remove trailing whitespace characters
-    artist="${artist%"${artist##*[![:space:]]}"}"
+	# remove leading whitespace characters
+	artist="${artist#"${artist%%[![:space:]]*}"}"
+	# remove trailing whitespace characters
+	artist="${artist%"${artist##*[![:space:]]}"}"
 
-    # remove leading whitespace characters
-    track="${track#"${track%%[![:space:]]*}"}"
-    # remove trailing whitespace characters
-    track="${track%"${track##*[![:space:]]}"}"
+	# remove leading whitespace characters
+	track="${track#"${track%%[![:space:]]*}"}"
+	# remove trailing whitespace characters
+	track="${track%"${track##*[![:space:]]}"}"
 
 	# printf "mpc search ((artist == \"$artist\") AND (title == \"$track\"))\n"
 	potential_tracks=$(mpc search "((artist == \"$artist\") AND (title == \"$track\"))")
 	if [[ $potential_tracks ]]; then
-    	printf "$potential_tracks\n" >> $OUTPUT_FILE
+		printf "$potential_tracks\n" >> $OUTPUT_FILE
 	else
 		printf "Track $artist - $track not found in mpd database.\n"
 		printf "$artist - $track\n" >> $OUTPUT_FILE_MISSING
 	fi
-
 done < "$FILE"
