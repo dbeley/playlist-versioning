@@ -74,7 +74,7 @@ python create_playlists.py
 
 **LOCAL_BASEPATH** indicates the base path when checking the validity of the manually inserted paths in `04-fix_missing_tracks.csv`.
 
-By setting **BASEPATH** to `/music` and **LOCAL_BASEPATH** to `~/nfs/Musique`, the script will check the files in `~/nfs/Musique` but will create playlists using `/music` as base path.
+By setting **BASEPATH** to `/music/` and **LOCAL_BASEPATH** to `/home/user/nfs/Musique/`, the script will check the files in `/home/user/nfs/Musique/` but will create playlists using `/music/` as base path.
 If you want to use your playlists on the same filesystem configuration, you can set **LOCAL_BASEPATH** and **BASEPATH** to the same value.
 
 Output:
