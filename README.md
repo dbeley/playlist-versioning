@@ -57,7 +57,7 @@ You will need three files:
 
 Those two files says "ARTIST1 and ARTIST3 songs will be added to the playlist Rock, and ARTIST2 songs to the Pop playlist".
 
-- `files/04-fix_missing_tracks.csv`: manually add paths for the missing tracks in `01-result_mplaylist_missing.csl` (fields: `missing_track;path`):
+- `files/04-fix_missing_tracks.csv`: manually add paths for the missing tracks in `01-result_mplaylist_missing.csv` (fields: `missing_track;path`):
 ```
 ARTIST1 - MISSING_TRACK1;PATH_TO_TRACK1
 ARTIST2 - MISSING_TRACK2;PATH_TO_TRACK2
@@ -70,7 +70,12 @@ Run the `create_playlists.py` script (change the **LOCAL_BASEPATH** and **BASEPA
 python create_playlists.py
 ```
 
-**LOCAL_BASEPATH** indicates what part of the paths will be replaced by **BASEPATH**. It's useful to create playlists to be imported into a container (you might want your `~/nfs/Musique` local folder to become `/music`). You can set both variables to the same value if you don't want the paths to be modified.
+**BASEPATH** indicates what the mpd matched tracks will be prefixed with. It's used to complete the paths as mpd uses internal paths and not full paths.
+
+**LOCAL_BASEPATH** indicates the base path when checking the validity of the manually inserted paths in `04-fix_missing_tracks.csv`.
+
+By setting **BASEPATH** to `/music` and **LOCAL_BASEPATH** to `~/nfs/Musique`, the script will check the files in `~/nfs/Musique` but will create playlists using `/music` as base path.
+If you want to use your playlists on the same filesystem configuration, you can set **LOCAL_BASEPATH** and **BASEPATH** to the same value.
 
 Output:
 - `files/03-artists_NOT_FOUND.csv`: artists not found in `03-artists.csv`

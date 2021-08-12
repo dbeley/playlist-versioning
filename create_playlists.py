@@ -11,11 +11,9 @@ with open("files/01-result_mplaylist.csv", "r") as f:
 with open("files/01-result_mplaylist_missing.csv", "r") as f:
     missing_tracks = [x.strip() for x in f.readlines()]
 
-# correspondances.csv
 with open("files/02-playlists.csv", "r") as f:
     corr = dict([x.strip().split(";") for x in f.readlines()])
 
-# artists.csv
 with open("files/03-artists.csv", "r") as f:
     dict_genres = dict(
         [(x.strip().split(";")[1], x.strip().split(";")[0]) for x in f.readlines()]
@@ -62,7 +60,7 @@ if len(list_missing_artists) > 0:
     missing_artists = set(list_missing_artists)
     for missing_artist in missing_artists:
         print(f"{missing_artist} is missing.")
-    print(f"{len(set(list_missing_artists))} artists missing!")
+    print(f"{len(missing_artists)} artists missing!")
 
     with open("files/03-artists_NOT_FOUND.csv", "w") as f:
         f.write("\n".join(missing_artists))
@@ -71,7 +69,7 @@ if len(list_missing_paths) > 0:
     missing_paths = set(list_missing_paths)
     for missing_path in sorted(missing_paths):
         print(f"{missing_path} is missing.")
-    print(f"{len(list_missing_paths)} paths missing!")
+    print(f"{len(missing_paths)} paths missing!")
 
     with open("files/04-fix_missing_tracks_NOT_FOUND.csv", "w") as f:
         f.write("\n".join(missing_paths))
@@ -90,7 +88,7 @@ for k, v in condensed_dict.items():
     if k in corr:
         final_dict[f"{k.zfill(len(str(max_playlist_id)))}_{corr[k]}"] = v
     else:
-        print(f"Playlist name {k} not in correspondances.csv.")
+        print(f"Playlist name {k} not in 02-playlists.csv.")
 
 # export
 Path("playlists").mkdir(parents=True, exist_ok=True)
