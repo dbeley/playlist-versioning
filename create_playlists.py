@@ -3,7 +3,7 @@ from pathlib import Path
 
 # prefix or base path
 LOCAL_BASEPATH = "/home/david/nfs/Toshiba/Musique/"
-BASEPATH = "/music/"
+BASEPATH = "/var/music/"
 
 # result of mplaylist.sh
 with open("files/01-result_mplaylist.csv", "r") as f:
