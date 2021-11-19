@@ -1,15 +1,15 @@
-1;Alternative Rock / Metal
-2;Art Pop / Synthpop
-3;bill wurtz
-4;Black Metal
-5;Britpop
-6;Classique Contemporain
-7;Death Metal Mélodique
-8;Doom / Gothic Metal
-9;Electro / Ambient
-10;Electro / Downtempo
+01;Alternative Rock / Metal
+02;Art Pop / Synthpop
+03;bill wurtz
+04;Black Metal
+05;Britpop
+06;Classique Contemporain
+07;Death Metal Mélodique
+08;Doom / Gothic Metal
+09;Electro / Ambient / Downtempo
+10;Electro / House / New Funk
 11;Electro / Electropop
-12;Electro / Techno
+12;Electro / Techno / Nu Jazz
 13;Folk / Pop / Rock
 14;FR
 15;Grunge
@@ -22,10 +22,8 @@
 22;Jazz / Contemporain
 23;Jazz / Piano
 24;Metal Progressif / Death Metal
-25;New Funk
 26;Noël
-27;Nu Jazz
-28;OST
+28;OST / Divers
 29;Pop Rock
 30;Post-Metal
 31;Post-Punk / New Wave
@@ -43,6 +41,4 @@
 43;Trip-Hop
 44;World Music
 45;XTC
-46;Electro / House
-47;Autres
 48;Death Metal / Thrash Metal
