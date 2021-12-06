@@ -12,8 +12,7 @@ My playlists under version control.
 - a list of artists linked to a playlist (see below)
 
 Limitations:
-- every track of an artist will be added to the same playlist
-- for now an artist can't be added to several playlists
+- all the tracks of an artist are grouped and will be added to the same playlists
 - mpc query language is quite limited and only support exact matches
 
 ## MPD matching
@@ -51,11 +50,14 @@ You will need three files:
 - `files/03-artists.csv` (fields: `playlist_id;artist_name`):
 ```
 1;ARTIST1
-2;ARTIST2
 1;ARTIST3
+2;ARTIST2
+2;ARTIST1
 ```
 
-Those two files says "ARTIST1 and ARTIST3 songs will be added to the playlist Rock, and ARTIST2 songs to the Pop playlist".
+Those two files says "ARTIST1 and ARTIST3 songs will be added to the playlist Rock, and ARTIST1 and ARTIST2 songs to the Pop playlist".
+
+Adding artists in multiple playlists in supported, just duplicate the entries with a different playlist id.
 
 - `files/04-fix_missing_tracks.csv`: manually add paths for the missing tracks in `01-result_mplaylist_missing.csv` (fields: `missing_track;path`):
 ```

@@ -12,16 +12,21 @@ with open("files/01-result_mplaylist_missing.csv", "r") as f:
     missing_tracks = [x.strip() for x in f.readlines()]
 
 with open("files/02-playlists.csv", "r") as f:
-    corr = dict([x.strip().split(";") for x in f.readlines()])
+    playlist_dict = dict([x.strip().split(";") for x in f.readlines()])
 
 with open("files/03-artists.csv", "r") as f:
-    dict_genres = dict(
-        [(x.strip().split(";")[1], x.strip().split(";")[0]) for x in f.readlines()]
-    )
+    artist_list = [(x.strip().split(";")[1], x.strip().split(";")[0]) for x in f.readlines()]
+
+artist_dict = dict()
+for i in artist_list:
+    if i[0] in artist_dict:
+        artist_dict[i[0]] += [i[1]]
+    else:
+        artist_dict[i[0]] = [i[1]]
 
 # matching with tracks
 with open("files/04-fix_missing_tracks.csv", "r") as f:
-    dict_paths = dict(
+    missing_dict = dict(
         [(x.strip().split(";")[0], x.strip().split(";")[1]) for x in f.readlines()]
     )
 
@@ -29,35 +34,38 @@ with open("files/04-fix_missing_tracks.csv", "r") as f:
 Path("files/03-artists_NOT_FOUND.csv").unlink(missing_ok=True)
 Path("files/04-fix_missing_tracks_NOT_FOUND.csv").unlink(missing_ok=True)
 
-list_file = []
-list_missing_artists = []
+file_list = []
+missing_artists = []
 for track in tracks:
     artist = track.split("/")[0]
-    if artist in dict_genres:
-        list_file.append({dict_genres[artist]: track})
+    if artist in artist_dict:
+        for i in artist_dict[artist]:
+            file_list.append({i: track})
     else:
-        list_missing_artists.append(artist)
+        missing_artists.append(artist)
 
 list_missing_paths = []
 for track in missing_tracks:
-    if track in dict_paths:
+    if track in missing_dict:
         # check file exists
         artist = track.split(" - ")[0]
-        path = dict_paths[track]
+        path = missing_dict[track]
         my_file = Path(path)
         if not my_file.is_file():
+        # if any(x in str(my_file) for x in ["MISSING", "DUPLICATE"]):
             print(
                 f"WARNING: file {path} doesn't seem to exist for track {track}. Skipping."
             )
-        elif artist in dict_genres:
-            list_file.append({dict_genres[artist]: path.replace(LOCAL_BASEPATH, "")})
+        elif artist in artist_dict:
+            for i in artist_dict[artist]:
+                file_list.append({i: path.replace(LOCAL_BASEPATH, "")})
         else:
-            list_missing_artists.append(artist)
+            missing_artists.append(artist)
     else:
         list_missing_paths.append(track)
 
-if len(list_missing_artists) > 0:
-    missing_artists = set(list_missing_artists)
+if len(missing_artists) > 0:
+    missing_artists = set(missing_artists)
     for missing_artist in missing_artists:
         print(f"{missing_artist} is missing.")
     print(f"{len(missing_artists)} artists missing!")
@@ -75,7 +83,7 @@ if len(list_missing_paths) > 0:
         f.write("\n".join(missing_paths))
 
 d = defaultdict(list)
-for i in list_file:
+for i in file_list:
     k, v = list(i.items())[
         0
     ]  # an alternative to the single-iterating inner loop from the previous solution
@@ -83,10 +91,10 @@ for i in list_file:
 
 condensed_dict = dict(d)
 final_dict = dict()
-max_playlist_id = max([int(x) for x in corr])
+max_playlist_id = max([int(x) for x in playlist_dict])
 for k, v in condensed_dict.items():
-    if k in corr:
-        final_dict[f"{k.zfill(len(str(max_playlist_id)))}_{corr[k]}"] = v
+    if k in playlist_dict:
+        final_dict[f"{k.zfill(len(str(max_playlist_id)))}_{playlist_dict[k]}"] = v
     else:
         print(f"Playlist name {k} not in 02-playlists.csv.")
 
@@ -100,5 +108,5 @@ for playlist, tracks in final_dict.items():
         f.write("\n".join([f"{BASEPATH}{x}" for x in tracks]))
 
 print(
-    f"{len(set(list_missing_artists))} artists not found in 03-artists.csv.\n{len(list_missing_paths)} missing tracks not found in 04-fix_missing_tracks.csv."
+    f"{len(set(missing_artists))} artists not found in 03-artists.csv.\n{len(list_missing_paths)} missing tracks not found in 04-fix_missing_tracks.csv."
 )
