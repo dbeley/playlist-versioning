@@ -6,16 +6,18 @@ LOCAL_BASEPATH = "/home/david/nfs/Toshiba/Musique/"
 BASEPATH = "/var/music/"
 
 # result of mplaylist.sh
-with open("files/01-result_mplaylist.csv", "r") as f:
+with open("files/01_result-mplaylist.csv", "r") as f:
     tracks = [x.strip() for x in f.readlines()]
-with open("files/01-result_mplaylist_missing.csv", "r") as f:
+with open("files/01_result-mplaylist-missing.csv", "r") as f:
     missing_tracks = [x.strip() for x in f.readlines()]
 
-with open("files/02-playlists.csv", "r") as f:
+with open("files/02_playlists.csv", "r") as f:
     playlist_dict = dict([x.strip().split(";") for x in f.readlines()])
 
-with open("files/03-artists.csv", "r") as f:
-    artist_list = [(x.strip().split(";")[1], x.strip().split(";")[0]) for x in f.readlines()]
+with open("files/03_artists.csv", "r") as f:
+    artist_list = [
+        (x.strip().split(";")[1], x.strip().split(";")[0]) for x in f.readlines()
+    ]
 
 artist_dict = dict()
 for i in artist_list:
@@ -25,14 +27,14 @@ for i in artist_list:
         artist_dict[i[0]] = [i[1]]
 
 # matching with tracks
-with open("files/04-fix_missing_tracks.csv", "r") as f:
+with open("files/04_fix-missing-tracks.csv", "r") as f:
     missing_dict = dict(
         [(x.strip().split(";")[0], x.strip().split(";")[1]) for x in f.readlines()]
     )
 
 # delete NOT_FOUND files if exists
-Path("files/03-artists_NOT_FOUND.csv").unlink(missing_ok=True)
-Path("files/04-fix_missing_tracks_NOT_FOUND.csv").unlink(missing_ok=True)
+Path("files/03_artists_NOT_FOUND.csv").unlink(missing_ok=True)
+Path("files/04_fix-missing-tracks_NOT_FOUND.csv").unlink(missing_ok=True)
 
 file_list = []
 missing_artists = []
@@ -52,7 +54,7 @@ for track in missing_tracks:
         path = missing_dict[track]
         my_file = Path(path)
         if not my_file.is_file():
-        # if any(x in str(my_file) for x in ["MISSING", "DUPLICATE"]):
+            # if any(x in str(my_file) for x in ["MISSING", "DUPLICATE"]):
             print(
                 f"WARNING: file {path} doesn't seem to exist for track {track}. Skipping."
             )
@@ -70,7 +72,7 @@ if len(missing_artists) > 0:
         print(f"{missing_artist} is missing.")
     print(f"{len(missing_artists)} artists missing!")
 
-    with open("files/03-artists_NOT_FOUND.csv", "w") as f:
+    with open("files/03_artists_NOT_FOUND.csv", "w") as f:
         f.write("\n".join(missing_artists))
 
 if len(list_missing_paths) > 0:
@@ -79,7 +81,7 @@ if len(list_missing_paths) > 0:
         print(f"{missing_path} is missing.")
     print(f"{len(missing_paths)} paths missing!")
 
-    with open("files/04-fix_missing_tracks_NOT_FOUND.csv", "w") as f:
+    with open("files/04_fix-missing-tracks_NOT_FOUND.csv", "w") as f:
         f.write("\n".join(missing_paths))
 
 d = defaultdict(list)
@@ -108,5 +110,5 @@ for playlist, tracks in final_dict.items():
         f.write("\n".join([f"{BASEPATH}{x}" for x in tracks]))
 
 print(
-    f"{len(set(missing_artists))} artists not found in 03-artists.csv.\n{len(list_missing_paths)} missing tracks not found in 04-fix_missing_tracks.csv."
+    f"{len(set(missing_artists))} artists not found in 03_artists.csv.\n{len(list_missing_paths)} missing tracks not found in 04-fix_missing_tracks.csv."
 )
