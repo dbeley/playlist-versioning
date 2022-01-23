@@ -2,7 +2,7 @@ from collections import defaultdict
 from pathlib import Path
 
 # prefix or base path
-LOCAL_BASEPATH = "/home/david/nfs/Toshiba/Musique/"
+LOCAL_BASEPATH = "/home/david/nfs/WDC14/Musique/"
 BASEPATH = "/var/music/"
 
 # result of mplaylist.sh

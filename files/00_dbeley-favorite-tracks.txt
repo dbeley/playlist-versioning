@@ -1,3 +1,11 @@
+Pavement - Rattled by the Rush
+The Olivia Tremor Control - Jumping Fences
+Tortoise - Swung From the Gutters
+Spinvis - Bagagedrager
+Fair to Midland - Musical Chairs
+Thomas Enhco - Watching You Sleep
+Boney M. - Belfast
+Boney M. - Ma Baker
 The Black Keys - Tighten Up
 The Black Keys - Lonely Boy
 Mike Oldfield - Moonlight Shadow
@@ -32,7 +40,7 @@ Heatmiser - Plainclothes Man
 Rahsaan Roland Kirk - Serenade To A Cuckoo
 Coldplay - Coloratura
 Summoning - Long Lost to Where No Pathway Goes
-My Bloody Valentine - You Made Me Realise
+my bloody valentine - You Made Me Realise
 Yo La Tengo - Here You Are
 Yo La Tengo - For You Too
 Yo La Tengo - She May, She Might
@@ -102,9 +110,9 @@ Wolf Alice - How Can I Make It OK?
 The Fiery Furnaces - Straight Street
 Gojira - Another World
 Helloween - If I Could Fly
-Car Seat Headrest - Destroyed By Hippie Powers
+Car Seat Headrest - Destroyed by Hippie Powers
 Car Seat Headrest - Drunk Drivers/Killer Whales
-Car Seat Headrest - Fill In The Blank
+Car Seat Headrest - Fill in the Blank
 Little Simz - Introvert
 Pavement - Major Leagues
 The Beach Boys - Heroes and Villians
@@ -332,7 +340,7 @@ Idles - Never Fight a Man with a Perm
 Viagra Boys - Worms
 Viagra Boys - Sports
 Idles - Colossus
-Idles - I’m Scum
+IDLES - I’m Scum
 Black Country, New Road - Track X
 Black Country, New Road - Sunglasses
 The Armed - Fortune’s Daughter
@@ -488,9 +496,9 @@ Bruce Springsteen - Atlantic City
 Bruce Springsteen - Badlands
 Nick Cave & the Bad Seeds - Easy Money
 Nick Cave & The Bad Seeds - Nature Boy
-Nick Cave & The Bad Seeds - As I Sat Sadly By Her Side
+Nick Cave & the Bad Seeds - As I Sat Sadly By Her Side
 Nick Cave & The Bad Seeds - Henry Lee
-Nick Cave & The Bad Seeds - The Good Son
+Nick Cave & the Bad Seeds - The Good Son
 Nick Cave & the Bad Seeds - The Weeping Song
 Rise Against - Prayer of the Refugee
 Rise Against - Black Masks & Gasoline
@@ -1249,7 +1257,7 @@ UFO - Doctor Doctor (New Version)
 Noname - Diddy Bop
 Cloud Nothings - Wasted Days
 Noir Désir - Comme elle vient
-Noir Désir - Aux Sombres Héros De L'Amer
+Noir Désir - Aux sombres héros de l'amer
 Clinic - The Return of Evil Bill
 Clifford Brown & Max Roach - Take the A´ Train
 Chris Thile & Brad Mehldau - Don’t Think Twice, It’s Alright
@@ -2668,7 +2676,7 @@ Supertramp - Give a Little Bit
 The Who - Squeeze Box
 The Who - Slip Kid
 Idles - Mother
-IDLES - Exeter
+Idles - Exeter
 IDLES - Well Done
 Idles - Date Night
 Idles - 1049 Gotho
@@ -4083,7 +4091,7 @@ CCCP Fedeli Alla Linea - Curami
 The Fall - Barmy
 Wipers - Youth of America
 Talking Heads - Psycho Killer
-Nick Cave & The Bad Seeds - The Mercy Seat
+Nick Cave & the Bad Seeds - The Mercy Seat
 Wire - Lowdown
 Wire - Ex Lion Tamer
 XTC - Love On A Farmboy's Wages
