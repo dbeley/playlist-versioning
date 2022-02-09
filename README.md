@@ -57,7 +57,7 @@ You will need three files:
 
 Those two files says "ARTIST1 and ARTIST3 songs will be added to the playlist Rock, and ARTIST1 and ARTIST2 songs to the Pop playlist".
 
-Adding artists in multiple playlists in supported, just duplicate the entries with a different playlist id.
+Adding artists in multiple playlists is supported, just duplicate the entries with a different playlist id.
 
 - `files/04_fix-missing-tracks.csv`: manually add paths for the missing tracks in `01_result-mplaylist-missing.csv` (fields: `missing_track;path`):
 ```
@@ -74,9 +74,9 @@ python create_playlists.py
 
 **BASEPATH** indicates what the mpd matched tracks will be prefixed with. It's used to complete the paths as mpd uses internal paths and not full paths.
 
-**LOCAL_BASEPATH** indicates the base path when checking the validity of the manually inserted paths in `04-fix_missing_tracks.csv`.
+**LOCAL_BASEPATH** indicates the base path to delete after checking the validity of the manually inserted paths in `04-fix_missing_tracks.csv`. The **BASEPATH** will then be used as a prefix.
 
-By setting **BASEPATH** to `/music/` and **LOCAL_BASEPATH** to `/home/user/nfs/Musique/`, the script will check the files in `/home/user/nfs/Musique/` but will create playlists using `/music/` as base path.
+By setting **BASEPATH** to `/music/` and **LOCAL_BASEPATH** to `/home/user/nfs/Musique/`, the script will delete `/home/user/nfs/Musique/` from the paths found in `04-fix_missing_tracks.csv` and will create playlists using `/music/` as base path.
 If you want to use your playlists on the same filesystem configuration, you can set **LOCAL_BASEPATH** and **BASEPATH** to the same value.
 
 Output:
@@ -89,6 +89,6 @@ Exported playlists will be in the `playlists` folder.
 
 ## Import
 
-I personnaly import those playlists into airsonic.
+I personnaly automatically import those playlists into airsonic (airsonic can watch a folder and automatically import playlists from it).
 
 My music folder is mounted under the `/music/` folder in my airsonic container (hence the `/music/` prefix in `create_playlists.py`).

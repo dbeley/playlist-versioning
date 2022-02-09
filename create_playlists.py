@@ -51,7 +51,7 @@ for track in missing_tracks:
     if track in missing_dict:
         # check file exists
         artist = track.split(" - ")[0]
-        path = missing_dict[track]
+        path = missing_dict[track].strip()
         my_file = Path(path)
         if not my_file.is_file():
             # if any(x in str(my_file) for x in ["MISSING", "DUPLICATE"]):
