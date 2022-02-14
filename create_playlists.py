@@ -5,19 +5,26 @@ from pathlib import Path
 LOCAL_BASEPATH = "/home/david/nfs/WDC14/Musique/"
 BASEPATH = "/var/music/"
 
+# delete NOT_FOUND files if exists
+Path("files/03_artists_NOT_FOUND.csv").unlink(missing_ok=True)
+Path("files/04_fix-missing-tracks_NOT_FOUND.csv").unlink(missing_ok=True)
+
 # result of mplaylist.sh
 with open("files/01_result-mplaylist.csv", "r") as f:
     tracks = [x.strip() for x in f.readlines()]
 with open("files/01_result-mplaylist-missing.csv", "r") as f:
     missing_tracks = [x.strip() for x in f.readlines()]
-
 with open("files/02_playlists.csv", "r") as f:
     playlist_dict = dict([x.strip().split(";") for x in f.readlines()])
-
 with open("files/03_artists.csv", "r") as f:
     artist_list = [
         (x.strip().split(";")[1], x.strip().split(";")[0]) for x in f.readlines()
     ]
+# matching with tracks
+with open("files/04_fix-missing-tracks.csv", "r") as f:
+    missing_dict = dict(
+        [(x.strip().split(";")[0], x.strip().split(";")[1]) for x in f.readlines()]
+    )
 
 artist_dict = dict()
 for i in artist_list:
@@ -25,16 +32,6 @@ for i in artist_list:
         artist_dict[i[0]] += [i[1]]
     else:
         artist_dict[i[0]] = [i[1]]
-
-# matching with tracks
-with open("files/04_fix-missing-tracks.csv", "r") as f:
-    missing_dict = dict(
-        [(x.strip().split(";")[0], x.strip().split(";")[1]) for x in f.readlines()]
-    )
-
-# delete NOT_FOUND files if exists
-Path("files/03_artists_NOT_FOUND.csv").unlink(missing_ok=True)
-Path("files/04_fix-missing-tracks_NOT_FOUND.csv").unlink(missing_ok=True)
 
 file_list = []
 missing_artists = []
