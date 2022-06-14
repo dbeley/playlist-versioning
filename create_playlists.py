@@ -6,8 +6,8 @@ LOCAL_BASEPATH = "/home/david/nfs/WDC14/Musique/"
 BASEPATH = "/var/music/"
 
 # delete NOT_FOUND files if exists
-Path("files/03_artists_NOT_FOUND.csv").unlink(missing_ok=True)
-Path("files/04_fix-missing-tracks_NOT_FOUND.csv").unlink(missing_ok=True)
+Path("files/03_artists_NOT-FOUND.csv").unlink(missing_ok=True)
+Path("files/04_fix-missing-tracks_NOT-FOUND.csv").unlink(missing_ok=True)
 
 # result of mplaylist.sh
 with open("files/01_result-mplaylist.csv", "r") as f:
