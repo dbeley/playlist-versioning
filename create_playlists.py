@@ -69,7 +69,7 @@ if len(missing_artists) > 0:
         print(f"{missing_artist} is missing.")
     print(f"{len(missing_artists)} artists missing!")
 
-    with open("files/03_artists_NOT_FOUND.csv", "w") as f:
+    with open("files/03_artists_NOT-FOUND.csv", "w") as f:
         f.write("\n".join(missing_artists))
 
 if len(list_missing_paths) > 0:
@@ -78,7 +78,7 @@ if len(list_missing_paths) > 0:
         print(f"{missing_path} is missing.")
     print(f"{len(missing_paths)} paths missing!")
 
-    with open("files/04_fix-missing-tracks_NOT_FOUND.csv", "w") as f:
+    with open("files/04_fix-missing-tracks_NOT-FOUND.csv", "w") as f:
         f.write("\n".join(missing_paths))
 
 d = defaultdict(list)
@@ -95,7 +95,7 @@ for k, v in condensed_dict.items():
     if k in playlist_dict:
         final_dict[f"{k.zfill(len(str(max_playlist_id)))}_{playlist_dict[k]}"] = v
     else:
-        print(f"Playlist name {k} not in 02-playlists.csv.")
+        print(f"Playlist name {k} not in 02_playlists.csv.")
 
 # export
 Path("playlists").mkdir(parents=True, exist_ok=True)
@@ -106,6 +106,18 @@ for playlist, tracks in final_dict.items():
     with open(filename, "w") as f:
         f.write("\n".join([f"{BASEPATH}{x}" for x in tracks]))
 
+nb_missing_artists = len(set(missing_artists))
+nb_missing_paths = len(list_missing_paths)
 print(
-    f"{len(set(missing_artists))} artists not found in 03_artists.csv.\n{len(list_missing_paths)} missing tracks not found in 04-fix_missing_tracks.csv."
+    f"{nb_missing_artists} artists not found in 03_artists.csv.\n{nb_missing_paths} missing tracks not found in 04_fix-missing-tracks.csv."
 )
+if nb_missing_artists == 0 and nb_missing_paths == 0:
+    print(
+        "You're all set, all your playlists were successfully created in the playlists folder!"
+    )
+elif nb_missing_artists > 0:
+    print("Update 03_artists.csv with the artists in 03_artists_NOT-FOUND.csv.")
+elif nb_missing_paths > 0:
+    print(
+        "Update 04-fix_missing_tracks.csv with the paths in 04_fix-missing-tracks_NOT-FOUND.csv."
+    )
