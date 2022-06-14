@@ -5,7 +5,7 @@ from pathlib import Path
 LOCAL_BASEPATH = "/home/david/nfs/WDC14/Musique/"
 BASEPATH = "/var/music/"
 
-# delete NOT_FOUND files if exists
+# delete NOT-FOUND files if exists
 Path("files/03_artists_NOT-FOUND.csv").unlink(missing_ok=True)
 Path("files/04_fix-missing-tracks_NOT-FOUND.csv").unlink(missing_ok=True)
 
