@@ -89,6 +89,6 @@ Exported playlists will be in the `playlists` folder.
 
 ## Import
 
-I personnaly automatically import those playlists into airsonic (airsonic can watch a folder and automatically import playlists from it).
+I automatically import those playlists into airsonic (airsonic can watch and import playlists from a folder).
 
 My music folder is mounted under the `/music/` folder in my airsonic container (hence the `/music/` prefix in `create_playlists.py`).
