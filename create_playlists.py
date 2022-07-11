@@ -35,7 +35,7 @@ for i in artist_list:
 
 file_list = []
 missing_artists = []
-for track in tracks:
+for track in reversed(tracks):
     artist = track.split("/")[0]
     if artist in artist_dict:
         for i in artist_dict[artist]:
