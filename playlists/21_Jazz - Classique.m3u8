@@ -8,6 +8,7 @@
 /var/music/Herbie Hancock/Empyrean Isles/03 Cantaloupe Island.mp3
 /var/music/Herbie Hancock/Maiden Voyage/01 Maiden Voyage.mp3
 /var/music/Dave Brubeck/We're All Together Again for the First Time/04 Take Five.mp3
+/var/music/John Coltrane/The Olatunji Concert_ The Last Live Recording/03 My Favorite Things.mp3
 /var/music/John Coltrane/My Favorite Things/01 My Favorite Things.mp3
 /var/music/John Coltrane/Blue Train/01 Blue Train.mp3
 /var/music/Bill Evans/At the Montreux Jazz Festival/10 Someday My Prince Will Come.mp3
@@ -29,7 +30,6 @@
 /var/music/Lee Morgan/The Sidewinder/01 The Sidewinder.mp3
 /var/music/Kenny Burrell/Midnight Blue/01 Chitlins Con Carne.mp3
 /var/music/John Coltrane/Giant Steps/01 Giant Steps.mp3
-/var/music/John Coltrane/Blue Train/02 Moment’s Notice.mp3
 /var/music/Kenny Burrell/Midnight Blue/04 Midnight Blue.mp3
 /var/music/Dexter Gordon/Go/01 Cheese Cake.flac
 /var/music/Art Blakey & The Jazz Messengers/Moanin'/02 Are You Real.flac
@@ -94,15 +94,12 @@
 /var/music/Miles Davis/Kind of Blue/05 Flamenco Sketches.mp3
 /var/music/Miles Davis/Kind of Blue/03 Blue In Green.mp3
 /var/music/Miles Davis/In a Silent Way/01 Shhh _ Peaceful.mp3
-/var/music/Miles Davis/In a Silent Way/02 In a Silent Way _ It’s About That Time.mp3
-/var/music/Miles Davis/Bitches Brew/01 Pharaoh’s Dance.mp3
 /var/music/Miles Davis/Bitches Brew/02 Bitches Brew.mp3
 /var/music/Charles Mingus/The Great Concert of Charles Mingus/05 Fables of Faubus.mp3
 /var/music/Charles Mingus/Mingus Ah Um/07 Fables of Faubus.mp3
 /var/music/Charles Mingus/Mingus Ah Um/09 Jelly Roll.mp3
 /var/music/Pharoah Sanders/Karma/01 The Creator Has a Master Plan.mp3
 /var/music/John Coltrane/Blue Train/05 Lazy Bird.mp3
-/var/music/John Coltrane/Blue Train/04 I’m Old Fashioned.mp3
 /var/music/Ornette Coleman/The Shape of Jazz to Come/01 Lonely Woman.mp3
 /var/music/Ornette Coleman/The Shape of Jazz to Come/03 Peace.mp3
 /var/music/Ornette Coleman/The Shape of Jazz to Come/02 Eventually.mp3
@@ -194,6 +191,8 @@
 /var/music/Herbie Hancock/Fat Albert Rotunda/03 Tell Me a Bedtime Story.mp3
 /var/music/Chick Corea/Solo Piano, Part One_ Originals/07 Armando's Rhumba.mp3
 /var/music/Chick Corea/My Spanish Heart/08 Armando's Rhumba.mp3
+/var/music/John Coltrane/Giant Steps/03 Countdown.mp3
+/var/music/Miles Davis/Someday My Prince Will Come/03 Pfrancing.mp3
 /var/music/The Oscar Peterson Trio/Night Train/01 Night Train.mp3
 /var/music/The Oscar Peterson Trio/Night Train/03 Georgia on My Mind.mp3
 /var/music/The Ahmad Jamal Trio/The Awakening/04 Dolphin Dance.ogg
@@ -207,8 +206,12 @@
 /var/music/Yusef Lateef/Eastern Sounds/08 Love Theme From _The Robe_.mp3
 /var/music/Miles Davis/In a Silent Way/02 In a Silent Way _ It’s About That Time.mp3
 /var/music/Clifford Brown & Max Roach/Study in Brown/09 Take the _A_´ Train.mp3
+/var/music/John Coltrane/Blue Train/04 I’m Old Fashioned.mp3
+/var/music/Miles Davis/Bitches Brew/01 Pharaoh’s Dance.mp3
+/var/music/Miles Davis/In a Silent Way/02 In a Silent Way _ It’s About That Time.mp3
 /var/music/The Cannonball Adderley Quintet/Mercy, Mercy, Mercy! Live at “The Club”/03 Mercy, Mercy, Mercy.mp3
 /var/music/The Oscar Peterson Trio with Milt Jackson/Very Tall/03 The Work Song.mp3
+/var/music/John Coltrane/Blue Train/02 Moment’s Notice.mp3
 /var/music/The Dave Brubeck Quartet/Time Out/01 Blue Rondo a la Turk.mp3
 /var/music/The Oscar Peterson Trio/Night Train/11 Hymn to Freedom.mp3
 /var/music/The Dave Brubeck Quartet/Jazz Impressions of Japan/01 Tokyo Traffic.mp3
