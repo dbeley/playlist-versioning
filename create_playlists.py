@@ -54,9 +54,8 @@ def build_artist_correspondance(artist_list):
     return artist_dict
 
 
-def match_tracks(tracks, artist_dict):
+def match_tracks(tracks, artist_dict, missing_artists):
     file_list = []
-    missing_artists = []
     for track in reversed(tracks):
         artist = track.split("/")[0]
         if artist in artist_dict:
@@ -69,6 +68,8 @@ def match_tracks(tracks, artist_dict):
 
 def match_missing_tracks():
     list_missing_paths = []
+    missing_file_list = []
+    missing_artists = []
     for track in missing_tracks:
         if track in missing_dict:
             # check file exists
@@ -82,12 +83,41 @@ def match_missing_tracks():
                 )
             elif artist in artist_dict:
                 for i in artist_dict[artist]:
-                    file_list.append({i: path.replace(LOCAL_BASEPATH, "")})
+                    missing_file_list.append({i: path.replace(LOCAL_BASEPATH, "")})
             else:
                 missing_artists.append(artist)
         else:
             list_missing_paths.append(track)
-    return list_missing_paths, missing_artists
+    return missing_file_list, list_missing_paths, missing_artists
+
+
+def build_playlists(file_list, playlist_dict):
+    d = defaultdict(list)
+    for i in file_list:
+        k, v = list(i.items())[
+            0
+        ]  # an alternative to the single-iterating inner loop from the previous solution
+        d[k].append(v)
+
+    condensed_dict = dict(d)
+    final_dict = dict()
+    max_playlist_id = max([int(x) for x in playlist_dict])
+    for k, v in condensed_dict.items():
+        if k in playlist_dict:
+            final_dict[f"{k.zfill(len(str(max_playlist_id)))}_{playlist_dict[k]}"] = v
+        else:
+            print(f"Playlist name {k} not in 02_playlists.csv.")
+    return final_dict
+
+
+def export_playlists(final_dict):
+    Path("playlists").mkdir(parents=True, exist_ok=True)
+    for playlist, tracks in final_dict.items():
+        # print(playlist)
+        filename = f"playlists/{playlist.replace('/', '-')}.m3u8"
+        print(f"Creating {filename}.")
+        with open(filename, "w") as f:
+            f.write("\n".join([f"{BASEPATH}{x}" for x in tracks]))
 
 
 tracks = read_mplaylist_result()
@@ -97,9 +127,9 @@ artist_list = read_artist_file()
 missing_dict = read_missing_tracks()
 
 artist_dict = build_artist_correspondance(artist_list)
-file_list, missing_artists = match_tracks(tracks, artist_dict)
-list_missing_paths, missing_artists = match_missing_tracks()
-
+missing_file_list, list_missing_paths, missing_artists = match_missing_tracks()
+file_list, missing_artists = match_tracks(tracks, artist_dict, missing_artists)
+file_list = missing_file_list + file_list
 
 if len(missing_artists) > 0:
     missing_artists = set(missing_artists)
@@ -119,43 +149,23 @@ if len(list_missing_paths) > 0:
     with open("files/04_fix-missing-tracks_NOT-FOUND.csv", "w") as f:
         f.write("\n".join(missing_paths))
 
-d = defaultdict(list)
-for i in file_list:
-    k, v = list(i.items())[
-        0
-    ]  # an alternative to the single-iterating inner loop from the previous solution
-    d[k].append(v)
-
-condensed_dict = dict(d)
-final_dict = dict()
-max_playlist_id = max([int(x) for x in playlist_dict])
-for k, v in condensed_dict.items():
-    if k in playlist_dict:
-        final_dict[f"{k.zfill(len(str(max_playlist_id)))}_{playlist_dict[k]}"] = v
-    else:
-        print(f"Playlist name {k} not in 02_playlists.csv.")
-
-# export
-Path("playlists").mkdir(parents=True, exist_ok=True)
-for playlist, tracks in final_dict.items():
-    # print(playlist)
-    filename = f"playlists/{playlist.replace('/', '-')}.m3u8"
-    print(f"Creating {filename}.")
-    with open(filename, "w") as f:
-        f.write("\n".join([f"{BASEPATH}{x}" for x in tracks]))
-
 nb_missing_artists = len(set(missing_artists))
 nb_missing_paths = len(list_missing_paths)
 print(
     f"{nb_missing_artists} artists not found in 03_artists.csv.\n{nb_missing_paths} missing tracks not found in 04_fix-missing-tracks.csv."
 )
-if nb_missing_artists == 0 and nb_missing_paths == 0:
-    print(
-        "You're all set, all your playlists were successfully created in the playlists folder!"
-    )
-elif nb_missing_artists > 0:
+if nb_missing_artists > 0:
     print("Update 03_artists.csv with the artists in 03_artists_NOT-FOUND.csv.")
-elif nb_missing_paths > 0:
+if nb_missing_paths > 0:
     print(
         "Update 04-fix_missing_tracks.csv with the paths in 04_fix-missing-tracks_NOT-FOUND.csv."
     )
+if not (nb_missing_artists == 0 and nb_missing_paths == 0):
+    exit()
+
+final_dict = build_playlists(file_list, playlist_dict)
+export_playlists(final_dict)
+
+print(
+    "You're all set, all your playlists were successfully created in the playlists folder!"
+)
