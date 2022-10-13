@@ -9,59 +9,97 @@ BASEPATH = "/var/music/"
 Path("files/03_artists_NOT-FOUND.csv").unlink(missing_ok=True)
 Path("files/04_fix-missing-tracks_NOT-FOUND.csv").unlink(missing_ok=True)
 
-# result of mplaylist.sh
-with open("files/01_result-mplaylist.csv", "r") as f:
-    tracks = [x.strip() for x in f.readlines()]
-with open("files/01_result-mplaylist-missing.csv", "r") as f:
-    missing_tracks = [x.strip() for x in f.readlines()]
-with open("files/02_playlists.csv", "r") as f:
-    playlist_dict = dict([x.strip().split(";") for x in f.readlines()])
-with open("files/03_artists.csv", "r") as f:
-    artist_list = [
-        (x.strip().split(";")[1], x.strip().split(";")[0]) for x in f.readlines()
-    ]
-# matching with tracks
-with open("files/04_fix-missing-tracks.csv", "r") as f:
-    missing_dict = dict(
-        [(x.strip().split(";")[0], x.strip().split(";")[1]) for x in f.readlines()]
-    )
 
-artist_dict = dict()
-for i in artist_list:
-    if i[0] in artist_dict:
-        artist_dict[i[0]] += [i[1]]
-    else:
-        artist_dict[i[0]] = [i[1]]
+def read_mplaylist_result():
+    with open("files/01_result-mplaylist.csv", "r") as f:
+        tracks = [x.strip() for x in f.readlines()]
+    return tracks
 
-file_list = []
-missing_artists = []
-for track in reversed(tracks):
-    artist = track.split("/")[0]
-    if artist in artist_dict:
-        for i in artist_dict[artist]:
-            file_list.append({i: track})
-    else:
-        missing_artists.append(artist)
 
-list_missing_paths = []
-for track in missing_tracks:
-    if track in missing_dict:
-        # check file exists
-        artist = track.split(" - ")[0]
-        path = missing_dict[track].strip()
-        my_file = Path(path)
-        if not my_file.is_file():
-            # if any(x in str(my_file) for x in ["MISSING", "DUPLICATE"]):
-            print(
-                f"WARNING: file {path} doesn't seem to exist for track {track}. Skipping."
-            )
-        elif artist in artist_dict:
+def read_mplaylist_result_missing():
+    with open("files/01_result-mplaylist-missing.csv", "r") as f:
+        missing_tracks = [x.strip() for x in f.readlines()]
+    return missing_tracks
+
+
+def read_playlist_file():
+    with open("files/02_playlists.csv", "r") as f:
+        playlist_dict = dict([x.strip().split(";") for x in f.readlines()])
+    return playlist_dict
+
+
+def read_artist_file():
+    with open("files/03_artists.csv", "r") as f:
+        artist_list = [
+            (x.strip().split(";")[1], x.strip().split(";")[0]) for x in f.readlines()
+        ]
+    return artist_list
+
+
+def read_missing_tracks():
+    with open("files/04_fix-missing-tracks.csv", "r") as f:
+        missing_dict = dict(
+            [(x.strip().split(";")[0], x.strip().split(";")[1]) for x in f.readlines()]
+        )
+    return missing_dict
+
+
+def build_artist_correspondance(artist_list):
+    artist_dict = {}
+    for i in artist_list:
+        if i[0] in artist_dict:
+            artist_dict[i[0]] += [i[1]]
+        else:
+            artist_dict[i[0]] = [i[1]]
+    return artist_dict
+
+
+def match_tracks(tracks, artist_dict):
+    file_list = []
+    missing_artists = []
+    for track in reversed(tracks):
+        artist = track.split("/")[0]
+        if artist in artist_dict:
             for i in artist_dict[artist]:
-                file_list.append({i: path.replace(LOCAL_BASEPATH, "")})
+                file_list.append({i: track})
         else:
             missing_artists.append(artist)
-    else:
-        list_missing_paths.append(track)
+    return file_list, missing_artists
+
+
+def match_missing_tracks():
+    list_missing_paths = []
+    for track in missing_tracks:
+        if track in missing_dict:
+            # check file exists
+            artist = track.split(" - ")[0]
+            path = missing_dict[track].strip()
+            my_file = Path(path)
+            if not my_file.is_file():
+                # if any(x in str(my_file) for x in ["MISSING", "DUPLICATE"]):
+                print(
+                    f"WARNING: file {path} doesn't seem to exist for track {track}. Skipping."
+                )
+            elif artist in artist_dict:
+                for i in artist_dict[artist]:
+                    file_list.append({i: path.replace(LOCAL_BASEPATH, "")})
+            else:
+                missing_artists.append(artist)
+        else:
+            list_missing_paths.append(track)
+    return list_missing_paths, missing_artists
+
+
+tracks = read_mplaylist_result()
+missing_tracks = read_mplaylist_result_missing()
+playlist_dict = read_playlist_file()
+artist_list = read_artist_file()
+missing_dict = read_missing_tracks()
+
+artist_dict = build_artist_correspondance(artist_list)
+file_list, missing_artists = match_tracks(tracks, artist_dict)
+list_missing_paths, missing_artists = match_missing_tracks()
+
 
 if len(missing_artists) > 0:
     missing_artists = set(missing_artists)
