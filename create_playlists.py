@@ -133,7 +133,7 @@ file_list, missing_artists = match_tracks(tracks, artist_dict)
 missing_file_list, list_missing_paths, missing_artists2 = match_missing_tracks(
     missing_tracks, missing_dict, artist_dict
 )
-file_list = missing_file_list + file_list
+file_list = file_list + missing_file_list
 missing_artists = missing_artists + missing_artists2
 
 if len(missing_artists) > 0:
