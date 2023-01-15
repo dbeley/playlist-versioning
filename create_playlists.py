@@ -13,6 +13,7 @@ Path("files/04_fix-missing-tracks_NOT-FOUND.csv").unlink(missing_ok=True)
 def read_files():
     """
     Returns:
+        - raw_tracks: list of tracks
         - tracks: list of files found by mplaylist
         - missing_tracks: list of files not found by mplaylist
         - playlist_dict: list of dict containing playlists (id + name)
@@ -20,6 +21,8 @@ def read_files():
             Duplicate artist name with different playlist id is supported
         - missing_dict: list of manually matched files
     """
+    with open("files/00_dbeley-favorite-tracks.txt", "r") as f:
+        raw_tracks = [x.strip() for x in f.readlines()]
     with open("files/01_result-mplaylist.csv", "r") as f:
         tracks = [x.strip() for x in f.readlines()]
     with open("files/01_result-mplaylist-missing.csv", "r") as f:
@@ -34,7 +37,7 @@ def read_files():
         missing_dict = dict(
             [(x.strip().split(";")[0], x.strip().split(";")[1]) for x in f.readlines()]
         )
-    return tracks, missing_tracks, playlist_dict, artist_list, missing_dict
+    return raw_tracks, tracks, missing_tracks, playlist_dict, artist_list, missing_dict
 
 
 def build_artist_dict(artist_list):
@@ -51,7 +54,7 @@ def build_artist_dict(artist_list):
     return artist_dict
 
 
-def match_tracks(tracks, artist_dict):
+def match_tracks(tracks, artist_dict, sep="/"):
     """
     Returns:
         - file_list: list of dict where
@@ -63,12 +66,13 @@ def match_tracks(tracks, artist_dict):
     file_list = []
     missing_artists = []
     for track in reversed(tracks):
-        artist = track.split("/")[0]
+        artist = track.split(sep)[0].strip()
         if artist in artist_dict:
             for playlist_id in artist_dict[artist]:
                 file_list.append({playlist_id: track})
         else:
             missing_artists.append(artist)
+
     return file_list, missing_artists
 
 
@@ -119,17 +123,33 @@ def build_playlists(file_list, playlist_dict):
 def export_playlists(final_dict):
     Path("playlists").mkdir(parents=True, exist_ok=True)
     for playlist, tracks in final_dict.items():
-        # print(playlist)
         filename = f"playlists/{playlist.replace('/', '-')}.m3u8"
         print(f"Creating {filename}.")
         with open(filename, "w") as f:
             f.write("\n".join([f"{BASEPATH}{x}" for x in tracks]))
 
 
-tracks, missing_tracks, playlist_dict, artist_list, missing_dict = read_files()
+def export_raw_playlists(final_dict):
+    Path("playlists").mkdir(parents=True, exist_ok=True)
+    for playlist, tracks in final_dict.items():
+        filename = f"raw_playlists/{playlist.replace('/', '-')}.txt"
+        print(f"Creating {filename}.")
+        with open(filename, "w") as f:
+            f.write("\n".join([x for x in tracks]))
+
+
+(
+    raw_tracks,
+    tracks,
+    missing_tracks,
+    playlist_dict,
+    artist_list,
+    missing_dict,
+) = read_files()
 
 artist_dict = build_artist_dict(artist_list)
 file_list, missing_artists = match_tracks(tracks, artist_dict)
+raw_track_list, raw_missing_artists = match_tracks(raw_tracks, artist_dict, sep=" - ")
 missing_file_list, list_missing_paths, missing_artists2 = match_missing_tracks(
     missing_tracks, missing_dict, artist_dict
 )
@@ -158,7 +178,10 @@ nb_missing_artists = len(set(missing_artists))
 nb_missing_paths = len(list_missing_paths)
 
 final_dict = build_playlists(file_list, playlist_dict)
+raw_final_dict = build_playlists(raw_track_list, playlist_dict)
+
 export_playlists(final_dict)
+export_raw_playlists(raw_final_dict)
 
 print(
     f"{nb_missing_artists} artists not found in 03_artists.csv.\n{nb_missing_paths} missing tracks not found in 04_fix-missing-tracks.csv."
