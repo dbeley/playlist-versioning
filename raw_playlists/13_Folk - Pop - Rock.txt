@@ -662,7 +662,7 @@ Brian Eno - Sky Saw
 Brian Eno - The Big Ship
 Brian Eno - I'll Come Running
 Brian Eno - Golden Hours
-Brian Eno - Everything Merges With The Night
+Brian Eno - Everything Merges With the Night
 Brian Eno - Baby’s On Fire
 Brian Eno - Cindy Tells Me
 Brian Eno - 1/1
@@ -683,3 +683,4 @@ Brian Eno - I’ll Come Running
 Brian Eno - No One Receiving
 Brian Eno - King’s Lead Hat
 Brian Eno - By This River
+Nico - These Days
