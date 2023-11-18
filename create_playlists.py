@@ -178,7 +178,7 @@ nb_missing_artists = len(set(missing_artists))
 nb_missing_paths = len(list_missing_paths)
 
 final_dict = build_playlists(file_list, playlist_dict)
-raw_final_dict = build_playlists(raw_track_list, playlist_dict)
+raw_final_dict = build_playlists(raw_track_list + missing_file_list, playlist_dict)
 
 export_playlists(final_dict)
 export_raw_playlists(raw_final_dict)
