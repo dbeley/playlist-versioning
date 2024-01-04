@@ -3,7 +3,7 @@ from pathlib import Path
 
 # prefix or base path
 LOCAL_BASEPATH = "/home/david/nfs/WDC14/Musique/"
-BASEPATH = "/var/music/"
+BASEPATH = "/music/"
 
 # delete NOT-FOUND files if exists
 Path("files/03_artists_NOT-FOUND.csv").unlink(missing_ok=True)
