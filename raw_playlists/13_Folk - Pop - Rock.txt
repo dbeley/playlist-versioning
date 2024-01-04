@@ -11,7 +11,7 @@ Townes Van Zandt - If I Needed You
 Eric Clapton - Tears in Heaven
 The Rolling Stones - Sympathy for the Devil
 Simon & Garfunkel - The Boxer
-Simon & Garfunkel - Bridge over Troubled Water
+Simon & Garfunkel - Bridge Over Troubled Water
 Neil Young - Southern Man
 Cyndi Lauper - Time After Time
 Elton John - Sorry Seems to Be the Hardest Word
@@ -559,6 +559,7 @@ The Who - Who Are You
 The Who - Won’t Get Fooled Again
 George Harrison - Isn't It a Pity (version one)
 George Harrison - Isn't It a Pity (version two)
+Eddy Arnold - It's a Sin
 Big Star - In The Street
 John Cale - Half Past France
 Neil Young & Crazy Horse - Down by the River
@@ -726,6 +727,10 @@ Roy Orbison - You Got It
 The Beatles - I’ve Got a Feeling
 The Beatles - Dig a Pony
 Paul McCartney - Temporary Secretary
+Guy Mitchell - Heartache by the Numbers
+LOST WEEKEND Western Swing band - in the shadow of the valley
+Compilations/Fallout_ New Vegas/20 In the Shadow of the Valley.mp3
+Compilations/Fallout_ New Vegas/16 Heartaches by the Numbers.mp3
 Paul McCartney & Linda McCartney/Ram/13 Another Day.mp3
 Paul McCartney & Linda McCartney/Ram/12 The Back Seat of My Car.mp3
 Paul McCartney & Linda McCartney/Ram/10 Long Haired Lady.mp3
@@ -739,6 +744,7 @@ Brian Eno/Another Green World/06 I’ll Come Running.mp3
 Brian Eno/Another Green World/03 St. Elmo’s Fire.mp3
 Lou Reed/Coney Island Baby/03 She’s My Best Friend.mp3
 Prefab Sprout/Jordan_ The Comeback/09 Moondog.mp3
+Compilations/Fallout_ New Vegas/10 It’s a Sin.mp3
 George Harrison/All Things Must Pass/04 Isn’t It a Pity (version one).mp3
 George Harrison/All Things Must Pass/04 Isn’t It a Pity (version one).mp3
 Journey/Escape/01 Don't Stop Believin'.mp3
