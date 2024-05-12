@@ -31,7 +31,6 @@ Baptiste Trotignon - Paul
 Shai Maestro - Gal
 Brad Mehldau - Waltz for J. B.
 Brad Mehldau - Got Me Wrong
-Vince Guaraldi Trio - Skating
 Esbjörn Svensson Trio - I Mean You
 Brad Mehldau Trio - And I Love Her
 Joey Alexander - City Lights
@@ -87,12 +86,6 @@ Brad Mehldau Trio - wonderwall
 Brad Mehldau Trio - Still Crazy After All These Years
 Brad Mehldau Trio - Everything In Its Right Place
 Brad Mehldau Trio - Samba e amor
-Vince Guaraldi - My Little Drum
-Vince Guaraldi - O Tannenbaum
-Vince Guaraldi - Linus and Lucy
-Vince Guaraldi - Skating
-Vince Guaraldi - Christmas Is Coming
-Vince Guaraldi - The Christmas Song
 Shai Maestro Trio - Gal
 Shai Maestro - Brave Ones
 Abdullah Ibrahim - Thaba bosigo (Mountain of the Night)
@@ -139,10 +132,6 @@ Nik Bärtsch's Mobile - Modul 29_14
 Nik Bärtsch's Mobile - Modul 8_11
 Brad Mehldau - Wave/Mother Nature's Son
 Baptiste Trotignon - Here, There and Everywhere
-Vince Guaraldi Trio - Cast Your Fate to the Wind
-Vince Guaraldi Trio - Moon River
-Vince Guaraldi Trio - Alma-Ville
-Vince Guaraldi - Alma-Ville
 Michel Petrucciani - There Will Never Be Another You
 山中千尋 - There will never be another you
 Triosence - Go For It
@@ -168,18 +157,13 @@ Brad Mehldau - Baby's In Black
 Brad Mehldau - She Said, She Said
 Brad Mehldau - Here, There and Everywhere
 Brad Mehldau - Golden Slumbers
-Vince Guaraldi - Great Pumpkin Waltz
 Gerald Clayton - All The Things You Are
 Brad Mehldau Trio - All the Things You Are
-Vince Guaraldi Trio - Oh, Good Grief
-Vince Guaraldi Trio - Linus and Lucy
-Vince Guaraldi - Oh, Good Grief!
 Fœhn Trio/Highlines/01 Wolves.opus
 Chris Thile & Brad Mehldau/Chris Thile & Brad Mehldau/05 Independence Day.flac
 Brad Mehldau Trio/Blues and Ballads/02 I Concentrate on You.mp3
 Brad Mehldau Trio/Where Do You Start/10 Aquelas Coisas Todas.flac
 Chris Thile & Brad Mehldau/Chris Thile & Brad Mehldau/10 Don’t Think Twice, It’s Alright.flac
-Vince Guaraldi/A Charlie Brown Christmas/07 Skating.flac
 Brad Mehldau Trio/Where Do You Start/01 Got Me Wrong.flac
 Brad Mehldau/10 Years Solo Live/09 Waltz for J.B_.flac
 上原ひろみ ザ・トリオ・プロジェクト/Alive/04 Seeker.mp3
