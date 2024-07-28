@@ -12,8 +12,8 @@ if [ "$1" == "-h" ]; then
 fi
 
 FILE=$1
-OUTPUT_FILE="$DIR/files/01_result-mplaylist.csv"
-OUTPUT_FILE_MISSING="$DIR/files/01_result-mplaylist-missing.csv"
+OUTPUT_FILE="$DIR/files/04_result-mplaylist.csv"
+OUTPUT_FILE_MISSING="$DIR/files/05_result-mplaylist-missing.csv"
 
 if [ -f $OUTPUT_FILE ]; then
    printf "File $OUTPUT_FILE exists. Deleting.\n"

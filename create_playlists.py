@@ -5,10 +5,27 @@ from pathlib import Path
 LOCAL_BASEPATH = "/home/david/nfs/WDC14/Musique/"
 BASEPATH = "/music/"
 
-# delete NOT-FOUND files if exists
-Path("files/03_artists_NOT-FOUND.csv").unlink(missing_ok=True)
-Path("files/04_fix-missing-tracks_NOT-FOUND.csv").unlink(missing_ok=True)
+FOLDER_PATH = "files"
+# Favorite tracks
+FAVORITE_TRACKS_FILE_NAME = f"{FOLDER_PATH}/00_dbeley-favorite-tracks.txt"
+# Playlists matching
+PLAYLISTS_FILE_NAME = f"{FOLDER_PATH}/01_playlists.csv"
+# Artists matching
+ARTISTS_FILE_NAME = f"{FOLDER_PATH}/02_artists.csv"
+# Artists not found in the previous file, this file should be empty
+ARTISTS_NOT_FOUND_FILE_NAME = f"{FOLDER_PATH}/03_artists_NOT-FOUND.csv"
+# Tracks found in MPD
+RESULT_MPLAYLIST_FILE_NAME = f"{FOLDER_PATH}/04_result-mplaylist.csv"
+# Tracks missing in MPD
+RESULT_MPLAYLIST_MISSING_FILE_NAME = f"{FOLDER_PATH}/05_result-mplaylist-missing.csv"
+# Missing tracks matching
+FIX_MISSING_TRACKS_FILE_NAME = f"{FOLDER_PATH}/06_fix-missing-tracks.csv"
+# Missing tracks not found in the previous file, this file should be empty
+FIX_MISSING_TRACKS_NOT_FOUND_FILE_NAME = f"{FOLDER_PATH}/07_fix-missing-tracks_NOT-FOUND.csv"
 
+# delete NOT-FOUND files if exists
+Path(ARTISTS_NOT_FOUND_FILE_NAME).unlink(missing_ok=True)
+Path(FIX_MISSING_TRACKS_NOT_FOUND_FILE_NAME).unlink(missing_ok=True)
 
 def read_files():
     """
@@ -21,22 +38,31 @@ def read_files():
             Duplicate artist name with different playlist id is supported
         - missing_dict: list of manually matched files
     """
-    with open("files/00_dbeley-favorite-tracks.txt", "r") as f:
+    with open(FAVORITE_TRACKS_FILE_NAME, "r") as f:
         raw_tracks = [x.strip() for x in f.readlines()]
-    with open("files/01_result-mplaylist.csv", "r") as f:
-        tracks = [x.strip() for x in f.readlines()]
-    with open("files/01_result-mplaylist-missing.csv", "r") as f:
-        missing_tracks = [x.strip() for x in f.readlines()]
-    with open("files/02_playlists.csv", "r") as f:
+    with open(PLAYLISTS_FILE_NAME, "r") as f:
         playlist_dict = dict([x.strip().split(";") for x in f.readlines()])
-    with open("files/03_artists.csv", "r") as f:
+    with open(ARTISTS_FILE_NAME, "r") as f:
         artist_list = [
             (x.strip().split(";")[1], x.strip().split(";")[0]) for x in f.readlines()
         ]
-    with open("files/04_fix-missing-tracks.csv", "r") as f:
-        missing_dict = dict(
-            [(x.strip().split(";")[0], x.strip().split(";")[1]) for x in f.readlines()]
-        )
+    if Path(RESULT_MPLAYLIST_FILE_NAME).exists():
+        with open(RESULT_MPLAYLIST_FILE_NAME, "r") as f:
+            tracks = [x.strip() for x in f.readlines()]
+    else:
+        tracks = []
+    if Path(RESULT_MPLAYLIST_MISSING_FILE_NAME).exists():
+        with open(RESULT_MPLAYLIST_MISSING_FILE_NAME, "r") as f:
+            missing_tracks = [x.strip() for x in f.readlines()]
+    else:
+        missing_tracks = []
+    if Path(FIX_MISSING_TRACKS_FILE_NAME).exists():
+        with open(FIX_MISSING_TRACKS_FILE_NAME, "r") as f:
+            missing_dict = dict(
+                [(x.strip().split(";")[0], x.strip().split(";")[1]) for x in f.readlines()]
+            )
+    else:
+        missing_dict = {}
     return raw_tracks, tracks, missing_tracks, playlist_dict, artist_list, missing_dict
 
 
@@ -116,7 +142,7 @@ def build_playlists(file_list, playlist_dict):
         if k in playlist_dict:
             final_dict[f"{k.zfill(len(str(max_playlist_id)))}_{playlist_dict[k]}"] = v
         else:
-            print(f"Playlist name {k} not in 02_playlists.csv.")
+            print(f"Playlist name {k} not in {PLAYLISTS_FILE_NAME}.")
     return final_dict
 
 
@@ -162,7 +188,7 @@ if len(missing_artists) > 0:
         print(f"{missing_artist} is missing.")
     print(f"{len(missing_artists)} artists missing!")
 
-    with open("files/03_artists_NOT-FOUND.csv", "w") as f:
+    with open(ARTISTS_NOT_FOUND_FILE_NAME, "w") as f:
         f.write("\n".join(missing_artists))
 
 if len(list_missing_paths) > 0:
@@ -171,7 +197,7 @@ if len(list_missing_paths) > 0:
         print(f"{missing_path} is missing.")
     print(f"{len(missing_paths)} paths missing!")
 
-    with open("files/04_fix-missing-tracks_NOT-FOUND.csv", "w") as f:
+    with open(FIX_MISSING_TRACKS_NOT_FOUND_FILE_NAME, "w") as f:
         f.write("\n".join(missing_paths))
 
 nb_missing_artists = len(set(missing_artists))
@@ -184,13 +210,13 @@ export_playlists(final_dict)
 export_raw_playlists(raw_final_dict)
 
 print(
-    f"{nb_missing_artists} artists not found in 03_artists.csv.\n{nb_missing_paths} missing tracks not found in 04_fix-missing-tracks.csv."
+    f"{nb_missing_artists} artists not found in {ARTISTS_FILE_NAME}.\n{nb_missing_paths} missing tracks not found in {FIX_MISSING_TRACKS_FILE_NAME}."
 )
 if nb_missing_artists > 0:
-    print("Update 03_artists.csv with the artists in 03_artists_NOT-FOUND.csv.")
+    print(f"Update {ARTISTS_FILE_NAME} with the artists in {ARTISTS_NOT_FOUND_FILE_NAME}.")
 if nb_missing_paths > 0:
     print(
-        "Update 04-fix_missing_tracks.csv with the paths in 04_fix-missing-tracks_NOT-FOUND.csv."
+        f"Update {FIX_MISSING_TRACKS_FILE_NAME} with the paths in {FIX_MISSING_TRACKS_NOT_FOUND_FILE_NAME}."
     )
 if nb_missing_artists == 0 and nb_missing_paths == 0:
     print(

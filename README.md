@@ -34,20 +34,20 @@ Run the `mplaylist.sh` script:
 ```
 
 Output:
-- `files/01_result-mplaylist.csv`: tracks matched with mpc
-- `files/01_result-mplaylist-missing.csv`: tracks not matched with mpc
+- `files/04_result-mplaylist.csv`: tracks matched with mpc
+- `files/05_result-mplaylist-missing.csv`: tracks not matched with mpc
 
 ## Playlist creation
 
 You will need three files:
 
-- `files/02_playlists.csv` (fields: `playlist_id;playlist_name`):
+- `files/01_playlists.csv` (fields: `playlist_id;playlist_name`):
 ```
 1;Rock
 2;Pop
 ```
 
-- `files/03_artists.csv` (fields: `playlist_id;artist_name`):
+- `files/02_artists.csv` (fields: `playlist_id;artist_name`):
 ```
 1;ARTIST1
 1;ARTIST3
@@ -59,7 +59,7 @@ Those two files says "ARTIST1 and ARTIST3 songs will be added to the playlist Ro
 
 Adding artists in multiple playlists is supported, just duplicate the entries with a different playlist id.
 
-- `files/04_fix-missing-tracks.csv`: manually add paths for the missing tracks in `01_result-mplaylist-missing.csv` (fields: `missing_track;path`):
+- `files/06_fix-missing-tracks.csv`: manually add paths for the missing tracks in `05_result-mplaylist-missing.csv` (fields: `missing_track;path`):
 ```
 ARTIST1 - MISSING_TRACK1;PATH_TO_TRACK1
 ARTIST2 - MISSING_TRACK2;PATH_TO_TRACK2
@@ -74,16 +74,16 @@ python create_playlists.py
 
 **BASEPATH** indicates what the mpd matched tracks will be prefixed with. It's used to complete the paths as mpd uses internal paths and not full paths.
 
-**LOCAL_BASEPATH** indicates the base path to delete after checking the validity of the manually inserted paths in `04_fix-missing-tracks.csv`. The **BASEPATH** will then be used as a prefix.
+**LOCAL_BASEPATH** indicates the base path to delete after checking the validity of the manually inserted paths in `06_fix-missing-tracks.csv`. The **BASEPATH** will then be used as a prefix.
 
-By setting **BASEPATH** to `/music/` and **LOCAL_BASEPATH** to `/home/user/nfs/Musique/`, the script will delete `/home/user/nfs/Musique/` from the paths found in `04_fix-missing-tracks.csv` and will create playlists using `/music/` as base path.
+By setting **BASEPATH** to `/music/` and **LOCAL_BASEPATH** to `/home/user/nfs/Musique/`, the script will delete `/home/user/nfs/Musique/` from the paths found in `06_fix-missing-tracks.csv` and will create playlists using `/music/` as base path.
 If you want to use your playlists on the same filesystem configuration, you can set **LOCAL_BASEPATH** and **BASEPATH** to the same value.
 
 Output:
-- `files/03_artists_NOT-FOUND.csv`: artists not found in `03_artists.csv`
-- `files/04_fix-missing-tracks_NOT-FOUND.csv`: missing tracks not found in `04_fix-missing-tracks.csv`
+- `files/03_artists_NOT-FOUND.csv`: artists not found in `02_artists.csv`
+- `files/07_fix-missing-tracks_NOT-FOUND.csv`: missing tracks not found in `06_fix-missing-tracks.csv`
 
-If those files are empty you're good, otherwise just add entries in `03_artists.csv` or `04_fix-missing-tracks.csv` and restart the script `create_playlists.py`.
+If those files are empty you're good, otherwise just add entries in `02_artists.csv` or `06_fix-missing-tracks.csv` and restart the script `create_playlists.py`.
 
 Exported playlists will be in the `playlists` folder.
 
