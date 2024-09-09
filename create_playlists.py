@@ -146,13 +146,13 @@ def build_playlists(file_list, playlist_dict):
     return final_dict
 
 
-def export_playlists(final_dict):
-    Path("playlists").mkdir(parents=True, exist_ok=True)
+def export_playlists(folder: str, path: str, final_dict):
+    Path(folder).mkdir(parents=True, exist_ok=True)
     for playlist, tracks in final_dict.items():
-        filename = f"playlists/{playlist.replace('/', '-')}.m3u8"
+        filename = f"{folder}/{playlist.replace('/', '-')}.m3u8"
         print(f"Creating {filename}.")
         with open(filename, "w") as f:
-            f.write("\n".join([f"{BASEPATH}{x}" for x in tracks]))
+            f.write("\n".join([f"{path}{x}" for x in tracks]))
 
 
 def export_raw_playlists(final_dict):
@@ -206,7 +206,10 @@ nb_missing_paths = len(list_missing_paths)
 final_dict = build_playlists(file_list, playlist_dict)
 raw_final_dict = build_playlists(raw_track_list + missing_file_list, playlist_dict)
 
-export_playlists(final_dict)
+# Playlists with basepath
+export_playlists("playlists", BASEPATH, final_dict)
+# Pylists without basepath, for example to be used with MPD
+export_playlists("mpd_playlists", "", final_dict)
 export_raw_playlists(raw_final_dict)
 
 print(
