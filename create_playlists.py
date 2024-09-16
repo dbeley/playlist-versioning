@@ -149,7 +149,7 @@ def build_playlists(file_list, playlist_dict):
 def export_playlists(folder: str, path: str, final_dict):
     Path(folder).mkdir(parents=True, exist_ok=True)
     for playlist, tracks in final_dict.items():
-        filename = f"{folder}/{playlist.replace('/', '-')}.m3u8"
+        filename = f"{folder}/{playlist.replace('/', '-')}.m3u"
         print(f"Creating {filename}.")
         with open(filename, "w") as f:
             f.write("\n".join([f"{path}{x}" for x in tracks]))
