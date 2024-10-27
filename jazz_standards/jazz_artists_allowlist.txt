@@ -42,7 +42,7 @@ charles mingus
 kenny drew
 joshua redman
 tony allen
-jack terrasson
+jacky terrasson
 bobby timmons
 ari hoenig
 jimmy smith
@@ -60,3 +60,27 @@ django reinhardt
 chihiro yamanaka
 wayne shorter
 joe henderson
+thelonious monk
+the benny goodman
+walter smith
+theo croker
+lonnie liston smith
+eldar djangirov
+ray charles
+louis armstrong
+lou donaldson
+frank sinatra
+richard "groove" holmes
+joão gilberto
+antônio carlos jobim
+stanley turrentine
+billie holiday
+biréli lagrène
+david s. ware
+geoffrey keezer
+wolfgang haffner
+eddy louiss
+chet baker
+fred nardin
+francesco bearzatti
+franck amsallem
