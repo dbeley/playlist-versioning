@@ -17,6 +17,8 @@ if [ -f $OUTPUT_FILE ]; then
 fi
 
 while read name; do
+  # Skip lines starting with #
+  [[ "$name" =~ ^# ]] && continue
 
   # Replace ' with ’ in name and store both original and modified versions
   alt_name="${name//\'/’}"
@@ -40,7 +42,7 @@ while read name; do
       if $match_found; then
           printf "%s\n" "$track_path" >> "$OUTPUT_FILE"
       else
-          printf "Artist $artist_name not found in allowlist.\n"
+          printf "Artist $artist_name not found in allowlist (current track name $name).\n"
       fi
   done <<< "$potential_tracks"
 	fi
