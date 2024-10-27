@@ -21,7 +21,7 @@ while read name; do
   # Replace ' with ’ in name and store both original and modified versions
   alt_name="${name//\'/’}"
   # Search for potential tracks with both versions of the title
-  potential_tracks=$( { mpc search "(title == \"$name\")"; mpc search "(title == \"$alt_name\")"; } | sort -u)
+  potential_tracks=$( { mpc search title "$name"; mpc search title "$alt_name"; } | sort -u)
 
 	if [[ $potential_tracks ]]; then
     while read -r track_path; do
