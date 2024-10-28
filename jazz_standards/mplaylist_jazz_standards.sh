@@ -10,6 +10,7 @@ Usage:      ./mplaylist_jazz_standards.sh [-h]
 JAZZ_STANDARDS_FILE="$DIR/jazz_standards.txt"
 JAZZ_ARTISTS_ALLOWLIST_FILE="$DIR/jazz_artists_allowlist.txt"
 OUTPUT_FILE="$DIR/jazz_standards.m3u"
+OUTPUT_FILE_MPD="$DIR/jazz_standards_mpd.m3u"
 
 if [ -f $OUTPUT_FILE ]; then
    printf "File $OUTPUT_FILE exists. Deleting.\n"
@@ -40,7 +41,8 @@ while read name; do
 
       # If match is found, append the track to the output file
       if $match_found; then
-          printf "%s\n" "$track_path" >> "$OUTPUT_FILE"
+          printf "%s\n" "/music/$track_path" >> "$OUTPUT_FILE"
+          printf "%s\n" "$track_path" >> "$OUTPUT_FILE_MPD"
       else
           printf "Artist $artist_name not found in allowlist (current track name $name).\n"
       fi
