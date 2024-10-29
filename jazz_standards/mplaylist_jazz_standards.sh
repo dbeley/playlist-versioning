@@ -16,6 +16,10 @@ if [ -f $OUTPUT_FILE ]; then
    printf "File $OUTPUT_FILE exists. Deleting.\n"
    rm $OUTPUT_FILE
 fi
+if [ -f $OUTPUT_FILE_MPD ]; then
+   printf "File $OUTPUT_FILE_MPD exists. Deleting.\n"
+   rm $OUTPUT_FILE_MPD
+fi
 
 while read name; do
   # Skip lines starting with #
