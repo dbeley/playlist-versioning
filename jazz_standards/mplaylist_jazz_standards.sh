@@ -37,6 +37,7 @@ while read -r name; do
   [[ "$name" =~ ^# ]] && continue  # Skip comments
 
   alt_name="${name//\'/’}"
+  # potential_tracks=$( { mpc search "(title == \"$name\")"; mpc search "(title == \"$alt_name\")"; } | sort -u)
   potential_tracks=$( { mpc search title "$name"; mpc search title "$alt_name"; } | sort -u)
 
   if [[ -n "$potential_tracks" ]]; then
