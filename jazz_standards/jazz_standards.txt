@@ -86,7 +86,7 @@ summertime
 round midnight
 blue monk
 cherokee
-a night in tunisia
+night in tunisia
 dolphin dance
 donna lee
 my funny valentine
@@ -226,3 +226,6 @@ hang up you hang ups
 maiden voyage
 nefertiti
 red clay
+impressions
+blues for alice
+confirmation
