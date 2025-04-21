@@ -73,7 +73,6 @@ Chilly Gonzales/Solo Piano II/04 Escher.flac
 Chilly Gonzales/Solo Piano II/06 Nero's Nocturne.flac
 Chilly Gonzales/Solo Piano II/10 Othello.flac
 Chilly Gonzales/Solo Piano/04 Bermuda Triangle.flac
-Ólafur Arnalds/Living Room Songs/04 Tomorrow’s Song.flac
 Chilly Gonzales/Soft Power/08 Let's Ride.mp3
 Chilly Gonzales/Solo Piano II/11 Train of Thought.flac
 Chilly Gonzales/Solo Piano II/05 Rideaux Lunaires.flac
@@ -90,4 +89,3 @@ Chilly Gonzales/Soft Power/02 Slow Down.mp3
 Chilly Gonzales/Ivory Tower/01 Knight Moves.mp3
 Chilly Gonzales/Ivory Tower/09 You Can Dance.mp3
 Chilly Gonzales/Solo Piano II/02 Kenaston.flac
-Dustin O’Halloran/Like Crazy/03 We Move Lightly.mp3
