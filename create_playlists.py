@@ -1,5 +1,8 @@
+"""Generate playlists based on favorite tracks and manual mappings."""
+
 from collections import defaultdict
 from pathlib import Path
+import csv
 
 # prefix or base path
 LOCAL_BASEPATH = "/home/david/nfs/WDC14/Musique/"
@@ -27,201 +30,200 @@ FIX_MISSING_TRACKS_NOT_FOUND_FILE_NAME = f"{FOLDER_PATH}/07_fix-missing-tracks_N
 Path(ARTISTS_NOT_FOUND_FILE_NAME).unlink(missing_ok=True)
 Path(FIX_MISSING_TRACKS_NOT_FOUND_FILE_NAME).unlink(missing_ok=True)
 
+def read_lines(path: str) -> list[str]:
+    """Return a list of non empty stripped lines from *path* if it exists."""
+    if not Path(path).exists():
+        return []
+    with open(path, "r") as f:
+        return [line.strip() for line in f if line.strip()]
+
+
+def read_csv_pairs(path: str) -> list[tuple[str, str]]:
+    """Return list of tuples from a ``;`` separated csv file."""
+    if not Path(path).exists():
+        return []
+    with open(path, newline="") as f:
+        return [tuple(row) for row in csv.reader(f, delimiter=";") if len(row) == 2]
+
+
 def read_files():
-    """
-    Returns:
-        - raw_tracks: list of tracks
-        - tracks: list of files found by mplaylist
-        - missing_tracks: list of files not found by mplaylist
-        - playlist_dict: list of dict containing playlists (id + name)
-        - artist_list: list of dict containing artists (artist name + playlist id)
-            Duplicate artist name with different playlist id is supported
-        - missing_dict: list of manually matched files
-    """
-    with open(FAVORITE_TRACKS_FILE_NAME, "r") as f:
-        raw_tracks = [x.strip() for x in f.readlines()]
-    with open(PLAYLISTS_FILE_NAME, "r") as f:
-        playlist_dict = dict([x.strip().split(";") for x in f.readlines()])
-    with open(ARTISTS_FILE_NAME, "r") as f:
-        artist_list = [
-            (x.strip().split(";")[1], x.strip().split(";")[0]) for x in f.readlines()
-        ]
-    if Path(RESULT_MPLAYLIST_FILE_NAME).exists():
-        with open(RESULT_MPLAYLIST_FILE_NAME, "r") as f:
-            tracks = [x.strip() for x in f.readlines()]
-    else:
-        tracks = []
-    if Path(RESULT_MPLAYLIST_MISSING_FILE_NAME).exists():
-        with open(RESULT_MPLAYLIST_MISSING_FILE_NAME, "r") as f:
-            missing_tracks = [x.strip() for x in f.readlines()]
-    else:
-        missing_tracks = []
-    if Path(FIX_MISSING_TRACKS_FILE_NAME).exists():
-        with open(FIX_MISSING_TRACKS_FILE_NAME, "r") as f:
-            missing_dict = dict(
-                [(x.strip().split(";")[0], x.strip().split(";")[1]) for x in f.readlines()]
-            )
-    else:
-        missing_dict = {}
+    """Load raw tracks, playlist definitions and manual mappings."""
+
+    raw_tracks = read_lines(FAVORITE_TRACKS_FILE_NAME)
+    playlist_dict = {pid: name for pid, name in read_csv_pairs(PLAYLISTS_FILE_NAME)}
+    artist_list = [(artist, pid) for pid, artist in read_csv_pairs(ARTISTS_FILE_NAME)]
+    tracks = read_lines(RESULT_MPLAYLIST_FILE_NAME)
+    missing_tracks = read_lines(RESULT_MPLAYLIST_MISSING_FILE_NAME)
+    missing_dict = {track: path for track, path in read_csv_pairs(FIX_MISSING_TRACKS_FILE_NAME)}
+
     return raw_tracks, tracks, missing_tracks, playlist_dict, artist_list, missing_dict
 
 
 def build_artist_dict(artist_list):
-    """
-    Returns a dict where the key is the artist name,
-        and the value is a list of playlist ids.
-    """
-    artist_dict = {}
-    for i in artist_list:
-        if i[0] in artist_dict:
-            artist_dict[i[0]] += [i[1]]
-        else:
-            artist_dict[i[0]] = [i[1]]
+    """Return a mapping of artist name to a list of playlist ids."""
+
+    artist_dict: dict[str, list[str]] = defaultdict(list)
+    for artist, playlist_id in artist_list:
+        artist_dict[artist].append(playlist_id)
     return artist_dict
 
 
-def match_tracks(tracks, artist_dict, sep="/"):
-    """
-    Returns:
-        - file_list: list of dict where
-            - key: playlist id
-            - value: file
-        - missing_artists: list of artists unmatched
-    The tracks are looped in reverse in order to have the newest tracks at the end
-    """
-    file_list = []
-    missing_artists = []
-    for track in reversed(tracks):
+def match_tracks(tracks: list[str], artist_dict: dict[str, list[str]], sep: str = "/"):
+    """Return mapping playlist_id -> tracks and list of unknown artists."""
+
+    file_map: defaultdict[str, list[str]] = defaultdict(list)
+    missing_artists: list[str] = []
+
+    for track in reversed(tracks):  # newest tracks last
         artist = track.split(sep)[0].strip()
         if artist in artist_dict:
             for playlist_id in artist_dict[artist]:
-                file_list.append({playlist_id: track})
+                file_map[playlist_id].append(track)
         else:
             missing_artists.append(artist)
 
-    return file_list, missing_artists
+    return file_map, missing_artists
 
 
-def match_missing_tracks(missing_tracks, missing_dict, artist_dict):
-    list_missing_paths = []
-    missing_file_list = []
-    missing_artists = []
+def match_missing_tracks(
+    missing_tracks: list[str],
+    missing_dict: dict[str, str],
+    artist_dict: dict[str, list[str]],
+) -> tuple[defaultdict[str, list[str]], list[str], list[str]]:
+    """Handle tracks not found by MPD using the manual mapping file."""
+
+    list_missing_paths: list[str] = []
+    file_map: defaultdict[str, list[str]] = defaultdict(list)
+    missing_artists: list[str] = []
+
     for track in missing_tracks:
-        if track in missing_dict:
-            # check file exists
-            artist = track.split(" - ")[0]
-            path = missing_dict[track].strip()
-            my_file = Path(path)
-            if not my_file.is_file():
-                # if any(x in str(my_file) for x in ["MISSING", "DUPLICATE"]):
-                print(
-                    f"WARNING: file {path} doesn't seem to exist for track {track}. Skipping."
-                )
-            elif artist in artist_dict:
-                for i in artist_dict[artist]:
-                    missing_file_list.append({i: path.replace(LOCAL_BASEPATH, "")})
-            else:
-                missing_artists.append(artist)
-        else:
+        if track not in missing_dict:
             list_missing_paths.append(track)
-    return missing_file_list, list_missing_paths, missing_artists
+            continue
 
+        artist = track.split(" - ")[0]
+        path = missing_dict[track].strip()
+        if not Path(path).is_file():
+            print(
+                f"WARNING: file {path} doesn't seem to exist for track {track}. Skipping."
+            )
+            continue
+        path = path.replace(LOCAL_BASEPATH, "")
 
-def build_playlists(file_list, playlist_dict):
-    d = defaultdict(list)
-    for i in file_list:
-        k, v = list(i.items())[
-            0
-        ]  # an alternative to the single-iterating inner loop from the previous solution
-        d[k].append(v)
-
-    condensed_dict = dict(d)
-    final_dict = dict()
-    max_playlist_id = max([int(x) for x in playlist_dict])
-    for k, v in condensed_dict.items():
-        if k in playlist_dict:
-            final_dict[f"{k.zfill(len(str(max_playlist_id)))}_{playlist_dict[k]}"] = v
+        if artist in artist_dict:
+            for pid in artist_dict[artist]:
+                file_map[pid].append(path)
         else:
-            print(f"Playlist name {k} not in {PLAYLISTS_FILE_NAME}.")
+            missing_artists.append(artist)
+
+    return file_map, list_missing_paths, missing_artists
+
+
+def build_playlists(file_map: dict[str, list[str]], playlist_dict: dict[str, str]):
+    """Return final playlist name -> tracks mapping."""
+
+    final_dict: dict[str, list[str]] = {}
+    if not playlist_dict:
+        return final_dict
+
+    max_id_len = len(str(max(int(x) for x in playlist_dict)))
+
+    for pid, tracks in file_map.items():
+        if pid in playlist_dict:
+            name = f"{str(pid).zfill(max_id_len)}_{playlist_dict[pid]}"
+            final_dict[name] = tracks
+        else:
+            print(f"Playlist name {pid} not in {PLAYLISTS_FILE_NAME}.")
+
     return final_dict
 
 
-def export_playlists(folder: str, path: str, final_dict):
+def export_playlists(folder: str, path: str, final_dict: dict[str, list[str]]):
+    """Write ``.m3u`` playlist files in *folder*."""
+
     Path(folder).mkdir(parents=True, exist_ok=True)
     for playlist, tracks in final_dict.items():
         filename = f"{folder}/{playlist.replace('/', '-')}.m3u"
         print(f"Creating {filename}.")
         with open(filename, "w") as f:
-            f.write("\n".join([f"{path}{x}" for x in tracks]))
+            f.write("\n".join(f"{path}{x}" for x in tracks))
 
 
-def export_raw_playlists(final_dict):
-    Path("playlists").mkdir(parents=True, exist_ok=True)
+def export_raw_playlists(final_dict: dict[str, list[str]]):
+    """Write simple text playlists without base path."""
+
+    Path("raw_playlists").mkdir(parents=True, exist_ok=True)
     for playlist, tracks in final_dict.items():
         filename = f"raw_playlists/{playlist.replace('/', '-')}.txt"
         print(f"Creating {filename}.")
         with open(filename, "w") as f:
-            f.write("\n".join([x for x in tracks]))
+            f.write("\n".join(tracks))
 
 
-(
-    raw_tracks,
-    tracks,
-    missing_tracks,
-    playlist_dict,
-    artist_list,
-    missing_dict,
-) = read_files()
 
-artist_dict = build_artist_dict(artist_list)
-file_list, missing_artists = match_tracks(tracks, artist_dict)
-raw_track_list, raw_missing_artists = match_tracks(raw_tracks, artist_dict, sep=" - ")
-missing_file_list, list_missing_paths, missing_artists2 = match_missing_tracks(
-    missing_tracks, missing_dict, artist_dict
-)
-file_list = missing_file_list + file_list
-missing_artists = missing_artists + missing_artists2
 
-if len(missing_artists) > 0:
-    missing_artists = set(missing_artists)
-    for missing_artist in missing_artists:
-        print(f"{missing_artist} is missing.")
-    print(f"{len(missing_artists)} artists missing!")
+def main() -> None:
+    raw_tracks, tracks, missing_tracks, playlist_dict, artist_list, missing_dict = read_files()
 
-    with open(ARTISTS_NOT_FOUND_FILE_NAME, "w") as f:
-        f.write("\n".join(missing_artists))
+    artist_dict = build_artist_dict(artist_list)
+    file_map, missing_artists = match_tracks(tracks, artist_dict)
+    raw_file_map, raw_missing_artists = match_tracks(raw_tracks, artist_dict, sep=" - ")
+    missing_file_map, list_missing_paths, missing_artists2 = match_missing_tracks(
+        missing_tracks, missing_dict, artist_dict
+    )
 
-if len(list_missing_paths) > 0:
-    missing_paths = set(list_missing_paths)
-    for missing_path in sorted(missing_paths):
-        print(f"{missing_path} is missing.")
-    print(f"{len(missing_paths)} paths missing!")
+    for pid, lst in missing_file_map.items():
+        file_map[pid].extend(lst)
+        raw_file_map[pid].extend(lst)
 
-    with open(FIX_MISSING_TRACKS_NOT_FOUND_FILE_NAME, "w") as f:
-        f.write("\n".join(missing_paths))
+    missing_artists += raw_missing_artists + missing_artists2
 
-nb_missing_artists = len(set(missing_artists))
-nb_missing_paths = len(list_missing_paths)
+    if missing_artists:
+        missing_artists = set(missing_artists)
+        for missing_artist in missing_artists:
+            print(f"{missing_artist} is missing.")
+        print(f"{len(missing_artists)} artists missing!")
 
-final_dict = build_playlists(file_list, playlist_dict)
-raw_final_dict = build_playlists(raw_track_list + missing_file_list, playlist_dict)
+        with open(ARTISTS_NOT_FOUND_FILE_NAME, "w") as f:
+            f.write("\n".join(missing_artists))
+
+    if list_missing_paths:
+        missing_paths = set(list_missing_paths)
+        for missing_path in sorted(missing_paths):
+            print(f"{missing_path} is missing.")
+        print(f"{len(missing_paths)} paths missing!")
+
+        with open(FIX_MISSING_TRACKS_NOT_FOUND_FILE_NAME, "w") as f:
+            f.write("\n".join(missing_paths))
+
+    nb_missing_artists = len(set(missing_artists))
+    nb_missing_paths = len(list_missing_paths)
+
+    final_dict = build_playlists(file_map, playlist_dict)
+    raw_final_dict = build_playlists(raw_file_map, playlist_dict)
 
 # Playlists with basepath
-export_playlists("playlists", BASEPATH, final_dict)
-# Pylists without basepath, for example to be used with MPD
-export_playlists("mpd_playlists", "", final_dict)
-export_raw_playlists(raw_final_dict)
+    export_playlists("playlists", BASEPATH, final_dict)
+    # Playlists without basepath, for example to be used with MPD
+    export_playlists("mpd_playlists", "", final_dict)
+    export_raw_playlists(raw_final_dict)
 
-print(
-    f"{nb_missing_artists} artists not found in {ARTISTS_FILE_NAME}.\n{nb_missing_paths} missing tracks not found in {FIX_MISSING_TRACKS_FILE_NAME}."
-)
-if nb_missing_artists > 0:
-    print(f"Update {ARTISTS_FILE_NAME} with the artists in {ARTISTS_NOT_FOUND_FILE_NAME}.")
-if nb_missing_paths > 0:
     print(
-        f"Update {FIX_MISSING_TRACKS_FILE_NAME} with the paths in {FIX_MISSING_TRACKS_NOT_FOUND_FILE_NAME}."
+        f"{nb_missing_artists} artists not found in {ARTISTS_FILE_NAME}.\n{nb_missing_paths} missing tracks not found in {FIX_MISSING_TRACKS_FILE_NAME}."
     )
-if nb_missing_artists == 0 and nb_missing_paths == 0:
-    print(
-        "You're all set, all your playlists were successfully created in the playlists folder!"
-    )
+    if nb_missing_artists > 0:
+        print(
+            f"Update {ARTISTS_FILE_NAME} with the artists in {ARTISTS_NOT_FOUND_FILE_NAME}."
+        )
+    if nb_missing_paths > 0:
+        print(
+            f"Update {FIX_MISSING_TRACKS_FILE_NAME} with the paths in {FIX_MISSING_TRACKS_NOT_FOUND_FILE_NAME}."
+        )
+    if nb_missing_artists == 0 and nb_missing_paths == 0:
+        print(
+            "You're all set, all your playlists were successfully created in the playlists folder!"
+        )
+
+
+if __name__ == "__main__":
+    main()

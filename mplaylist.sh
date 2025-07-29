@@ -15,22 +15,22 @@ FILE=$1
 OUTPUT_FILE="$DIR/files/04_result-mplaylist.csv"
 OUTPUT_FILE_MISSING="$DIR/files/05_result-mplaylist-missing.csv"
 
-if [ -f $OUTPUT_FILE ]; then
-   printf "File $OUTPUT_FILE exists. Deleting.\n"
-   rm $OUTPUT_FILE
+if [ -f "$OUTPUT_FILE" ]; then
+   printf 'File %s exists. Deleting.\n' "$OUTPUT_FILE"
+   rm "$OUTPUT_FILE"
 fi
 
-if [ -f $OUTPUT_FILE_MISSING ]; then
-   printf "File $OUTPUT_FILE_MISSING exists. Deleting.\n"
-   rm $OUTPUT_FILE_MISSING
+if [ -f "$OUTPUT_FILE_MISSING" ]; then
+   printf 'File %s exists. Deleting.\n' "$OUTPUT_FILE_MISSING"
+   rm "$OUTPUT_FILE_MISSING"
 fi
 
-printf "Replacing double quotes in file $FILE.\n"
-sed -i 's/"//g' $FILE
+printf 'Replacing double quotes in file %s.\n' "$FILE"
+sed -i 's/"//g' "$FILE"
 
-while read name; do
-	artist="$(awk -F " - " '{printf $1}' <<<$name)"
-	track="$(awk -F " - " '{printf $2}' <<<$name)"
+while read -r name; do
+        artist="$(awk -F " - " '{printf $1}' <<<"$name")"
+        track="$(awk -F " - " '{printf $2}' <<<"$name")"
 
 	# remove leading whitespace characters
 	artist="${artist#"${artist%%[![:space:]]*}"}"
@@ -43,12 +43,12 @@ while read name; do
 	track="${track%"${track##*[![:space:]]}"}"
 
 	# printf "mpc search ((artist == \"$artist\") AND (title == \"$track\"))\n"
-	potential_tracks=$(mpc search "((artist == \"$artist\") AND (title == \"$track\"))")
-	if [[ $potential_tracks ]]; then
-		printf "$potential_tracks\n" >> $OUTPUT_FILE
-	else
-		printf "Track $artist - $track not found in mpd database.\n"
-		printf "$artist - $track\n" >> $OUTPUT_FILE_MISSING
-	fi
+        potential_tracks=$(mpc search "((artist == \"$artist\") AND (title == \"$track\"))")
+        if [[ $potential_tracks ]]; then
+                printf '%s\n' "$potential_tracks" >> "$OUTPUT_FILE"
+        else
+                printf 'Track %s - %s not found in mpd database.\n' "$artist" "$track"
+                printf '%s - %s\n' "$artist" "$track" >> "$OUTPUT_FILE_MISSING"
+        fi
 done < "$FILE"
 #done < "$FILE" | head -n 15
