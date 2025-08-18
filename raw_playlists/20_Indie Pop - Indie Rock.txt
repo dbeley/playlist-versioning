@@ -256,8 +256,8 @@ Pixies - Bone Machine
 Pixies - Monkey Gone to Heaven
 Pixies - Here Comes Your Man
 Pixies - Debaser
-Pixies - Wave of Mutilation
 Pixies - Gigantic
+Pixies - Wave of Mutilation
 The War on Drugs - Red Eyes
 The Beta Band - Dry the Rain
 Jim O’Rourke - Good Times
@@ -686,8 +686,8 @@ Arcade Fire - Intervention
 Arcade Fire - Reflektor
 Ariel Pink's Haunted Graffiti - Menopause Man
 Ariel Pink's Haunted Graffiti - Can't Hear My Eyes
-Ween - it’s gonna be (alright)
 Ween - The Blarney Stone
+Ween - it’s gonna be (alright)
 (Sandy) Alex G - Kicker
 Bat for Lashes - Daniel
 Belle and Sebastian - Piazza, New York Catcher
@@ -739,8 +739,8 @@ The National - Secret Meeting
 The Halo Benders - Don’t Touch My Bikini
 The Go-Betweens - Quiet Heart
 The Go-Betweens - The Wrong Road
-The Field Mice - Let’s Kiss And Make Up
 The Field Mice - Letting Go
+The Field Mice - Let’s Kiss And Make Up
 The Field Mice - Sensitive
 The Field Mice - When Morning Comes To Town
 Chapterhouse - Breather
@@ -917,8 +917,8 @@ Sonic Youth - Total Trash
 Sonic Youth - Dirty Boots
 Sonic Youth - Tunic (Song for Karen)
 Sonic Youth - Kool Thing
-Cap’n Jazz - Oh Messy Life
 Cap’n Jazz - Little League
+Cap’n Jazz - Oh Messy Life
 The Brave Little Abacus - Please don’t cry, they stopped hours ago.
 The Brave Little Abacus - pile! no pile! pile!
 Sunny Day Real Estate - Pillars
@@ -1289,6 +1289,10 @@ MJ Lenderman - Wristwatch
 Cindy Lee - All I Want Is You
 The Apples in Stereo - Energy
 Weatherday - Ripped Apart By Hands
+Men I Trust - Billie Toppy (2025)
+Men I Trust - Tailwhip
+The Weakerthans - Left and Leaving
+Alex G - Afterlife
 Candy Claws/Ceres & Calypso in the Deep Time/04 Pangea Girls (Magic Feeling)_.mp3
 Radiohead/Hail to the Thief/09 There There. (The Boney King of Nowhere.).mp3
 Radiohead/Hail to the Thief/01 2 + 2 = 5 (The Lukewarm.).mp3

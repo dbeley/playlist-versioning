@@ -195,8 +195,8 @@ The Band - The Weight
 The Band - The Night They Drove Old Dixie Down
 Bryan Adams - Summer of '69
 The Beatles - Lucy in the Sky With Diamonds
-The Who - My Generation
 Queen - Killer Queen
+The Who - My Generation
 The Beatles - The Fool on the Hill
 Neil Young - Borrowed Tune
 David Bowie - Starman
@@ -535,8 +535,8 @@ Phil Collins - You Can't Hurry Love
 T. Rex - Bang a Gong (Get It On)
 The Band - Up On Cripple Creek
 The Velvet Underground - Sweet Jane
-Van Morrison - And It Stoned Me
 Van Morrison - Astral Weeks
+Van Morrison - And It Stoned Me
 Van Morrison - Into the Mystic
 Van Morrison - Moondance
 Van Morrison - Sweet Thing
@@ -761,10 +761,13 @@ Paul McCartney & Linda McCartney/Ram/05 Uncle Albert _ Admiral Halsey.mp3
 Paul McCartney & Linda McCartney/Ram/07 Heart of the Country.mp3
 Daryl Hall & John Oates/Abandoned Luncheonette/04 She’s Gone.opus
 Brian Eno/Another Green World/03 St. Elmo’s Fire.mp3
+801/801 Live/02 T.N.K. (Tomorrow Never Knows).mp3
 Prefab Sprout/Jordan_ The Comeback/09 Moondog.mp3
 George Harrison/All Things Must Pass/04 Isn’t It a Pity (version one).mp3
 Neil Young with Crazy Horse/Zuma/08 Cortez the Killer.mp3
+Simon & Garfunkel/Parsley, Sage, Rosemary and Thyme/01 Scarborough Fair _ Canticle.mp3
 Peter Gabriel/So/03 Don’t Give Up.mp3
+T. Rex/The Very Best of T. Rex/09 Children of the Revolution.mp3
 Neil Young & Crazy Horse/Greendale/10 Be the Rain.mp3
 The Pogues/If I Should Fall From Grace With God/04 Fairytale of New York.mp3
 The Animals/The Complete Animals/08 House of the Rising Sun.mp3
