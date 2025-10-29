@@ -43,9 +43,10 @@ def read_files():
     with open(PLAYLISTS_FILE_NAME, "r") as f:
         playlist_dict = dict([x.strip().split(";") for x in f.readlines()])
     with open(ARTISTS_FILE_NAME, "r") as f:
-        artist_list = [
-            (x.strip().split(";")[1], x.strip().split(";")[0]) for x in f.readlines()
-        ]
+        artist_list = []
+        for x in f.readlines():
+            parts = x.strip().split(";")
+            artist_list.append((parts[1], parts[0]))
     if Path(RESULT_MPLAYLIST_FILE_NAME).exists():
         with open(RESULT_MPLAYLIST_FILE_NAME, "r") as f:
             tracks = [x.strip() for x in f.readlines()]
@@ -58,9 +59,10 @@ def read_files():
         missing_tracks = []
     if Path(FIX_MISSING_TRACKS_FILE_NAME).exists():
         with open(FIX_MISSING_TRACKS_FILE_NAME, "r") as f:
-            missing_dict = dict(
-                [(x.strip().split(";")[0], x.strip().split(";")[1]) for x in f.readlines()]
-            )
+            missing_dict = {}
+            for x in f.readlines():
+                parts = x.strip().split(";")
+                missing_dict[parts[0]] = parts[1]
     else:
         missing_dict = {}
     return raw_tracks, tracks, missing_tracks, playlist_dict, artist_list, missing_dict
@@ -71,13 +73,10 @@ def build_artist_dict(artist_list):
     Returns a dict where the key is the artist name,
         and the value is a list of playlist ids.
     """
-    artist_dict = {}
-    for i in artist_list:
-        if i[0] in artist_dict:
-            artist_dict[i[0]] += [i[1]]
-        else:
-            artist_dict[i[0]] = [i[1]]
-    return artist_dict
+    artist_dict = defaultdict(list)
+    for artist_name, playlist_id in artist_list:
+        artist_dict[artist_name].append(playlist_id)
+    return dict(artist_dict)
 
 
 def match_tracks(tracks, artist_dict, sep="/"):
@@ -129,18 +128,17 @@ def match_missing_tracks(missing_tracks, missing_dict, artist_dict):
 
 def build_playlists(file_list, playlist_dict):
     d = defaultdict(list)
-    for i in file_list:
-        k, v = list(i.items())[
-            0
-        ]  # an alternative to the single-iterating inner loop from the previous solution
-        d[k].append(v)
+    for item in file_list:
+        for k, v in item.items():
+            d[k].append(v)
 
     condensed_dict = dict(d)
     final_dict = dict()
     max_playlist_id = max([int(x) for x in playlist_dict])
+    max_id_len = len(str(max_playlist_id))
     for k, v in condensed_dict.items():
         if k in playlist_dict:
-            final_dict[f"{k.zfill(len(str(max_playlist_id)))}_{playlist_dict[k]}"] = v
+            final_dict[f"{k.zfill(max_id_len)}_{playlist_dict[k]}"] = v
         else:
             print(f"Playlist name {k} not in {PLAYLISTS_FILE_NAME}.")
     return final_dict
@@ -156,12 +154,12 @@ def export_playlists(folder: str, path: str, final_dict):
 
 
 def export_raw_playlists(final_dict):
-    Path("playlists").mkdir(parents=True, exist_ok=True)
+    Path("raw_playlists").mkdir(parents=True, exist_ok=True)
     for playlist, tracks in final_dict.items():
         filename = f"raw_playlists/{playlist.replace('/', '-')}.txt"
         print(f"Creating {filename}.")
         with open(filename, "w") as f:
-            f.write("\n".join([x for x in tracks]))
+            f.write("\n".join(tracks))
 
 
 (
@@ -180,10 +178,9 @@ missing_file_list, list_missing_paths, missing_artists2 = match_missing_tracks(
     missing_tracks, missing_dict, artist_dict
 )
 file_list = missing_file_list + file_list
-missing_artists = missing_artists + missing_artists2
+missing_artists = list(set(missing_artists + missing_artists2))
 
 if len(missing_artists) > 0:
-    missing_artists = set(missing_artists)
     for missing_artist in missing_artists:
         print(f"{missing_artist} is missing.")
     print(f"{len(missing_artists)} artists missing!")
@@ -192,16 +189,16 @@ if len(missing_artists) > 0:
         f.write("\n".join(missing_artists))
 
 if len(list_missing_paths) > 0:
-    missing_paths = set(list_missing_paths)
-    for missing_path in sorted(missing_paths):
+    missing_paths = sorted(set(list_missing_paths))
+    for missing_path in missing_paths:
         print(f"{missing_path} is missing.")
     print(f"{len(missing_paths)} paths missing!")
 
     with open(FIX_MISSING_TRACKS_NOT_FOUND_FILE_NAME, "w") as f:
         f.write("\n".join(missing_paths))
 
-nb_missing_artists = len(set(missing_artists))
-nb_missing_paths = len(list_missing_paths)
+nb_missing_artists = len(missing_artists)
+nb_missing_paths = len(missing_paths) if len(list_missing_paths) > 0 else 0
 
 final_dict = build_playlists(file_list, playlist_dict)
 raw_final_dict = build_playlists(raw_track_list + missing_file_list, playlist_dict)
