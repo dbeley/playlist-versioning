@@ -85,16 +85,23 @@ def test_set_deduplication():
     missing_artists1 = ["Artist1", "Artist2", "Artist3"]
     missing_artists2 = ["Artist2", "Artist4", "Artist1"]
     
-    # Old way (creates set twice)
+    # Old way (creates set on combined list, then converts back, then creates set again when counting)
     old_combined = missing_artists1 + missing_artists2
-    old_result = list(set(old_combined))
+    # First set creation happens here, converts to list
+    old_result_list = list(set(old_combined))  
+    # Then later in code, set() is called again: nb_missing_artists = len(set(missing_artists))
     
-    # New way (creates set once)
+    # New way (creates set once and keeps as list)
     new_combined = list(set(missing_artists1 + missing_artists2))
+    # Later uses len() directly: nb_missing_artists = len(missing_artists)
     
     # Both should have same elements (order might differ)
-    assert set(old_result) == set(new_combined), "Results should contain same elements"
+    assert set(old_result_list) == set(new_combined), "Results should contain same elements"
     assert len(new_combined) == 4, f"Should have 4 unique artists, got {len(new_combined)}"
+    
+    # The optimization is that we avoid calling set() twice:
+    # Old code did: set(missing_artists) on line 186, then len(set(missing_artists)) on line 203
+    # New code does: list(set(...)) once, then len(missing_artists) - no second set() call
     
     print("✓ test_set_deduplication passed")
 
