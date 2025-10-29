@@ -25,23 +25,22 @@ if [ -f $OUTPUT_FILE_MISSING ]; then
    rm $OUTPUT_FILE_MISSING
 fi
 
-printf "Replacing double quotes in file $FILE.\n"
-sed -i 's/"//g' $FILE
+printf "Processing tracks from $FILE.\n"
 
-while read name; do
-	artist="$(awk -F " - " '{printf $1}' <<<$name)"
-	track="$(awk -F " - " '{printf $2}' <<<$name)"
-
-	# remove leading whitespace characters
+# Process file without modifying the original
+while read -r name; do
+	# Remove quotes and parse artist/track in one awk call
+	read -r artist track < <(awk -F " - " '{gsub(/"/, "", $1); gsub(/"/, "", $2); print $1; print $2}' <<<"$name")
+	
+	# Trim whitespace efficiently
 	artist="${artist#"${artist%%[![:space:]]*}"}"
-	# remove trailing whitespace characters
 	artist="${artist%"${artist##*[![:space:]]}"}"
-
-	# remove leading whitespace characters
 	track="${track#"${track%%[![:space:]]*}"}"
-	# remove trailing whitespace characters
 	track="${track%"${track##*[![:space:]]}"}"
 
+	# Skip empty lines
+	[ -z "$artist" ] && continue
+	
 	# printf "mpc search ((artist == \"$artist\") AND (title == \"$track\"))\n"
 	potential_tracks=$(mpc search "((artist == \"$artist\") AND (title == \"$track\"))")
 	if [[ $potential_tracks ]]; then
@@ -51,4 +50,3 @@ while read name; do
 		printf "$artist - $track\n" >> $OUTPUT_FILE_MISSING
 	fi
 done < "$FILE"
-#done < "$FILE" | head -n 15

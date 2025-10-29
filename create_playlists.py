@@ -154,12 +154,12 @@ def export_playlists(folder: str, path: str, final_dict):
 
 
 def export_raw_playlists(final_dict):
-    Path("playlists").mkdir(parents=True, exist_ok=True)
+    Path("raw_playlists").mkdir(parents=True, exist_ok=True)
     for playlist, tracks in final_dict.items():
         filename = f"raw_playlists/{playlist.replace('/', '-')}.txt"
         print(f"Creating {filename}.")
         with open(filename, "w") as f:
-            f.write("\n".join([x for x in tracks]))
+            f.write("\n".join(tracks))
 
 
 (
