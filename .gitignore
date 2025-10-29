@@ -1,2 +1,4 @@
 tags
 .direnv
+__pycache__/
+*.pyc
