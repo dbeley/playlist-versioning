@@ -2,23 +2,6 @@
 
 My playlists under version control.
 
-## Testing
-
-This project has a comprehensive test suite with **100% code coverage** including unit, integration, and end-to-end tests.
-
-```bash
-# Install test dependencies
-pip install -r requirements-dev.txt
-
-# Run all tests
-pytest tests/
-
-# Run with coverage
-pytest tests/ --cov=playlist_lib --cov-report=term-missing
-```
-
-See [TESTING.md](TESTING.md) for detailed testing documentation.
-
 ## Requirements
 
 - mpd (with your library imported)
