@@ -110,39 +110,51 @@ def main():
     print(f"Loaded {len(allowlist)} allowed artists, {len(standards)} standards")
 
     matched_tracks: list[str] = []
+    candidates: dict[str, set[str]] = {}  # artist -> set of matched titles
+    unknown_titles: list[str] = []
     total = len(standards)
+
+    def is_allowed(artist_lower: str) -> bool:
+        for allowed in allowlist:
+            if artist_lower.startswith(allowed):
+                return True
+        return False
 
     for idx, title in enumerate(standards, 1):
         songs = search_title(title)
         title_lower = title.lower()
 
-        found = False
+        matcher = title_lower
+        alt_matcher = title.replace("'", "’").lower()
+
+        title_matched = False
         for song in songs:
             st = song.get("title", "").lower()
-            if st != title_lower:
-                alt_title = title.replace("'", "’").lower()
-                if st != alt_title:
-                    continue
+            if st != matcher and st != alt_matcher:
+                continue
 
-            artist_name = song.get("artist", "").lower()
+            title_matched = True
+            artist_name = song.get("artist", "")
+            artist_lower = artist_name.lower()
             path = song.get("path", "")
 
-            for allowed in allowlist:
-                if artist_name.startswith(allowed):
-                    if path.startswith(LIBRARY_ROOT):
-                        path = f"/music/{path[len(LIBRARY_ROOT):]}"
-                    else:
-                        path = f"/music/{path}"
+            if is_allowed(artist_lower):
+                if path.startswith(LIBRARY_ROOT):
+                    path = f"/music/{path[len(LIBRARY_ROOT):]}"
+                else:
+                    path = f"/music/{path}"
 
-                    if path not in matched_tracks:
-                        matched_tracks.append(path)
-                    found = True
-                    break
+                if path not in matched_tracks:
+                    matched_tracks.append(path)
+            else:
+                if artist_lower not in candidates:
+                    candidates[artist_lower] = set()
+                candidates[artist_lower].add(title)
 
-        if not found and (idx <= 3 or idx == total):
-            print(f"No match for: {title}")
+        if not title_matched:
+            unknown_titles.append(title)
 
-        if idx % 50 == 0:
+        if idx % 50 == 0 or idx == total or idx == 1:
             print(f"  Progress: {idx}/{total}")
 
     matched_tracks.sort()
@@ -152,11 +164,28 @@ def main():
         if matched_tracks:
             f.write("\n")
 
-    # Remove old MPD-specific output
     mpd_file = SCRIPT_DIR / "jazz_standards_mpd.m3u"
     mpd_file.unlink(missing_ok=True)
 
     print(f"\nDone! {len(matched_tracks)} tracks written to {OUTPUT_FILE.name}")
+
+    if candidates:
+        print(
+            f"\n{len(candidates)} candidate artists found (not in allowlist)."
+        )
+        print("Consider adding these to jazz_artists_allowlist.txt:")
+        print()
+        for artist in sorted(candidates):
+            titles = sorted(candidates[artist])
+            print(f"  {artist}  ({len(titles)} standards: {', '.join(titles[:5])}"
+                  f"{', ...' if len(titles) > 5 else ''})")
+        print()
+
+    if unknown_titles:
+        print(f"\n{len(unknown_titles)} standards with no match in library:")
+        for t in unknown_titles:
+            print(f"  - {t}")
+        print()
 
 
 if __name__ == "__main__":
