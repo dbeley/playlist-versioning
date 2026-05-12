@@ -39,6 +39,30 @@ OUTPUT_FILE = SCRIPT_DIR / "jazz_standards.m3u"
 
 SEARCH_TIMEOUT = 15
 
+# Common punctuation substitutions for matching
+_PUNCT_TABLE = str.maketrans({
+    "’": "'",
+    "ʼ": "'",
+    "‘": "'",
+    "′": "'",
+    "`": "'",
+    "\"": "",
+    '"': "",
+    " ": " ",  # narrow no-break space
+    "\u2013": "-",
+    "\u2014": "-",
+})
+
+
+def normalize(s: str) -> str:
+    return s.lower().strip().translate(_PUNCT_TABLE)
+
+
+def titles_match(standard: str, song_title: str) -> bool:
+    a = normalize(standard)
+    b = normalize(song_title)
+    return a == b or a in b or b in a
+
 
 def load_allowlist() -> list[str]:
     artists = []
@@ -122,15 +146,11 @@ def main():
 
     for idx, title in enumerate(standards, 1):
         songs = search_title(title)
-        title_lower = title.lower()
-
-        matcher = title_lower
-        alt_matcher = title.replace("'", "’").lower()
 
         title_matched = False
         for song in songs:
-            st = song.get("title", "").lower()
-            if st != matcher and st != alt_matcher:
+            st = song.get("title", "")
+            if not titles_match(title, st):
                 continue
 
             title_matched = True
