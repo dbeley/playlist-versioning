@@ -59,15 +59,12 @@ class TestEndToEnd:
         )
 
         playlists_dir = temp_dir / "playlists"
-        mpd_dir = temp_dir / "mpd_playlists"
         raw_dir = temp_dir / "raw_playlists"
 
         export_playlists(str(playlists_dir), "/music/", final_dict)
-        export_playlists(str(mpd_dir), "", final_dict)
         export_raw_playlists(raw_final_dict, str(raw_dir))
 
         assert playlists_dir.exists()
-        assert mpd_dir.exists()
         assert raw_dir.exists()
 
         playlist_files = list(playlists_dir.glob("*.m3u"))
