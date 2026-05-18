@@ -121,7 +121,7 @@ Bill Evans Trio - Waltz for Debby
 Billie Holiday - God Bless The Child
 Cannonball Adderley - Love for Sale
 Charles Mingus - Theme for Lester Young
-Clifford Brown & Max Roach - Take the A´ Train
+Clifford Brown & Max Roach - Take the "A"´ Train
 Oliver Nelson - Cascades
 Oliver Nelson - Yearnin'
 Miles Davis - In a Silent Way/It's About That Time
@@ -136,8 +136,8 @@ Sonny Clark - Royal Flush
 Sonny Clark - Sonny's Crib
 Dexter Gordon - Three O'Clock in the Morning
 Jimmy Smith - Back at the Chicken Shack
-Yusef Lateef - Love Theme from The Robe
-Yusef Lateef - Love Theme from Spartacus
+Yusef Lateef - Love Theme from "The Robe"
+Yusef Lateef - Love Theme from "Spartacus"
 Oscar Peterson Trio - C Jam Blues
 Thelonious Monk - ’Round Midnight
 Thelonious Monk - Body and Soul
@@ -354,41 +354,42 @@ Ahmad Jamal - The Surrey with the Fringe on Top
 Billy Taylor - I Wish I Knew How It Would Feel to Be Free
 Keith Jarrett - Someone To Watch Over Me
 Keith Jarrett - I Loves You Porgy
-Chick Corea, Return to Forever/Light as a Feather/06 Spain.opus
-Ahmad Jamal/Poinciana/04 Billy Boy.flac
-The Billy Taylor Trio/Music Keeps Us Young/03 I Wish I Knew How it Would Feel to Be Free.mp3
-John Coltrane and Johnny Hartman/John Coltrane and Johnny Hartman/04 Lush Life.mp3
-Chick Corea, Return to Forever/Light as a Feather/01 You're Everything.opus
-The Oscar Peterson Trio/We Get Requests/02 Days of Wine and Roses.mp3
-Keith Jarrett, Gary Peacock, Jack DeJohnette/Still Live/08 Billie's Bounce.mp3
-Keith Jarrett, Gary Peacock, Jack DeJohnette/Whisper Not/07 Sandu.mp3
-The Oscar Peterson Trio/Night Train/04 Bags' Groove.mp3
-The Cannonball Adderley Quintet feat. Nat Adderley/Them Dirty Blues/06 Del Sasser.opus
-Bud Powell Trio/Strictly Powell/07 Lush Life.flac
-Ahmad Jamal/Ahmad's Blues/13 That's All.mp3
-Ahmad Jamal/Ahmad's Blues/05 Stompin' at the Savoy.mp3
-The Ahmad Jamal Trio/Complete Live at the Pershing Lounge 1958/03 Moonlight in Vermont.opus
-The Ahmad Jamal Trio/Complete Live at the Pershing Lounge 1958/04 Music! Music! Music! (Put Another Nickel).opus
-The Oscar Peterson Trio/Night Train/01 Night Train.mp3
-The Oscar Peterson Trio/Night Train/03 Georgia on My Mind.mp3
-The Ahmad Jamal Trio/The Awakening/04 Dolphin Dance.ogg
-The Ahmad Jamal Trio/The Awakening/07 Wave.ogg
-The Ahmad Jamal Trio/The Awakening/03 Patterns.ogg
-The Ahmad Jamal Trio/The Awakening/02 I Love Music.ogg
-The Ahmad Jamal Trio/The Awakening/01 The Awakening.ogg
-The Ahmad Jamal Trio/The Awakening/06 Stolen Moments.ogg
-The Oscar Peterson Trio/Night Train/02 C Jam Blues.mp3
-Yusef Lateef/Eastern Sounds/05 Love Theme From _Spartacus_.mp3
-Yusef Lateef/Eastern Sounds/08 Love Theme From _The Robe_.mp3
-Miles Davis/Ascenseur pour l’échafaud/01 Générique (BOF “Ascenseur pour l’échafaud”).opus
-Clifford Brown & Max Roach/Study in Brown/09 Take the _A_´ Train.mp3
-The Cannonball Adderley Quintet/Mercy, Mercy, Mercy! Live at “The Club”/03 Mercy, Mercy, Mercy.mp3
-The Oscar Peterson Trio with Milt Jackson/Very Tall/03 The Work Song.mp3
-The Dave Brubeck Quartet/Time Out/01 Blue Rondo a la Turk.mp3
-Vince Guaraldi/A Charlie Brown Christmas/07 Skating.flac
-The Oscar Peterson Trio/Night Train/11 Hymn to Freedom.mp3
-The Dave Brubeck Quartet/Jazz Impressions of Japan/01 Tokyo Traffic.mp3
-Bill Evans Trio/Portrait in Jazz/02 Autumn Leaves.mp3
-Bill Evans Trio/Waltz for Debby/01 My Foolish Heart.mp3
-Keith Jarrett Trio/Standards, Volume 1/05 God Bless the Child.flac
-Keith Jarrett/The Köln Concert/04 Köln, January 24, 1975, Part IIc.flac
+Wynton Kelly - Joe's Avenue
+Wynton Kelly - Surry With The Fringe On Top
+Wynton Kelly - Come Rain or Come Shine
+Sam Rivers - Fuchsia Swing Song
+Wayne Shorter - Night Dreamer
+Chet Baker - There Will Never Be Another You
+Bill Evans - Blue in Green
+Billie Holiday - Blue Moon
+Oscar Peterson - Love Is Here to Stay
+Oscar Peterson - In A Mellotone
+Claude Bolling - My Monday Date
+Bill Evans & Toots Thielemans - Sno' Peas
+Earl Hines - My Monday Date
+Oscar Peterson - Like Someone In Love
+Oscar Peterson - A Foggy Day
+Oscar Peterson Trio - In a Mellow Tone
+Oscar Peterson - They Can’t Take That Away from Me
+Oscar Peterson - These Foolish Things (Remind Me Of You)
+Miles Davis Quintet - If I Were A Bell
+Miles Davis Quintet - Oleo
+Bobby Timmons - So Tired
+Wayne Shorter - Yes Or No
+Art Blakey & The Jazz Messengers - Dat Dere
+Thelonious Monk - I'm Confessin'
+Ahmad Jamal Trio - But Not for Me
+Oscar Peterson Trio - You Look Good To Me
+Red Garland Trio - September in the Rain
+Blue Mitchell - Fungii Mama
+Sam Rivers - Beatrice
+Red Garland - September In The Rain
+Red Garland - Blackout
+Red Garland - Billy Boy
+Thelonious Monk - I Let a Song Go Out of My Heart
+Thelonious Monk - It Don’t Mean a Thing (If It Ain’t Got That Swing)
+Charlie Parker - Ornithology
+Charlie Parker - Yardbird Suite
+Charlie Parker - Moose the Mooche
+Miles Davis - Someday My Prince Will Come
+Red Garland - Everybody's Somebody's Fool

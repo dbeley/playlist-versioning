@@ -1,4 +1,3 @@
-/music/Ghost Brigade/Isolation Songs/05 22_22 - Nihil.mp3
 /music/Insomnium/Across the Dark/02 Down With the Sun.mp3
 /music/Omnium Gatherum/New World Shadows/06 An Infinite Mind.mp3
 /music/In Mourning/The Weight of Oceans/01 Colossus.mp3
@@ -8,8 +7,8 @@
 /music/Wintersun/Wintersun/05 Death and the Healing.mp3
 /music/Dark Tranquillity/Damage Done/03 Monochromatic Stains.mp3
 /music/Amon Amarth/Twilight of the Thunder God/05 Varyags of Miklagaard.mp3
-/music/Amon Amarth/Versus the World/01 Death in Fire.mp3
 /music/Amon Amarth/Twilight of the Thunder God/23 Death in Fire.mp3
+/music/Amon Amarth/Versus the World/01 Death in Fire.mp3
 /music/In Flames/Whoracle/05 The Hive.mp3
 /music/In Flames/Reroute to Remain_ Fourteen Songs of Conscious Insanity/05 Cloud Connected.mp3
 /music/Ghost Brigade/Until Fear No Longer Defines Us/02 Clawmaster.mp3
@@ -25,11 +24,11 @@
 /music/Insomnium/Above the Weeping World/03 Drawn to Black.mp3
 /music/Insomnium/Shadows of the Dying Sun/02 While We Sleep.mp3
 /music/Insomnium/Above the Weeping World/06 The Killjoy.mp3
-/music/Be'lakor/Of Breath and Bone/01 Abeyance.mp3
-/music/Be'lakor/Stone's Reach/01 Venator.mp3
-/music/Be'lakor/Stone's Reach/02 From Scythe to Sceptre.mp3
-/music/Be'lakor/Of Breath and Bone/02 Remnants.mp3
-/music/Be'lakor/Stone's Reach/08 Countless Skies.mp3
+/music/Be'lakor/Of Breath And Bone/01 Abeyance.opus
+/music/Be'lakor/Stone's Reach/01 Venator.opus
+/music/Be'lakor/Stone's Reach/02 From Scythe To Sceptre.opus
+/music/Be'lakor/Of Breath And Bone/02 Remnants.opus
+/music/Be'lakor/Stone's Reach/08 Countless Skies.opus
 /music/Amorphis/Eclipse/02 House Of Sleep.mp3
 /music/Amorphis/Tales From the Thousand Lakes/05 Black Winter Day.mp3
 /music/Amorphis/Under the Red Cloud/15 Silent Waters.mp3
@@ -39,6 +38,7 @@
 /music/Amorphis/Am Universum/01 Alone.mp3
 /music/Ghost Brigade/Isolation Songs/03 Into the Black Light.mp3
 /music/Ghost Brigade/Isolation Songs/01 Suffocated.mp3
+/music/Ghost Brigade/Isolation Songs/05 22_22 - Nihil.mp3
 /music/Amon Amarth/Surtur Rising/03 Destroyer of the Universe.mp3
 /music/Hypocrisy/The Arrival/02 Eraser.mp3
 /music/At the Gates/Slaughter of the Soul/06 Suicide Nation.mp3
@@ -52,18 +52,18 @@
 /music/Ensiferum/Iron/09 LAI LAI HEI.mp3
 /music/Ensiferum/Iron/02 Iron.mp3
 /music/Insomnium/Shadows of the Dying Sun/03 Revelation.mp3
-/music/Children of Bodom/Hatebreeder/02 Silent Night, Bodom Night.mp3
 /music/Children of Bodom/Bestbreeder From 1997 to 2000/05 Silent Night, Bodom Night.mp3
-/music/Children of Bodom/Follow the Reaper/02 Bodom After Midnight.mp3
+/music/Children of Bodom/Hatebreeder/02 Silent Night, Bodom Night.mp3
 /music/Children of Bodom/Bestbreeder From 1997 to 2000/13 Bodom After Midnight.mp3
+/music/Children of Bodom/Follow the Reaper/02 Bodom After Midnight.mp3
 /music/Children of Bodom/Skeletons in the Closet/05 Don't Stop at the Top.mp3
 /music/Children of Bodom/Follow the Reaper/10 Don't Stop at the Top.mp3
-/music/Children of Bodom/Follow the Reaper/04 Everytime I Die.mp3
 /music/Children of Bodom/Bestbreeder From 1997 to 2000/14 Everytime I Die.mp3
-/music/Children of Bodom/Follow the Reaper/09 Kissing the Shadows.mp3
+/music/Children of Bodom/Follow the Reaper/04 Everytime I Die.mp3
 /music/Children of Bodom/Bestbreeder From 1997 to 2000/17 Kissing the Shadows.mp3
-/music/Children of Bodom/Hatebreeder/08 Children of Bodom.mp3
+/music/Children of Bodom/Follow the Reaper/09 Kissing the Shadows.mp3
 /music/Children of Bodom/Bestbreeder From 1997 to 2000/07 Children of Bodom.mp3
+/music/Children of Bodom/Hatebreeder/08 Children of Bodom.mp3
 /music/Children of Bodom/Hatebreeder/09 Downfall.mp3
 /music/Dark Tranquillity/The Gallery/08 Lethe.mp3
 /music/Dark Tranquillity/The Gallery/01 Punish My Heaven.mp3
@@ -99,8 +99,8 @@
 /music/Dark Tranquillity/Projector/04 Auctioned.mp3
 /music/Dark Tranquillity/Character/05 Lost to Apathy.mp3
 /music/Dark Tranquillity/Fiction/03 Terminus (Where Death Is Most Alive).mp3
-/music/Be'lakor/Of Breath and Bone/04 Absit Omen.mp3
-/music/Be'lakor/Stone's Reach/05 Held in Hollows.mp3
+/music/Be'lakor/Of Breath And Bone/04 Absit Omen.opus
+/music/Be'lakor/Stone's Reach/05 Held In Hollows.opus
 /music/Ghost Brigade/Isolation Songs/06 Architect of New Beginnings.mp3
 /music/Ghost Brigade/Until Fear No Longer Defines Us/07 Breakwater.mp3
 /music/Ghost Brigade/Until Fear No Longer Defines Us/03 Chamber.mp3
@@ -146,11 +146,10 @@
 /music/In Flames/Come Clarity/01 Take This Life.mp3
 /music/Norther/Mirror of Madness/03 Of Darkness and Light.mp3
 /music/Be'lakor/Coherence/06 Hidden Window.mp3
-/music/Be'lakor/Stone's Reach/04 Sun's Delusion.mp3
-/music/Amon Amarth/With Oden on Our Side/02 Runes to My Memory.mp3
 /music/Amon Amarth/Twilight of the Thunder God/13 Runes to My Memory.mp3
-/music/Amon Amarth/With Oden on Our Side/07 Cry of the Black Birds.mp3
+/music/Amon Amarth/With Oden on Our Side/02 Runes to My Memory.mp3
 /music/Amon Amarth/Twilight of the Thunder God/14 Cry of the Black Birds.mp3
+/music/Amon Amarth/With Oden on Our Side/07 Cry of the Black Birds.mp3
 /music/Amon Amarth/Twilight of the Thunder God/06 Tattered Banners and Bloody Flags.mp3
 /music/Amon Amarth/Twilight of the Thunder God/07 No Fear for the Setting Sun.mp3
 /music/Before the Dawn/Deathstar Rising/03 Deathstar.mp3

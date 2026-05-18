@@ -54,20 +54,15 @@ class TestEndToEnd:
         missing_artists = missing_artists + missing_artists2
 
         final_dict = build_playlists(file_list, playlist_dict)
-        raw_final_dict = build_playlists(
-            raw_track_list + missing_file_list, playlist_dict
-        )
+        raw_final_dict = build_playlists(raw_track_list, playlist_dict)
 
         playlists_dir = temp_dir / "playlists"
-        mpd_dir = temp_dir / "mpd_playlists"
         raw_dir = temp_dir / "raw_playlists"
 
         export_playlists(str(playlists_dir), "/music/", final_dict)
-        export_playlists(str(mpd_dir), "", final_dict)
         export_raw_playlists(raw_final_dict, str(raw_dir))
 
         assert playlists_dir.exists()
-        assert mpd_dir.exists()
         assert raw_dir.exists()
 
         playlist_files = list(playlists_dir.glob("*.m3u"))

@@ -1,3 +1,103 @@
+Sufjan Stevens - Mystery of Love
+Michael Jackson - Everybody's Somebody's Fool
+Red Garland - Everybody's Somebody's Fool
+Air - Alone in Kyoto
+Creedence Clearwater Revival - I Heard It Through the Grapevine
+Air - Surfing on a Rocket
+Kacey Musgraves - Golden Hour
+Miles Davis - Someday My Prince Will Come
+Charlie Parker All Stars - Parker’s Mood
+Charlie Parker’s Ree Boppers - Billie’s Bounce
+Charlie Parker’s Ree Boppers - Now’s the Time
+Charlie Parker - Moose the Mooche
+Charlie Parker - Yardbird Suite
+Charlie Parker - Ornithology
+Thelonious Monk - It Don’t Mean a Thing (If It Ain’t Got That Swing)
+Thelonious Monk - I Let a Song Go Out of My Heart
+Red Garland - Billy Boy
+Red Garland - Blackout
+Chumbawamba - Tubthumping
+Red Garland - September In The Rain
+Sam Rivers - Beatrice
+Blue Mitchell - Fungii Mama
+Red Garland Trio - September in the Rain
+Oscar Peterson Trio - You Look Good To Me
+Ahmad Jamal Trio - But Not for Me
+Thelonious Monk - I'm Confessin'
+Art Blakey & The Jazz Messengers - Dat Dere
+Wayne Shorter - Yes Or No
+Bobby Timmons - So Tired
+The Pillows - Little Busters
+Fred again.. - Delilah (Pull Me Out Of This)
+The Pillows - Hybrid Rainbow
+Pat Metheny - Better Days Ahead
+Miles Davis Quintet - Oleo
+Miles Davis Quintet - If I Were A Bell
+Everything Everything - Don’t Ask Me to Beg
+Steely Dan - Babylon Sisters
+Jamie Paige - Dyad
+Esbjörn Svensson Trio - The Well-Wisher
+Sidney Gish - Sin Triangle
+Rossano Sportiello - Song For Emily
+Oscar Peterson - These Foolish Things (Remind Me Of You)
+Oscar Peterson - They Can’t Take That Away from Me
+Oscar Peterson Trio - In a Mellow Tone
+Oscar Peterson - A Foggy Day
+Oscar Peterson - Like Someone In Love
+Earl Hines - My Monday Date
+Bill Evans & Toots Thielemans - Sno' Peas
+Claude Bolling - My Monday Date
+Oscar Peterson - In A Mellotone
+Oscar Peterson - Love Is Here to Stay
+Walter Smith III - I’ll Be Seeing You
+Windir - Svartesmeden og Lundamyrstrollet
+Dissection - The Somberlain
+Bathory - A Fine Day to Die
+Darkthrone - Transilvanian Hunger
+Magdalena Bay - The Ballad Of Matt & Mica
+Nick Drake - Northern Sky
+The Bad Plus - Anthem For The Earnest
+Soda Stereo - Signos
+Billie Holiday - Blue Moon
+Bill Evans - Blue in Green
+Brad Mehldau - Alfie
+Simon Chivallon - For All We Know
+Lonnie Smith - Son of Ice Bag
+Simon Chivallon - Someone To Watch Over Me
+Simon Chivallon - Le Sud
+Chet Baker - There Will Never Be Another You
+Wayne Shorter - Night Dreamer
+Tears for Fears - Head Over Heels
+DJ Sabrina The Teenage DJ - Charmed
+DJ Sabrina The Teenage DJ - Next To Me
+Russell Malone - Sno' Peas
+Madvillain - All Caps
+Sam Rivers - Fuchsia Swing Song
+David Bowie - Warszawa
+Jeff Rosenstock - You, in Weird Cities
+Creedence Clearwater Revival - Fortunate Son
+Fishmans - Long Season
+George Clanton - Make It Forever
+Wynton Kelly - Come Rain or Come Shine
+Wynton Kelly - Surry With The Fringe On Top
+Wynton Kelly - Joe's Avenue
+Sufjan Stevens - The Predatory Wasp of the Palisades Is Out to Get Us!
+Radiohead - Motion Picture Soundtrack
+山下達郎 - Ride On Time （シングル・ヴァージョン）
+Labi Siffre - My Song
+MF DOOM - One Beer
+Scorpions & Berliner Philharmoniker - Big City Nights
+Scorpions & Berliner Philharmoniker - Crossfire
+Scorpions & Berliner Philharmoniker - Still Loving You
+Scorpions & Berliner Philharmoniker - Wind of Change
+Scorpions & Berliner Philharmoniker - Send Me an Angel
+Scorpions & Berliner Philharmoniker - Moment of Glory
+Scorpions & Berliner Philharmoniker - Hurricane 2000
+Swans - Helpless Child
+Geese - Taxes
+Cameron Winter - Love Takes Miles
+Alain Bashung - Samuel Hall
+Aaron Parks - Peaceful Warrior
 Catherine Wheel - Crank
 Keith Jarrett - I Loves You Porgy
 Keith Jarrett - Someone To Watch Over Me
@@ -511,7 +611,7 @@ Alain Bashung - Malaxe
 Frost* - Falling Down
 The Beths - Knees Deep
 Al Green - How Can You Mend a Broken Heart
-Sven Libaek - Music for Eels (from Inner Space)
+Sven Libaek - Music for Eels (from "Inner Space")
 Virginia Astley - Some Small Hope
 Burt Bacharach - Something Big
 Pavement - Black Out
@@ -2189,8 +2289,8 @@ dredg - Bug Eyes
 dredg - Ireland
 dredg - Ode To The Sun
 alt-J - Breezeblocks
-Yusef Lateef - Love Theme from Spartacus
-Yusef Lateef - Love Theme from The Robe
+Yusef Lateef - Love Theme from "Spartacus"
+Yusef Lateef - Love Theme from "The Robe"
 Yes - America
 Yes - Ritual (Nous sommes du soleil)
 Yaron Herman Trio - Heart Shaped Box
@@ -2608,7 +2708,7 @@ Cloud Nothings - Wasted Days
 Noir Désir - Comme elle vient
 Noir Désir - Aux sombres héros de l'amer
 Clinic - The Return of Evil Bill
-Clifford Brown & Max Roach - Take the A´ Train
+Clifford Brown & Max Roach - Take the "A"´ Train
 Chris Thile & Brad Mehldau - Don’t Think Twice, It’s Alright
 Chic - Le Freak
 Chic - I Want Your Love
@@ -5285,7 +5385,7 @@ TC & I - Kenny
 TC & I - Comrades Of Pop
 TC & I - Scatter Me
 Marty Robbins - Big Iron
-David Bowie - Heroes
+David Bowie - "Heroes"
 Second Layer - Zero
 The Sound - Where the Love Is
 The Sound - Calling the New Tune

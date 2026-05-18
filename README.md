@@ -4,18 +4,14 @@ My playlists under version control.
 
 ## Requirements
 
-- mpd (with your library imported)
-- mpc
+- Navidrome (with your library imported) - provides the Subsonic API for track lookups
 - python
 - bash
+- NAVIDROME_USER and NAVIDROME_PASSWORD environment variables
 - a list of your favorite tracks
 - a list of artists linked to a playlist (see below)
 
-Limitations:
-- all the tracks of an artist are grouped and will be added to the same playlists
-- mpc query language is quite limited and only support exact matches
-
-## MPD matching
+## Navidrome matching
 
 Create a text file (for example `files/00_favorites-tracks.txt`) containing your favorite tracks (one by line, with the format `ARTIST - TRACK`):
 ```
@@ -28,14 +24,21 @@ ARTIST3 - FAVORITE_TRACK4
 
 I personnaly export all my favorite tracks on last.fm with [this script](https://github.com/dbeley/lastfm-scraper/blob/master/lastfm-all_favorite_tracks.py).
 
-Run the `mplaylist.sh` script:
+Set environment variables and run the `navidrome_match.py` script:
 ```
-./mplaylist.sh files/00_favorites-tracks.txt
+export NAVIDROME_USER="your_user"
+export NAVIDROME_PASSWORD="your_password"
+./navidrome_match.py files/00_favorites-tracks.txt
 ```
 
+Additional environment variables (optional):
+- `NAVIDROME_URL`: Navidrome server URL (default: `http://navidrome.docker-era.home`)
+- `LIBRARY_ROOT`: Music library root path on the filesystem (default: `/home/david/nfs/WDC14/Musique/`)
+- `NAVIDROME_MAX_WORKERS`: Concurrent API requests (default: `10`)
+
 Output:
-- `files/04_result-mplaylist.csv`: tracks matched with mpc
-- `files/05_result-mplaylist-missing.csv`: tracks not matched with mpc
+- `files/04_result-mplaylist.csv`: tracks matched via Navidrome's API
+- `files/05_result-mplaylist-missing.csv`: tracks not matched
 
 ## Playlist creation
 
@@ -72,7 +75,7 @@ Run the `create_playlists.py` script (change the **LOCAL_BASEPATH** and **BASEPA
 python create_playlists.py
 ```
 
-**BASEPATH** indicates what the mpd matched tracks will be prefixed with. It's used to complete the paths as mpd uses internal paths and not full paths.
+**BASEPATH** indicates what the matched tracks will be prefixed with. It's used to complete the paths as Navidrome uses internal paths and not full paths.
 
 **LOCAL_BASEPATH** indicates the base path to delete after checking the validity of the manually inserted paths in `06_fix-missing-tracks.csv`. The **BASEPATH** will then be used as a prefix.
 
@@ -89,6 +92,14 @@ Exported playlists will be in the `playlists` folder.
 
 ## Import
 
-I automatically import those playlists into airsonic (airsonic can watch and import playlists from a folder).
+Playlists are synced to the music folder for Navidrome (which watches and imports playlists from a folder):
 
-My music folder is mounted under the `/music/` folder in my airsonic container (hence the `/music/` prefix in `create_playlists.py`).
+```
+./navidrome_playlists.sh
+```
+
+My music folder is mounted under the `/music/` folder in my Navidrome container (hence the `/music/` prefix in `create_playlists.py`).
+
+## Jazz standards
+
+The `jazz_standards/` directory has its own workflow for building playlists of jazz standards by allowed artists.
