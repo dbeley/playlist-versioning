@@ -54,9 +54,7 @@ class TestEndToEnd:
         missing_artists = missing_artists + missing_artists2
 
         final_dict = build_playlists(file_list, playlist_dict)
-        raw_final_dict = build_playlists(
-            raw_track_list + missing_file_list, playlist_dict
-        )
+        raw_final_dict = build_playlists(raw_track_list, playlist_dict)
 
         playlists_dir = temp_dir / "playlists"
         raw_dir = temp_dir / "raw_playlists"

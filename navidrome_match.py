@@ -6,6 +6,12 @@ Replaces mplaylist.sh by querying Navidrome's Subsonic API to resolve
 ARTIST - TITLE pairs to file paths. Writes matched paths to
 files/04_result-mplaylist.csv and unmatched to files/05_result-mplaylist-missing.csv.
 
+Output preserves the order of the input file: each favorite-track line is
+processed in file order, and its matching paths are appended to the output
+in that same order. This means newly added tracks (at the top of the file)
+end up at the bottom of their respective playlists after the pipeline's
+reverse ordering.
+
 Usage:
     ./navidrome_match.py [favorite_tracks_file]
 
@@ -147,24 +153,27 @@ def main():
         return
     print(f"Found {len(tracks)} tracks to match")
 
-    matched_paths: list[tuple[str, str]] = []
-    missing_tracks: list[str] = []
+    # Store results keyed by original file-line index
+    results_by_index: dict[int, list[str]] = {}
+    missing_by_index: dict[int, str] = {}
 
-    def process_track(artist: str, title: str) -> tuple:
+    def process_track(
+        idx: int, artist: str, title: str
+    ) -> tuple[int, Optional[list[str]], Optional[str]]:
         result = search_track(
             NAVIDROME_URL, NAVIDROME_USER, NAVIDROME_PASSWORD, artist, title
         )
         if result:
             paths = [strip_library_root(p) for p in result]
-            return (artist, title, paths, None)
+            return (idx, paths, None)
         else:
-            return (artist, title, None, f"{artist} - {title}")
+            return (idx, None, f"{artist} - {title}")
 
     print(f"Matching tracks against Navidrome ({NAVIDROME_URL})...")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = {
-            executor.submit(process_track, a, t): (a, t)
-            for a, t in tracks
+            executor.submit(process_track, i, a, t): i
+            for i, (a, t) in enumerate(tracks)
         }
         done = 0
         for future in as_completed(futures):
@@ -172,38 +181,42 @@ def main():
             if done % 100 == 0 or done == len(tracks) or done == 1:
                 print(f"  Progress: {done}/{len(tracks)}")
 
-            artist, title, paths, missing_str = future.result()
+            idx, paths, missing_str = future.result()
             if paths:
-                for p in paths:
-                    matched_paths.append((p, artist))
+                results_by_index[idx] = paths
             else:
-                missing_tracks.append(missing_str)
+                missing_by_index[idx] = missing_str
 
-    seen: set[str] = set()
-    unique_matched: list[str] = []
-    for path, artist in matched_paths:
-        if path not in seen:
-            seen.add(path)
-            unique_matched.append(path)
+    # Reconstruct output in file order
+    seen_paths: set[str] = set()
+    ordered_matched: list[str] = []
+    ordered_missing: list[str] = []
 
-    unique_matched.sort(key=lambda p: p.lower())
+    for idx in range(len(tracks)):
+        if idx in results_by_index:
+            for path in results_by_index[idx]:
+                if path not in seen_paths:
+                    seen_paths.add(path)
+                    ordered_matched.append(path)
+        if idx in missing_by_index:
+            ordered_missing.append(missing_by_index[idx])
 
     Path(OUTPUT_MATCHED).unlink(missing_ok=True)
     Path(OUTPUT_MISSING).unlink(missing_ok=True)
 
     with open(OUTPUT_MATCHED, "w", encoding="utf-8") as f:
-        f.write("\n".join(unique_matched))
-        if unique_matched:
+        f.write("\n".join(ordered_matched))
+        if ordered_matched:
             f.write("\n")
 
     with open(OUTPUT_MISSING, "w", encoding="utf-8") as f:
-        f.write("\n".join(missing_tracks))
-        if missing_tracks:
+        f.write("\n".join(ordered_missing))
+        if ordered_missing:
             f.write("\n")
 
     print(
-        f"\nDone! {len(unique_matched)} tracks matched, "
-        f"{len(missing_tracks)} missing."
+        f"\nDone! {len(ordered_matched)} tracks matched, "
+        f"{len(ordered_missing)} missing."
     )
     print(f"  Matched: {OUTPUT_MATCHED}")
     print(f"  Missing: {OUTPUT_MISSING}")

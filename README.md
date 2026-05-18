@@ -4,7 +4,7 @@ My playlists under version control.
 
 ## Requirements
 
-- Navidrome (with your library imported) — provides the Subsonic API for track lookups
+- Navidrome (with your library imported) - provides the Subsonic API for track lookups
 - python
 - bash
 - NAVIDROME_USER and NAVIDROME_PASSWORD environment variables
