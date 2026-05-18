@@ -54,13 +54,14 @@ file_list = missing_file_list + file_list
 missing_artists = missing_artists + missing_artists2
 
 if len(missing_artists) > 0:
-    missing_artists = set(missing_artists)
-    for missing_artist in missing_artists:
-        print(f"{missing_artist} is missing.")
+    missing_artists = {a for a in set(missing_artists) if a}
+    for missing_artist in sorted(missing_artists):
+        print(f"  {missing_artist} is missing.")
     print(f"{len(missing_artists)} artists missing!")
 
-    with open(ARTISTS_NOT_FOUND_FILE_NAME, "w") as f:
-        f.write("\n".join(missing_artists))
+    if missing_artists:
+        with open(ARTISTS_NOT_FOUND_FILE_NAME, "w") as f:
+            f.write("\n".join(missing_artists))
 
 if len(list_missing_paths) > 0:
     missing_paths = set(list_missing_paths)

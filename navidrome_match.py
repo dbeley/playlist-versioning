@@ -25,6 +25,7 @@ Environment variables:
 
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.parse
@@ -133,7 +134,35 @@ def search_track(
 def strip_library_root(path: str) -> str:
     if path.startswith(LIBRARY_ROOT):
         return path[len(LIBRARY_ROOT):]
+    # Navidrome returns paths from inside its container (e.g. /music/Artist/...)
+    if path.startswith("/music/"):
+        return path[len("/music/"):]
     return path
+
+
+def _looks_virtual(filename: str) -> bool:
+    base = filename.rsplit("/", 1)[-1]
+    return bool(re.match(r"^\d+-\d+\s*-\s*", base))
+
+
+def warn_if_virtual(matched_paths: list[str]) -> None:
+    virtual_count = sum(1 for p in matched_paths if _looks_virtual(p))
+    if virtual_count > 0:
+        print(
+            f"\nWARNING: {virtual_count} paths look like virtual paths "
+            "(constructed from tags, not actual filesystem paths)."
+        )
+        print(
+            "To fix, go to your Navidrome web UI → Settings → Players → "
+            "find 'playlist-versioning' → enable 'Report Real Path'."
+        )
+        print(
+            "Alternatively, set ND_SUBSONIC_DEFAULTREPORTREALPATH=true "
+            "in your Navidrome config and restart."
+        )
+        print(
+            "Until then, playlist paths may not match the actual files.\n"
+        )
 
 
 def main():
@@ -200,6 +229,9 @@ def main():
                     ordered_matched.append(path)
         if idx in missing_by_index:
             ordered_missing.append(missing_by_index[idx])
+
+    if ordered_matched:
+        warn_if_virtual(ordered_matched)
 
     Path(OUTPUT_MATCHED).unlink(missing_ok=True)
     Path(OUTPUT_MISSING).unlink(missing_ok=True)
