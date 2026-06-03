@@ -38,7 +38,7 @@ NAVIDROME_URL = os.environ.get(
     "NAVIDROME_URL", "http://navidrome.docker-era.home"
 )
 NAVIDROME_USER = os.environ.get("NAVIDROME_USER", "")
-NAVIDROME_PASSWORD = os.environ.get("NAVIDROME_PASSWORD", "")
+NAVIDROME_PASSWORD=os.environ.get("NAVIDROME_PASSWORD", "")
 LIBRARY_ROOT = os.environ.get(
     "LIBRARY_ROOT", "/home/david/nfs/WDC14/Musique/"
 )
