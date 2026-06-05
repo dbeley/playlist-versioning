@@ -103,3 +103,7 @@ My music folder is mounted under the `/music/` folder in my Navidrome container 
 ## Jazz standards
 
 The `jazz_standards/` directory has its own workflow for building playlists of jazz standards by allowed artists.
+
+## License
+
+This project is provided as-is for personal use. No license file is included.
